@@ -1,0 +1,5993 @@
+{
+  "meta": {
+    "page_number": 1,
+    "total_pages": 1,
+    "width": {
+      "pt": 612.0,
+      "mm": 215.9,
+      "px": 2550.0,
+      "rel_pct": 100.0,
+      "source": "content_stream",
+      "confidence": 1.0
+    },
+    "height": {
+      "pt": 792.0,
+      "mm": 279.4,
+      "px": 3300.0,
+      "rel_pct": 100.0,
+      "source": "content_stream",
+      "confidence": 1.0
+    },
+    "orientation": "portrait",
+    "rotation_deg": 0,
+    "cropbox_pt": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "mediabox_pt": [
+      0.0,
+      7.92,
+      612.0,
+      799.92
+    ],
+    "dpi": 300,
+    "coordinate_system": "Top-Left origin (x=0, y=0 at top-left; x increases right, y increases down). Unified transform applied."
+  },
+  "frame": {
+    "page_number": 1,
+    "cropbox_pt": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "mediabox_pt": [
+      0.0,
+      7.92,
+      612.0,
+      799.92
+    ],
+    "rotation_deg": 0,
+    "user_unit": 1.0,
+    "dpi": 300,
+    "width_pt": 612.0,
+    "height_pt": 792.0,
+    "raster_width_px": 2550,
+    "raster_height_px": 3301,
+    "pixel_scale": 4.166667,
+    "pixel_convention": "Continuous top-left origin; pixel center at (x+0.5, y+0.5)"
+  },
+  "registration": {
+    "page_number": 1,
+    "status": "PASS",
+    "control_points_count": 0,
+    "fitted_transform": {
+      "dx_pt": 0.0,
+      "dy_pt": 0.0,
+      "sx": 1.0,
+      "sy": 1.0
+    },
+    "gate_checks": {
+      "dx_within_0_1pt": true,
+      "dy_within_0_1pt": true,
+      "sx_within_0_0005": true,
+      "sy_within_0_0005": true,
+      "max_residual_pt": 0.0,
+      "mean_residual_pt": 0.0,
+      "gate_passed": true
+    },
+    "offending_rules": [],
+    "measurements": []
+  },
+  "containers": [
+    {
+      "container_id": "container_raster_0",
+      "container_type": "closed_box",
+      "source": "raster_only",
+      "path_bbox_pt": [
+        0.0,
+        0.0,
+        612.0,
+        79.2
+      ],
+      "painted_outer_bbox_pt": [
+        -0.5,
+        -0.5,
+        612.5,
+        79.7
+      ],
+      "painted_inner_bbox_pt": [
+        0.5,
+        0.5,
+        611.5,
+        78.7
+      ],
+      "fill_color_rgb": null,
+      "stroke_color_rgb": [
+        0,
+        0,
+        0
+      ],
+      "sides": {
+        "top": {
+          "side_name": "top",
+          "is_present": true,
+          "center_coord_pt": 0.0,
+          "painted_outer_edge_pt": -0.5,
+          "painted_inner_edge_pt": 0.5,
+          "thickness_pt": 1.0,
+          "color_rgb": [
+            0,
+            0,
+            0
+          ],
+          "start_pt": -0.5,
+          "end_pt": 612.5,
+          "coverage_pct": 1.0,
+          "corner_gap_start_pt": 0.0,
+          "corner_gap_end_pt": 0.0,
+          "overshoot_pt": 0.0,
+          "undershoot_pt": 0.0
+        },
+        "bottom": {
+          "side_name": "bottom",
+          "is_present": true,
+          "center_coord_pt": 79.2,
+          "painted_outer_edge_pt": 79.7,
+          "painted_inner_edge_pt": 78.7,
+          "thickness_pt": 1.0,
+          "color_rgb": [
+            0,
+            0,
+            0
+          ],
+          "start_pt": -0.5,
+          "end_pt": 612.5,
+          "coverage_pct": 1.0,
+          "corner_gap_start_pt": 0.0,
+          "corner_gap_end_pt": 0.0,
+          "overshoot_pt": 0.0,
+          "undershoot_pt": 0.0
+        },
+        "left": {
+          "side_name": "left",
+          "is_present": true,
+          "center_coord_pt": 0.0,
+          "painted_outer_edge_pt": -0.5,
+          "painted_inner_edge_pt": 0.5,
+          "thickness_pt": 1.0,
+          "color_rgb": [
+            0,
+            0,
+            0
+          ],
+          "start_pt": -0.5,
+          "end_pt": 79.7,
+          "coverage_pct": 1.0,
+          "corner_gap_start_pt": 0.0,
+          "corner_gap_end_pt": 0.0,
+          "overshoot_pt": 0.0,
+          "undershoot_pt": 0.0
+        },
+        "right": {
+          "side_name": "right",
+          "is_present": true,
+          "center_coord_pt": 612.0,
+          "painted_outer_edge_pt": 612.5,
+          "painted_inner_edge_pt": 611.5,
+          "thickness_pt": 1.0,
+          "color_rgb": [
+            0,
+            0,
+            0
+          ],
+          "start_pt": -0.5,
+          "end_pt": 79.7,
+          "coverage_pct": 1.0,
+          "corner_gap_start_pt": 0.0,
+          "corner_gap_end_pt": 0.0,
+          "overshoot_pt": 0.0,
+          "undershoot_pt": 0.0
+        }
+      },
+      "member_primitive_ids": [],
+      "nested_parent_id": null,
+      "confidence": 1.0
+    }
+  ],
+  "header_blocks": {
+    "blocks": [],
+    "reading_order": [],
+    "pairing": {}
+  },
+  "key_values": {
+    "entities": [],
+    "chosen_style": "none",
+    "runner_up_style": "none",
+    "axes": {}
+  },
+  "footer_blocks": {
+    "page_number": 1,
+    "classification": "flowing",
+    "bbox_pt": [
+      21.6,
+      100.974,
+      599.378,
+      703.859
+    ],
+    "sub_blocks": [
+      {
+        "sub_block_id": "footer_sub_0",
+        "role": "legal_note",
+        "bbox_pt": [
+          21.6,
+          101.124,
+          83.592,
+          113.124
+        ],
+        "text": "SUMMARY",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_1",
+        "role": "disclaimer",
+        "bbox_pt": [
+          21.6,
+          118.452,
+          331.22,
+          127.452
+        ],
+        "text": "Motivated and communication-oriented B.Com. student with experience in HR",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_2",
+        "role": "disclaimer",
+        "bbox_pt": [
+          21.6,
+          131.952,
+          353.279,
+          140.952
+        ],
+        "text": "operations, public speaking, event coordination, and student engagement activities.",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_3",
+        "role": "disclaimer",
+        "bbox_pt": [
+          21.6,
+          145.452,
+          321.221,
+          154.452
+        ],
+        "text": "Skilled in spoken English, grammar, presentation delivery, and professional",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_4",
+        "role": "disclaimer",
+        "bbox_pt": [
+          21.6,
+          158.952,
+          342.758,
+          167.952
+        ],
+        "text": "communication. Experienced in conducting presentations, anchoring events, and",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_5",
+        "role": "disclaimer",
+        "bbox_pt": [
+          21.6,
+          172.452,
+          332.237,
+          181.452
+        ],
+        "text": "interacting with diverse audiences. Passionate about helping learners improve",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_6",
+        "role": "disclaimer",
+        "bbox_pt": [
+          21.6,
+          185.952,
+          357.743,
+          194.952
+        ],
+        "text": "communication skills through practical and interactive teaching methods. Seeking an",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_7",
+        "role": "disclaimer",
+        "bbox_pt": [
+          21.6,
+          199.452,
+          193.672,
+          208.452
+        ],
+        "text": "opportunity as a Freelance English Trainer.",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_8",
+        "role": "legal_note",
+        "bbox_pt": [
+          21.6,
+          499.474,
+          92.928,
+          511.474
+        ],
+        "text": "EDUCATION",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_9",
+        "role": "legal_note",
+        "bbox_pt": [
+          21.6,
+          233.474,
+          98.952,
+          245.474
+        ],
+        "text": "EXPERIENCE",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_10",
+        "role": "legal_note",
+        "bbox_pt": [
+          21.6,
+          376.474,
+          180.288,
+          388.474
+        ],
+        "text": "LEADERSHIP & ACTIVITIES",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_11",
+        "role": "disclaimer",
+        "bbox_pt": [
+          21.6,
+          530.083,
+          270.659,
+          539.083
+        ],
+        "text": "Bachelor of Commerce (International Business & Finance)",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_12",
+        "role": "legal_note",
+        "bbox_pt": [
+          21.6,
+          543.583,
+          140.14,
+          552.583
+        ],
+        "text": "SAGE University, Bhopal, MP",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_13",
+        "role": "legal_note",
+        "bbox_pt": [
+          21.6,
+          556.333,
+          131.167,
+          565.333
+        ],
+        "text": "Expected Graduation: 2025",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_14",
+        "role": "legal_note",
+        "bbox_pt": [
+          21.6,
+          581.083,
+          100.117,
+          590.083
+        ],
+        "text": "Class 12th (CBSE)",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_15",
+        "role": "disclaimer",
+        "bbox_pt": [
+          21.6,
+          594.583,
+          200.512,
+          603.583
+        ],
+        "text": "Kamla Devi Public School | Completed: 2022",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_16",
+        "role": "legal_note",
+        "bbox_pt": [
+          21.6,
+          619.083,
+          66.618,
+          628.083
+        ],
+        "text": "Class 10th",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_17",
+        "role": "disclaimer",
+        "bbox_pt": [
+          21.6,
+          632.583,
+          242.525,
+          641.583
+        ],
+        "text": "Holy Family Convent Sr. Sec School | Completed: 2020",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_18",
+        "role": "legal_note",
+        "bbox_pt": [
+          21.6,
+          264.084,
+          144.136,
+          273.084
+        ],
+        "text": "Talent Acquisition Executive",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_19",
+        "role": "disclaimer",
+        "bbox_pt": [
+          21.6,
+          277.584,
+          178.156,
+          286.584
+        ],
+        "text": "Technotask Business Solutions (TTBS)",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_20",
+        "role": "legal_note",
+        "bbox_pt": [
+          21.6,
+          290.334,
+          92.637,
+          299.334
+        ],
+        "text": "Bhopal, MP, India",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_21",
+        "role": "disclaimer",
+        "bbox_pt": [
+          25.6,
+          401.008,
+          308.913,
+          410.008
+        ],
+        "text": "\u2022 Coordinated and managed college events, presentations, and student",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_22",
+        "role": "disclaimer",
+        "bbox_pt": [
+          25.6,
+          429.307,
+          350.097,
+          438.307
+        ],
+        "text": "\u2022 Anchored Teacher's Day and academic events with professional communication",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_23",
+        "role": "disclaimer",
+        "bbox_pt": [
+          25.6,
+          444.307,
+          273.866,
+          453.307
+        ],
+        "text": "\u2022 Organized and coordinated the Shark Tank activity in college",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_24",
+        "role": "disclaimer",
+        "bbox_pt": [
+          25.6,
+          459.307,
+          345.894,
+          468.307
+        ],
+        "text": "\u2022 Participated in sustainability, road safety awareness, and educational initiatives",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_25",
+        "role": "disclaimer",
+        "bbox_pt": [
+          25.6,
+          474.307,
+          329.91,
+          483.307
+        ],
+        "text": "\u2022 Experienced in handling presentations and audience interaction confidently",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_26",
+        "role": "disclaimer",
+        "bbox_pt": [
+          25.6,
+          306.307,
+          329.361,
+          315.307
+        ],
+        "text": "\u2022 Assisted in communication and coordination activities within HR operations",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_27",
+        "role": "disclaimer",
+        "bbox_pt": [
+          25.6,
+          321.307,
+          285.872,
+          330.307
+        ],
+        "text": "\u2022 Managed candidate interaction and professional communication",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_28",
+        "role": "disclaimer",
+        "bbox_pt": [
+          25.6,
+          336.307,
+          350.385,
+          345.307
+        ],
+        "text": "\u2022 Improved interpersonal and organizational skills through daily coordination tasks",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_29",
+        "role": "disclaimer",
+        "bbox_pt": [
+          25.6,
+          351.307,
+          314.871,
+          360.307
+        ],
+        "text": "\u2022 Participated in employee engagement and recruitment-related activities",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_30",
+        "role": "legal_note",
+        "bbox_pt": [
+          35.6,
+          414.009,
+          122.64,
+          423.009
+        ],
+        "text": "engagement activities",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_31",
+        "role": "legal_note",
+        "bbox_pt": [
+          370.62,
+          100.974,
+          413.292,
+          112.974
+        ],
+        "text": "SKILLS",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_32",
+        "role": "legal_note",
+        "bbox_pt": [
+          370.62,
+          257.974,
+          435.3,
+          269.974
+        ],
+        "text": "PROJECTS",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_33",
+        "role": "legal_note",
+        "bbox_pt": [
+          370.62,
+          606.974,
+          437.964,
+          618.974
+        ],
+        "text": "INTERESTS",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_34",
+        "role": "legal_note",
+        "bbox_pt": [
+          370.62,
+          474.956,
+          447.288,
+          486.956
+        ],
+        "text": "LANGUAGES",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_35",
+        "role": "legal_note",
+        "bbox_pt": [
+          370.62,
+          495.285,
+          490.672,
+          504.285
+        ],
+        "text": "English \u2014 Fluent and proficint",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_36",
+        "role": "legal_note",
+        "bbox_pt": [
+          370.62,
+          511.035,
+          430.137,
+          520.035
+        ],
+        "text": "Hindi \u2014 Fluent",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_37",
+        "role": "legal_note",
+        "bbox_pt": [
+          370.62,
+          541.974,
+          471.288,
+          553.974
+        ],
+        "text": "CERTIFICATIONS",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_38",
+        "role": "disclaimer",
+        "bbox_pt": [
+          370.62,
+          288.583,
+          570.664,
+          297.583
+        ],
+        "text": "Comparative Study \u2014 Beauty Brand Industries",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_39",
+        "role": "disclaimer",
+        "bbox_pt": [
+          370.62,
+          302.083,
+          506.665,
+          311.083
+        ],
+        "text": "Market Research \u00b7 Brand Analysis",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_40",
+        "role": "disclaimer",
+        "bbox_pt": [
+          370.62,
+          348.583,
+          542.674,
+          357.583
+        ],
+        "text": "Amalgamation: Sabyasachi & Starbucks",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_41",
+        "role": "disclaimer",
+        "bbox_pt": [
+          370.62,
+          362.083,
+          536.194,
+          371.083
+        ],
+        "text": "Collaboration Branding \u00b7 Market Influence",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_42",
+        "role": "legal_note",
+        "bbox_pt": [
+          370.62,
+          408.583,
+          459.649,
+          417.583
+        ],
+        "text": "Stock Market Project",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_43",
+        "role": "disclaimer",
+        "bbox_pt": [
+          370.62,
+          422.083,
+          534.682,
+          431.083
+        ],
+        "text": "Financial Analysis \u00b7 Investment Concepts",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_44",
+        "role": "disclaimer",
+        "bbox_pt": [
+          374.62,
+          566.807,
+          492.8,
+          575.807
+        ],
+        "text": "\u2022 Microsoft Office Certification",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_45",
+        "role": "disclaimer",
+        "bbox_pt": [
+          374.62,
+          581.807,
+          565.862,
+          590.807
+        ],
+        "text": "\u2022 Presentation & Event Coordination Experience",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_46",
+        "role": "disclaimer",
+        "bbox_pt": [
+          374.62,
+          316.509,
+          577.859,
+          325.509
+        ],
+        "text": "\u2022 Conducted research and comparative analysis on",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_47",
+        "role": "disclaimer",
+        "bbox_pt": [
+          374.62,
+          376.509,
+          599.378,
+          385.509
+        ],
+        "text": "\u2022 Analyzed collaboration branding, market influence, and",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_48",
+        "role": "disclaimer",
+        "bbox_pt": [
+          374.62,
+          436.509,
+          575.366,
+          445.509
+        ],
+        "text": "\u2022 Studied market trends, investment concepts, and",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_49",
+        "role": "legal_note",
+        "bbox_pt": [
+          376.62,
+          635.359,
+          441.15,
+          644.359
+        ],
+        "text": "Public Speaking",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_50",
+        "role": "legal_note",
+        "bbox_pt": [
+          376.62,
+          654.859,
+          469.663,
+          663.859
+        ],
+        "text": "Presentation Designing",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_51",
+        "role": "disclaimer",
+        "bbox_pt": [
+          376.62,
+          675.359,
+          551.68,
+          684.359
+        ],
+        "text": "Reading Business & Communication Topics",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_52",
+        "role": "legal_note",
+        "bbox_pt": [
+          376.62,
+          694.859,
+          493.162,
+          703.859
+        ],
+        "text": "Traveling & Cultural Learning",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_53",
+        "role": "legal_note",
+        "bbox_pt": [
+          376.62,
+          129.36,
+          436.65,
+          138.36
+        ],
+        "text": "SpokenEnglish",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_54",
+        "role": "legal_note",
+        "bbox_pt": [
+          376.62,
+          148.86,
+          439.134,
+          157.86
+        ],
+        "text": "Communication",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_55",
+        "role": "legal_note",
+        "bbox_pt": [
+          376.62,
+          168.36,
+          452.122,
+          177.36
+        ],
+        "text": "Presentation Skills",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_56",
+        "role": "legal_note",
+        "bbox_pt": [
+          376.62,
+          187.86,
+          441.645,
+          196.86
+        ],
+        "text": "Online Sessions",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_57",
+        "role": "legal_note",
+        "bbox_pt": [
+          376.62,
+          209.359,
+          421.143,
+          218.359
+        ],
+        "text": "Leadership",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_58",
+        "role": "legal_note",
+        "bbox_pt": [
+          376.62,
+          228.859,
+          457.639,
+          237.859
+        ],
+        "text": "Professional Comm.",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_59",
+        "role": "disclaimer",
+        "bbox_pt": [
+          384.62,
+          329.508,
+          556.701,
+          338.508
+        ],
+        "text": "market positioning and branding strategies.",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_60",
+        "role": "disclaimer",
+        "bbox_pt": [
+          384.62,
+          389.508,
+          518.181,
+          398.508
+        ],
+        "text": "customer engagement strategies.",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_61",
+        "role": "disclaimer",
+        "bbox_pt": [
+          384.62,
+          449.508,
+          511.674,
+          458.508
+        ],
+        "text": "financial analysis fundamentals.",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_62",
+        "role": "legal_note",
+        "bbox_pt": [
+          438.143,
+          209.308,
+          500.667,
+          218.308
+        ],
+        "text": "MS Office Suite",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_63",
+        "role": "legal_note",
+        "bbox_pt": [
+          456.134,
+          129.36,
+          526.146,
+          138.36
+        ],
+        "text": "English Grammar",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_64",
+        "role": "legal_note",
+        "bbox_pt": [
+          456.134,
+          148.86,
+          520.665,
+          157.86
+        ],
+        "text": "Public Speaking",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_65",
+        "role": "legal_note",
+        "bbox_pt": [
+          458.15,
+          635.308,
+          546.189,
+          644.308
+        ],
+        "text": "Teaching & Mentoring",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_66",
+        "role": "legal_note",
+        "bbox_pt": [
+          458.645,
+          189.309,
+          543.201,
+          198.309
+        ],
+        "text": "Student Engagement",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_67",
+        "role": "legal_note",
+        "bbox_pt": [
+          467.645,
+          169.308,
+          548.178,
+          178.308
+        ],
+        "text": "Teaching & Training",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_68",
+        "role": "legal_note",
+        "bbox_pt": [
+          474.638,
+          229.308,
+          553.164,
+          238.308
+        ],
+        "text": "Team Collaboration",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_69",
+        "role": "legal_note",
+        "bbox_pt": [
+          486.662,
+          655.308,
+          564.702,
+          664.308
+        ],
+        "text": "Event Management",
+        "is_page_number": false,
+        "page_number_val": null
+      },
+      {
+        "sub_block_id": "footer_sub_70",
+        "role": "legal_note",
+        "bbox_pt": [
+          517.666,
+          209.308,
+          595.705,
+          218.308
+        ],
+        "text": "Event Management",
+        "is_page_number": false,
+        "page_number_val": null
+      }
+    ],
+    "gap_table_to_footer_ink_pt": 35.463,
+    "gap_table_to_footer_border_pt": 35.463,
+    "gap_footer_to_page_bottom_pt": 88.141
+  },
+  "coverage": {
+    "total_characters": 2616,
+    "assigned_characters": 2616,
+    "orphaned_characters": 0,
+    "characters_per_region": {
+      "header": 13,
+      "table": 0,
+      "footer": 2603
+    },
+    "residual_ink_pixel_count": 0,
+    "residual_ink_pct": 0.0,
+    "invisible_text_spans_count": 0,
+    "unclassified_ink_components_count": 0,
+    "status": "PASS"
+  },
+  "template_profile": {
+    "table_style": "borderless",
+    "runner_up_table_style": "vertical_rules_only",
+    "header_style": "boxed_address_with_kv",
+    "footer_style": "flowing",
+    "kv_style": "none",
+    "is_ambiguous": false,
+    "confidence_score": 0.98
+  },
+  "layout": {
+    "layout_tree": {
+      "page_root_p1": {
+        "id": "page_root_p1",
+        "type": "PAGE_ROOT",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 612.0,
+            "mm": 215.9,
+            "px": 2550.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 792.0,
+            "mm": 279.4,
+            "px": 3300.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 612.0,
+            "mm": 215.9,
+            "px": 2550.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 792.0,
+            "mm": 279.4,
+            "px": 3300.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": null,
+        "children": [
+          "container_p1_2",
+          "container_p1_3",
+          "container_p1_7",
+          "table_region_p1",
+          "block_p1_0",
+          "block_p1_1",
+          "block_p1_2",
+          "block_p1_3",
+          "block_p1_4",
+          "block_p1_5",
+          "block_p1_6",
+          "block_p1_7",
+          "block_p1_8",
+          "block_p1_9",
+          "block_p1_10"
+        ],
+        "member_ids": [],
+        "classifying_rule": "page_boundary",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "container_p1_2": {
+        "id": "container_p1_2",
+        "type": "DECORATIVE_CONTAINER",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 542.13,
+            "mm": 191.25,
+            "px": 2258.9,
+            "rel_pct": 88.583,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 9.883,
+            "mm": 3.49,
+            "px": 41.2,
+            "rel_pct": 1.248,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 597.083,
+            "mm": 210.64,
+            "px": 2487.8,
+            "rel_pct": 97.563,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 64.836,
+            "mm": 22.87,
+            "px": 270.2,
+            "rel_pct": 8.186,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 54.953,
+            "mm": 19.39,
+            "px": 229.0,
+            "rel_pct": 8.979,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 54.953,
+            "mm": 19.39,
+            "px": 229.0,
+            "rel_pct": 6.939,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [],
+        "classifying_rule": "vector_closed_path",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": true,
+        "attributes": {}
+      },
+      "container_p1_3": {
+        "id": "container_p1_3",
+        "type": "DECORATIVE_CONTAINER",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 541.956,
+            "mm": 191.19,
+            "px": 2258.2,
+            "rel_pct": 88.555,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 9.709,
+            "mm": 3.43,
+            "px": 40.5,
+            "rel_pct": 1.226,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 597.257,
+            "mm": 210.7,
+            "px": 2488.6,
+            "rel_pct": 97.591,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 65.01,
+            "mm": 22.93,
+            "px": 270.9,
+            "rel_pct": 8.208,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 55.301,
+            "mm": 19.51,
+            "px": 230.4,
+            "rel_pct": 9.036,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 55.301,
+            "mm": 19.51,
+            "px": 230.4,
+            "rel_pct": 6.982,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [],
+        "classifying_rule": "vector_closed_path",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": true,
+        "attributes": {}
+      },
+      "container_p1_7": {
+        "id": "container_p1_7",
+        "type": "DECORATIVE_CONTAINER",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 541.956,
+            "mm": 191.19,
+            "px": 2258.2,
+            "rel_pct": 88.555,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 9.709,
+            "mm": 3.43,
+            "px": 40.5,
+            "rel_pct": 1.226,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 597.266,
+            "mm": 210.7,
+            "px": 2488.6,
+            "rel_pct": 97.592,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 65.019,
+            "mm": 22.94,
+            "px": 270.9,
+            "rel_pct": 8.209,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 55.309,
+            "mm": 19.51,
+            "px": 230.5,
+            "rel_pct": 9.037,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 55.309,
+            "mm": 19.51,
+            "px": 230.5,
+            "rel_pct": 6.983,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [],
+        "classifying_rule": "vector_closed_path",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": true,
+        "attributes": {}
+      },
+      "table_region_p1": {
+        "id": "table_region_p1",
+        "type": "TRANSACTION_TABLE",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 15.6,
+            "mm": 5.5,
+            "px": 65.0,
+            "rel_pct": 2.549,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 316.307,
+            "mm": 111.59,
+            "px": 1317.9,
+            "rel_pct": 39.938,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 350.385,
+            "mm": 123.61,
+            "px": 1459.9,
+            "rel_pct": 57.252,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 722.0,
+            "mm": 254.71,
+            "px": 3008.3,
+            "rel_pct": 91.162,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 334.785,
+            "mm": 118.1,
+            "px": 1394.9,
+            "rel_pct": 54.703,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 405.693,
+            "mm": 143.12,
+            "px": 1690.4,
+            "rel_pct": 51.224,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_31",
+          "span_p1_32",
+          "span_p1_37",
+          "span_p1_30",
+          "span_p1_43",
+          "span_p1_26",
+          "span_p1_15",
+          "span_p1_29",
+          "span_p1_33",
+          "span_p1_17",
+          "span_p1_36",
+          "span_p1_28",
+          "span_p1_42",
+          "span_p1_35",
+          "span_p1_34",
+          "span_p1_44",
+          "span_p1_25",
+          "span_p1_27"
+        ],
+        "classifying_rule": "table_grid_rules_and_rows",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": true,
+        "attributes": {}
+      },
+      "block_p1_0": {
+        "id": "block_p1_0",
+        "type": "LOGO_BRANDING",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 186.094,
+            "mm": 65.65,
+            "px": 775.4,
+            "rel_pct": 30.407,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 31.809,
+            "mm": 11.22,
+            "px": 132.5,
+            "rel_pct": 4.016,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 186.094,
+            "mm": 65.65,
+            "px": 775.4,
+            "rel_pct": 30.407,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 31.809,
+            "mm": 11.22,
+            "px": 132.5,
+            "rel_pct": 4.016,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "img_p1_0",
+          "span_p1_0"
+        ],
+        "classifying_rule": "logo_image_or_top_left_brand",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "block_p1_1": {
+        "id": "block_p1_1",
+        "type": "LOGO_BRANDING",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 21.6,
+            "mm": 7.62,
+            "px": 90.0,
+            "rel_pct": 3.529,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 49.558,
+            "mm": 17.48,
+            "px": 206.5,
+            "rel_pct": 6.257,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 56.337,
+            "mm": 19.87,
+            "px": 234.7,
+            "rel_pct": 9.205,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 57.058,
+            "mm": 20.13,
+            "px": 237.7,
+            "rel_pct": 7.204,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 34.737,
+            "mm": 12.25,
+            "px": 144.7,
+            "rel_pct": 5.676,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 7.5,
+            "mm": 2.65,
+            "px": 31.3,
+            "rel_pct": 0.947,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_78"
+        ],
+        "classifying_rule": "logo_image_or_top_left_brand",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "block_p1_2": {
+        "id": "block_p1_2",
+        "type": "HEADER_BAND_BLOCK",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 68.37,
+            "mm": 24.12,
+            "px": 284.9,
+            "rel_pct": 11.172,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 49.308,
+            "mm": 17.39,
+            "px": 205.4,
+            "rel_pct": 6.226,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 132.29,
+            "mm": 46.67,
+            "px": 551.2,
+            "rel_pct": 21.616,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 56.808,
+            "mm": 20.04,
+            "px": 236.7,
+            "rel_pct": 7.173,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 63.92,
+            "mm": 22.55,
+            "px": 266.3,
+            "rel_pct": 10.444,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 7.5,
+            "mm": 2.65,
+            "px": 31.3,
+            "rel_pct": 0.947,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_1",
+          "span_p1_2",
+          "span_p1_3",
+          "span_p1_4"
+        ],
+        "classifying_rule": "upper_page_content",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "block_p1_3": {
+        "id": "block_p1_3",
+        "type": "HEADER_BAND_BLOCK",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 148.619,
+            "mm": 52.43,
+            "px": 619.2,
+            "rel_pct": 24.284,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 49.308,
+            "mm": 17.39,
+            "px": 205.4,
+            "rel_pct": 6.226,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 322.569,
+            "mm": 113.8,
+            "px": 1344.0,
+            "rel_pct": 52.707,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 56.808,
+            "mm": 20.04,
+            "px": 236.7,
+            "rel_pct": 7.173,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 173.95,
+            "mm": 61.37,
+            "px": 724.8,
+            "rel_pct": 28.423,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 7.5,
+            "mm": 2.65,
+            "px": 31.3,
+            "rel_pct": 0.947,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_5",
+          "span_p1_6"
+        ],
+        "classifying_rule": "upper_page_content",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "block_p1_4": {
+        "id": "block_p1_4",
+        "type": "ADDRESS_BLOCK",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 21.6,
+            "mm": 7.62,
+            "px": 90.0,
+            "rel_pct": 3.529,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 101.124,
+            "mm": 35.67,
+            "px": 421.3,
+            "rel_pct": 12.768,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 357.743,
+            "mm": 126.2,
+            "px": 1490.6,
+            "rel_pct": 58.455,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 208.452,
+            "mm": 73.54,
+            "px": 868.6,
+            "rel_pct": 26.32,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 336.143,
+            "mm": 118.58,
+            "px": 1400.6,
+            "rel_pct": 54.925,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 107.329,
+            "mm": 37.86,
+            "px": 447.2,
+            "rel_pct": 13.552,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_7",
+          "span_p1_8",
+          "span_p1_9",
+          "span_p1_10",
+          "span_p1_11",
+          "span_p1_12",
+          "span_p1_13",
+          "span_p1_14"
+        ],
+        "classifying_rule": "address_keywords_and_zip",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "block_p1_5": {
+        "id": "block_p1_5",
+        "type": "HEADER_BAND_BLOCK",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 21.6,
+            "mm": 7.62,
+            "px": 90.0,
+            "rel_pct": 3.529,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 233.474,
+            "mm": 82.36,
+            "px": 972.8,
+            "rel_pct": 29.479,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 98.952,
+            "mm": 34.91,
+            "px": 412.3,
+            "rel_pct": 16.169,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 245.474,
+            "mm": 86.6,
+            "px": 1022.8,
+            "rel_pct": 30.994,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 77.352,
+            "mm": 27.29,
+            "px": 322.3,
+            "rel_pct": 12.639,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 12.0,
+            "mm": 4.23,
+            "px": 50.0,
+            "rel_pct": 1.515,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_16"
+        ],
+        "classifying_rule": "upper_page_content",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "block_p1_6": {
+        "id": "block_p1_6",
+        "type": "GENERAL_BLOCK",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 21.6,
+            "mm": 7.62,
+            "px": 90.0,
+            "rel_pct": 3.529,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 264.084,
+            "mm": 93.16,
+            "px": 1100.3,
+            "rel_pct": 33.344,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 329.361,
+            "mm": 116.19,
+            "px": 1372.3,
+            "rel_pct": 53.817,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 315.307,
+            "mm": 111.23,
+            "px": 1313.8,
+            "rel_pct": 39.811,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 307.761,
+            "mm": 108.57,
+            "px": 1282.3,
+            "rel_pct": 50.288,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 51.223,
+            "mm": 18.07,
+            "px": 213.4,
+            "rel_pct": 6.468,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_38",
+          "span_p1_39",
+          "span_p1_40",
+          "span_p1_41"
+        ],
+        "classifying_rule": "unclassified_leaf_block",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "block_p1_7": {
+        "id": "block_p1_7",
+        "type": "HEADER_BAND_BLOCK",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 370.62,
+            "mm": 130.75,
+            "px": 1544.2,
+            "rel_pct": 60.559,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 100.974,
+            "mm": 35.62,
+            "px": 420.7,
+            "rel_pct": 12.749,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 595.705,
+            "mm": 210.15,
+            "px": 2482.1,
+            "rel_pct": 97.337,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 238.308,
+            "mm": 84.07,
+            "px": 993.0,
+            "rel_pct": 30.089,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 225.085,
+            "mm": 79.41,
+            "px": 937.9,
+            "rel_pct": 36.779,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 137.335,
+            "mm": 48.45,
+            "px": 572.2,
+            "rel_pct": 17.34,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_18",
+          "span_p1_65",
+          "span_p1_69",
+          "span_p1_66",
+          "span_p1_70",
+          "span_p1_67",
+          "span_p1_71",
+          "span_p1_68",
+          "span_p1_72",
+          "span_p1_75",
+          "span_p1_76",
+          "span_p1_73",
+          "span_p1_74",
+          "span_p1_77"
+        ],
+        "classifying_rule": "upper_page_content",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "block_p1_8": {
+        "id": "block_p1_8",
+        "type": "HEADER_BAND_BLOCK",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 370.62,
+            "mm": 130.75,
+            "px": 1544.2,
+            "rel_pct": 60.559,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 257.974,
+            "mm": 91.01,
+            "px": 1074.9,
+            "rel_pct": 32.572,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 435.3,
+            "mm": 153.56,
+            "px": 1813.8,
+            "rel_pct": 71.127,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 269.974,
+            "mm": 95.24,
+            "px": 1124.9,
+            "rel_pct": 34.088,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 64.68,
+            "mm": 22.82,
+            "px": 269.5,
+            "rel_pct": 10.569,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 12.0,
+            "mm": 4.23,
+            "px": 50.0,
+            "rel_pct": 1.515,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_19"
+        ],
+        "classifying_rule": "upper_page_content",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "block_p1_9": {
+        "id": "block_p1_9",
+        "type": "GENERAL_BLOCK",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 370.62,
+            "mm": 130.75,
+            "px": 1544.2,
+            "rel_pct": 60.559,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 288.583,
+            "mm": 101.81,
+            "px": 1202.4,
+            "rel_pct": 36.437,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 599.378,
+            "mm": 211.45,
+            "px": 2497.4,
+            "rel_pct": 97.938,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 520.035,
+            "mm": 183.46,
+            "px": 2166.8,
+            "rel_pct": 65.661,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 228.758,
+            "mm": 80.7,
+            "px": 953.2,
+            "rel_pct": 37.379,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 231.451,
+            "mm": 81.65,
+            "px": 964.4,
+            "rel_pct": 29.224,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_53",
+          "span_p1_54",
+          "span_p1_55",
+          "span_p1_56",
+          "span_p1_57",
+          "span_p1_58",
+          "span_p1_59",
+          "span_p1_60",
+          "span_p1_61",
+          "span_p1_62",
+          "span_p1_63",
+          "span_p1_64",
+          "span_p1_21",
+          "span_p1_22",
+          "span_p1_23"
+        ],
+        "classifying_rule": "unclassified_leaf_block",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "block_p1_10": {
+        "id": "block_p1_10",
+        "type": "GENERAL_BLOCK",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 370.62,
+            "mm": 130.75,
+            "px": 1544.2,
+            "rel_pct": 60.559,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 541.974,
+            "mm": 191.2,
+            "px": 2258.2,
+            "rel_pct": 68.431,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 565.862,
+            "mm": 199.62,
+            "px": 2357.8,
+            "rel_pct": 92.461,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 703.859,
+            "mm": 248.31,
+            "px": 2932.7,
+            "rel_pct": 88.871,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 195.242,
+            "mm": 68.88,
+            "px": 813.5,
+            "rel_pct": 31.902,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 161.886,
+            "mm": 57.11,
+            "px": 674.5,
+            "rel_pct": 20.44,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_24",
+          "span_p1_51",
+          "span_p1_52",
+          "span_p1_20",
+          "span_p1_47",
+          "span_p1_45",
+          "span_p1_46",
+          "span_p1_48",
+          "span_p1_49",
+          "span_p1_50"
+        ],
+        "classifying_rule": "unclassified_leaf_block",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      }
+    },
+    "regions": [
+      {
+        "region_id": "container_p1_2",
+        "region_type": "decorative_container",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 542.13,
+            "mm": 191.25,
+            "px": 2258.9,
+            "rel_pct": 88.583,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 9.883,
+            "mm": 3.49,
+            "px": 41.2,
+            "rel_pct": 1.248,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 597.083,
+            "mm": 210.64,
+            "px": 2487.8,
+            "rel_pct": 97.563,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 64.836,
+            "mm": 22.87,
+            "px": 270.2,
+            "rel_pct": 8.186,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 54.953,
+            "mm": 19.39,
+            "px": 229.0,
+            "rel_pct": 8.979,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 54.953,
+            "mm": 19.39,
+            "px": 229.0,
+            "rel_pct": 6.939,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          542.1303100585938,
+          9.883400917053223,
+          597.0833129882812,
+          64.83638000488281
+        ],
+        "is_container": true,
+        "element_count": 0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "vector_closed_path"
+      },
+      {
+        "region_id": "container_p1_3",
+        "region_type": "decorative_container",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 541.956,
+            "mm": 191.19,
+            "px": 2258.2,
+            "rel_pct": 88.555,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 9.709,
+            "mm": 3.43,
+            "px": 40.5,
+            "rel_pct": 1.226,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 597.257,
+            "mm": 210.7,
+            "px": 2488.6,
+            "rel_pct": 97.591,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 65.01,
+            "mm": 22.93,
+            "px": 270.9,
+            "rel_pct": 8.208,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 55.301,
+            "mm": 19.51,
+            "px": 230.4,
+            "rel_pct": 9.036,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 55.301,
+            "mm": 19.51,
+            "px": 230.4,
+            "rel_pct": 6.982,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          541.9564208984375,
+          9.70949935913086,
+          597.2572021484375,
+          65.01028442382812
+        ],
+        "is_container": true,
+        "element_count": 0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "vector_closed_path"
+      },
+      {
+        "region_id": "container_p1_7",
+        "region_type": "decorative_container",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 541.956,
+            "mm": 191.19,
+            "px": 2258.2,
+            "rel_pct": 88.555,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 9.709,
+            "mm": 3.43,
+            "px": 40.5,
+            "rel_pct": 1.226,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 597.266,
+            "mm": 210.7,
+            "px": 2488.6,
+            "rel_pct": 97.592,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 65.019,
+            "mm": 22.94,
+            "px": 270.9,
+            "rel_pct": 8.209,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 55.309,
+            "mm": 19.51,
+            "px": 230.5,
+            "rel_pct": 9.037,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 55.309,
+            "mm": 19.51,
+            "px": 230.5,
+            "rel_pct": 6.983,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          541.9564208984375,
+          9.70947265625,
+          597.2655029296875,
+          65.0185546875
+        ],
+        "is_container": true,
+        "element_count": 0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "vector_closed_path"
+      },
+      {
+        "region_id": "table_region_p1",
+        "region_type": "transaction_table",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 15.6,
+            "mm": 5.5,
+            "px": 65.0,
+            "rel_pct": 2.549,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 316.307,
+            "mm": 111.59,
+            "px": 1317.9,
+            "rel_pct": 39.938,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 350.385,
+            "mm": 123.61,
+            "px": 1459.9,
+            "rel_pct": 57.252,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 722.0,
+            "mm": 254.71,
+            "px": 3008.3,
+            "rel_pct": 91.162,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 334.785,
+            "mm": 118.1,
+            "px": 1394.9,
+            "rel_pct": 54.703,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 405.693,
+            "mm": 143.12,
+            "px": 1690.4,
+            "rel_pct": 51.224,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          15.599750518798828,
+          316.3070373535156,
+          350.3849792480469,
+          722.0
+        ],
+        "is_container": true,
+        "element_count": 18,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "table_grid_rules_and_rows"
+      },
+      {
+        "region_id": "block_p1_0",
+        "region_type": "logo_branding",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 186.094,
+            "mm": 65.65,
+            "px": 775.4,
+            "rel_pct": 30.407,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 31.809,
+            "mm": 11.22,
+            "px": 132.5,
+            "rel_pct": 4.016,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 186.094,
+            "mm": 65.65,
+            "px": 775.4,
+            "rel_pct": 30.407,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 31.809,
+            "mm": 11.22,
+            "px": 132.5,
+            "rel_pct": 4.016,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          0.0,
+          0.0,
+          186.09359741210938,
+          31.808958053588867
+        ],
+        "is_container": false,
+        "element_count": 2,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "logo_image_or_top_left_brand"
+      },
+      {
+        "region_id": "block_p1_1",
+        "region_type": "logo_branding",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 21.6,
+            "mm": 7.62,
+            "px": 90.0,
+            "rel_pct": 3.529,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 49.558,
+            "mm": 17.48,
+            "px": 206.5,
+            "rel_pct": 6.257,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 56.337,
+            "mm": 19.87,
+            "px": 234.7,
+            "rel_pct": 9.205,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 57.058,
+            "mm": 20.13,
+            "px": 237.7,
+            "rel_pct": 7.204,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 34.737,
+            "mm": 12.25,
+            "px": 144.7,
+            "rel_pct": 5.676,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 7.5,
+            "mm": 2.65,
+            "px": 31.3,
+            "rel_pct": 0.947,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          21.600000381469727,
+          49.5575065612793,
+          56.3367919921875,
+          57.0575065612793
+        ],
+        "is_container": false,
+        "element_count": 1,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "logo_image_or_top_left_brand"
+      },
+      {
+        "region_id": "block_p1_2",
+        "region_type": "header_band_block",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 68.37,
+            "mm": 24.12,
+            "px": 284.9,
+            "rel_pct": 11.172,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 49.308,
+            "mm": 17.39,
+            "px": 205.4,
+            "rel_pct": 6.226,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 132.29,
+            "mm": 46.67,
+            "px": 551.2,
+            "rel_pct": 21.616,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 56.808,
+            "mm": 20.04,
+            "px": 236.7,
+            "rel_pct": 7.173,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 63.92,
+            "mm": 22.55,
+            "px": 266.3,
+            "rel_pct": 10.444,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 7.5,
+            "mm": 2.65,
+            "px": 31.3,
+            "rel_pct": 0.947,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          68.36962127685547,
+          49.3075065612793,
+          132.28977966308594,
+          56.8075065612793
+        ],
+        "is_container": false,
+        "element_count": 4,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "upper_page_content"
+      },
+      {
+        "region_id": "block_p1_3",
+        "region_type": "header_band_block",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 148.619,
+            "mm": 52.43,
+            "px": 619.2,
+            "rel_pct": 24.284,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 49.308,
+            "mm": 17.39,
+            "px": 205.4,
+            "rel_pct": 6.226,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 322.569,
+            "mm": 113.8,
+            "px": 1344.0,
+            "rel_pct": 52.707,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 56.808,
+            "mm": 20.04,
+            "px": 236.7,
+            "rel_pct": 7.173,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 173.95,
+            "mm": 61.37,
+            "px": 724.8,
+            "rel_pct": 28.423,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 7.5,
+            "mm": 2.65,
+            "px": 31.3,
+            "rel_pct": 0.947,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          148.61886596679688,
+          49.3075065612793,
+          322.5688171386719,
+          56.8075065612793
+        ],
+        "is_container": false,
+        "element_count": 2,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "upper_page_content"
+      },
+      {
+        "region_id": "block_p1_4",
+        "region_type": "address_block",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 21.6,
+            "mm": 7.62,
+            "px": 90.0,
+            "rel_pct": 3.529,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 101.124,
+            "mm": 35.67,
+            "px": 421.3,
+            "rel_pct": 12.768,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 357.743,
+            "mm": 126.2,
+            "px": 1490.6,
+            "rel_pct": 58.455,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 208.452,
+            "mm": 73.54,
+            "px": 868.6,
+            "rel_pct": 26.32,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 336.143,
+            "mm": 118.58,
+            "px": 1400.6,
+            "rel_pct": 54.925,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 107.329,
+            "mm": 37.86,
+            "px": 447.2,
+            "rel_pct": 13.552,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          21.600000381469727,
+          101.1236572265625,
+          357.7433166503906,
+          208.4523162841797
+        ],
+        "is_container": false,
+        "element_count": 8,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "address_keywords_and_zip"
+      },
+      {
+        "region_id": "block_p1_5",
+        "region_type": "header_band_block",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 21.6,
+            "mm": 7.62,
+            "px": 90.0,
+            "rel_pct": 3.529,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 233.474,
+            "mm": 82.36,
+            "px": 972.8,
+            "rel_pct": 29.479,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 98.952,
+            "mm": 34.91,
+            "px": 412.3,
+            "rel_pct": 16.169,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 245.474,
+            "mm": 86.6,
+            "px": 1022.8,
+            "rel_pct": 30.994,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 77.352,
+            "mm": 27.29,
+            "px": 322.3,
+            "rel_pct": 12.639,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 12.0,
+            "mm": 4.23,
+            "px": 50.0,
+            "rel_pct": 1.515,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          21.600000381469727,
+          233.47389221191406,
+          98.9521484375,
+          245.47389221191406
+        ],
+        "is_container": false,
+        "element_count": 1,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "upper_page_content"
+      },
+      {
+        "region_id": "block_p1_6",
+        "region_type": "general_block",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 21.6,
+            "mm": 7.62,
+            "px": 90.0,
+            "rel_pct": 3.529,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 264.084,
+            "mm": 93.16,
+            "px": 1100.3,
+            "rel_pct": 33.344,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 329.361,
+            "mm": 116.19,
+            "px": 1372.3,
+            "rel_pct": 53.817,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 315.307,
+            "mm": 111.23,
+            "px": 1313.8,
+            "rel_pct": 39.811,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 307.761,
+            "mm": 108.57,
+            "px": 1282.3,
+            "rel_pct": 50.288,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 51.223,
+            "mm": 18.07,
+            "px": 213.4,
+            "rel_pct": 6.468,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          21.600000381469727,
+          264.0835876464844,
+          329.36083984375,
+          315.3070373535156
+        ],
+        "is_container": false,
+        "element_count": 4,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "unclassified_leaf_block"
+      },
+      {
+        "region_id": "block_p1_7",
+        "region_type": "header_band_block",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 370.62,
+            "mm": 130.75,
+            "px": 1544.2,
+            "rel_pct": 60.559,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 100.974,
+            "mm": 35.62,
+            "px": 420.7,
+            "rel_pct": 12.749,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 595.705,
+            "mm": 210.15,
+            "px": 2482.1,
+            "rel_pct": 97.337,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 238.308,
+            "mm": 84.07,
+            "px": 993.0,
+            "rel_pct": 30.089,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 225.085,
+            "mm": 79.41,
+            "px": 937.9,
+            "rel_pct": 36.779,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 137.335,
+            "mm": 48.45,
+            "px": 572.2,
+            "rel_pct": 17.34,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          370.6199951171875,
+          100.97364807128906,
+          595.7052612304688,
+          238.30828857421875
+        ],
+        "is_container": false,
+        "element_count": 14,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "upper_page_content"
+      },
+      {
+        "region_id": "block_p1_8",
+        "region_type": "header_band_block",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 370.62,
+            "mm": 130.75,
+            "px": 1544.2,
+            "rel_pct": 60.559,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 257.974,
+            "mm": 91.01,
+            "px": 1074.9,
+            "rel_pct": 32.572,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 435.3,
+            "mm": 153.56,
+            "px": 1813.8,
+            "rel_pct": 71.127,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 269.974,
+            "mm": 95.24,
+            "px": 1124.9,
+            "rel_pct": 34.088,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 64.68,
+            "mm": 22.82,
+            "px": 269.5,
+            "rel_pct": 10.569,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 12.0,
+            "mm": 4.23,
+            "px": 50.0,
+            "rel_pct": 1.515,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          370.6199951171875,
+          257.97412109375,
+          435.30010986328125,
+          269.97412109375
+        ],
+        "is_container": false,
+        "element_count": 1,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "upper_page_content"
+      },
+      {
+        "region_id": "block_p1_9",
+        "region_type": "general_block",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 370.62,
+            "mm": 130.75,
+            "px": 1544.2,
+            "rel_pct": 60.559,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 288.583,
+            "mm": 101.81,
+            "px": 1202.4,
+            "rel_pct": 36.437,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 599.378,
+            "mm": 211.45,
+            "px": 2497.4,
+            "rel_pct": 97.938,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 520.035,
+            "mm": 183.46,
+            "px": 2166.8,
+            "rel_pct": 65.661,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 228.758,
+            "mm": 80.7,
+            "px": 953.2,
+            "rel_pct": 37.379,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 231.451,
+            "mm": 81.65,
+            "px": 964.4,
+            "rel_pct": 29.224,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          370.6199951171875,
+          288.58306884765625,
+          599.3782958984375,
+          520.0345458984375
+        ],
+        "is_container": false,
+        "element_count": 15,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "unclassified_leaf_block"
+      },
+      {
+        "region_id": "block_p1_10",
+        "region_type": "general_block",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 370.62,
+            "mm": 130.75,
+            "px": 1544.2,
+            "rel_pct": 60.559,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 541.974,
+            "mm": 191.2,
+            "px": 2258.2,
+            "rel_pct": 68.431,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 565.862,
+            "mm": 199.62,
+            "px": 2357.8,
+            "rel_pct": 92.461,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 703.859,
+            "mm": 248.31,
+            "px": 2932.7,
+            "rel_pct": 88.871,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 195.242,
+            "mm": 68.88,
+            "px": 813.5,
+            "rel_pct": 31.902,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 161.886,
+            "mm": 57.11,
+            "px": 674.5,
+            "rel_pct": 20.44,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          370.6199951171875,
+          541.9736938476562,
+          565.862060546875,
+          703.8594970703125
+        ],
+        "is_container": false,
+        "element_count": 10,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "unclassified_leaf_block"
+      }
+    ],
+    "page_structure": {
+      "column_structure": "multi_block",
+      "total_regions": 15,
+      "containers_count": 3,
+      "invariants_satisfied": true
+    },
+    "auto_repair_logs": {
+      "status": "OK",
+      "repairs_performed": [],
+      "violations": []
+    }
+  },
+  "margins_spacing": {
+    "page_margins": {
+      "top": {
+        "pt": -5.0,
+        "mm": -1.76,
+        "px": -20.8,
+        "rel_pct": -0.631,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "right": {
+        "pt": -4.75,
+        "mm": -1.68,
+        "px": -19.8,
+        "rel_pct": -0.776,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "bottom": {
+        "pt": 0.0,
+        "mm": 0.0,
+        "px": 0.0,
+        "rel_pct": 0.0,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "left": {
+        "pt": -5.0,
+        "mm": -1.76,
+        "px": -20.8,
+        "rel_pct": -0.817,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "source_elements": {
+        "top": "Image (xref 15)",
+        "left": "Image (xref 15)",
+        "right": "Image (xref 15)",
+        "bottom": "Vector Drawing/Rule"
+      }
+    },
+    "text_only_margins": {
+      "top": {
+        "pt": 10.809,
+        "mm": 3.81,
+        "px": 45.0,
+        "rel_pct": 1.365,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "right": {
+        "pt": 12.622,
+        "mm": 4.45,
+        "px": 52.6,
+        "rel_pct": 2.062,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "bottom": {
+        "pt": 88.141,
+        "mm": 31.09,
+        "px": 367.3,
+        "rel_pct": 11.129,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "left": {
+        "pt": 21.6,
+        "mm": 7.62,
+        "px": 90.0,
+        "rel_pct": 3.529,
+        "source": "content_stream",
+        "confidence": 1.0
+      }
+    },
+    "inter_block_gaps": {},
+    "line_spacing_and_leading": {
+      "mean_leading_pt": 15.75,
+      "median_leading_pt": 15.0,
+      "estimated_leading_multiplier": 1.57
+    },
+    "whitespace_map": [
+      {
+        "y0_pt": 57.058,
+        "y1_pt": 100.974,
+        "height_pt": 43.916,
+        "relative_gap_pct": 5.545
+      },
+      {
+        "y0_pt": 31.809,
+        "y1_pt": 49.308,
+        "height_pt": 17.499,
+        "relative_gap_pct": 2.209
+      }
+    ]
+  },
+  "header": {
+    "bank_name": null,
+    "statement_title": null
+  },
+  "account_details": {
+    "address_box": null,
+    "colon_grid": {
+      "layout_type": "standard_free_block",
+      "colon_axis_x_pt": null,
+      "pairs": []
+    },
+    "fields": [],
+    "layout_type": "standard_free_block",
+    "side_by_side_pitches": {
+      "address_block_pitch_pt": 12.0,
+      "key_value_grid_pitch_pt": 12.0
+    }
+  },
+  "logo": {
+    "type": "raster_image",
+    "placement": "top-center",
+    "bbox": {
+      "x0": {
+        "pt": -5.0,
+        "mm": -1.76,
+        "px": -20.8,
+        "rel_pct": -0.817,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "y0": {
+        "pt": -5.0,
+        "mm": -1.76,
+        "px": -20.8,
+        "rel_pct": -0.631,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "x1": {
+        "pt": 616.75,
+        "mm": 217.58,
+        "px": 2569.8,
+        "rel_pct": 100.776,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "y1": {
+        "pt": 781.0,
+        "mm": 275.52,
+        "px": 3254.2,
+        "rel_pct": 98.611,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "width": {
+        "pt": 621.75,
+        "mm": 219.34,
+        "px": 2590.6,
+        "rel_pct": 101.593,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "height": {
+        "pt": 786.0,
+        "mm": 277.28,
+        "px": 3275.0,
+        "rel_pct": 99.242,
+        "source": "content_stream",
+        "confidence": 1.0
+      }
+    },
+    "aspect_ratio": 0.791,
+    "effective_dpi": 300.04342328300703,
+    "crop_clip_box_pt": [
+      -5.0,
+      -5.0,
+      616.75,
+      781.0
+    ],
+    "dist_from_left_margin_pt": -5.0,
+    "dist_from_top_margin_pt": -5.0,
+    "dist_from_right_margin_pt": -4.75,
+    "nearest_caption_text": null,
+    "caption_distance_pt": null,
+    "alignment_offsets": {
+      "offset_to_header_text_baseline_pt": 753.89,
+      "offset_to_table_right_edge_pt": -18.993
+    },
+    "saved_image_path": "extracted_logo.png",
+    "metadata": {
+      "xref": 15,
+      "original_pixel_size": [
+        2591,
+        3275
+      ],
+      "effective_dpi": 300.04,
+      "colorspace": "ICCBased(RGB,Google/Skia/7C5FA2151397474A0486BBCC83733D59)",
+      "format": "PNG"
+    }
+  },
+  "table": {
+    "bbox": {
+      "x0": {
+        "pt": 15.6,
+        "mm": 5.5,
+        "px": 65.0,
+        "rel_pct": 2.549,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "y0": {
+        "pt": 316.307,
+        "mm": 111.59,
+        "px": 1317.9,
+        "rel_pct": 39.938,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "x1": {
+        "pt": 295.872,
+        "mm": 104.38,
+        "px": 1232.8,
+        "rel_pct": 48.345,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "y1": {
+        "pt": 722.0,
+        "mm": 254.71,
+        "px": 3008.3,
+        "rel_pct": 91.162,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "width": {
+        "pt": 280.273,
+        "mm": 98.87,
+        "px": 1167.8,
+        "rel_pct": 45.796,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "height": {
+        "pt": 405.693,
+        "mm": 143.12,
+        "px": 1690.4,
+        "rel_pct": 51.224,
+        "source": "content_stream",
+        "confidence": 1.0
+      }
+    },
+    "raw_bbox_pt": [
+      541.4564208984375,
+      9.20949935913086,
+      597.7572021484375,
+      65.51028442382812
+    ],
+    "row_model_type": "R4_valleys",
+    "columns": [
+      {
+        "index": 0,
+        "x0_pt": 541.456,
+        "x1_pt": 597.409,
+        "width_pt": 55.953,
+        "width": {
+          "pt": 55.953,
+          "mm": 19.74,
+          "px": 233.1,
+          "rel_pct": 9.143,
+          "source": "content_stream",
+          "confidence": 1.0
+        },
+        "left_rule_id": "rule_v_1",
+        "right_rule_id": "rule_v_3",
+        "left_boundary_evidence": [
+          {
+            "rule_id": "rule_v_1",
+            "x": 541.9564208984375,
+            "weight": 1.0,
+            "signal": "S1"
+          }
+        ],
+        "right_boundary_evidence": [
+          {
+            "rule_id": "rule_v_3",
+            "x": 596.909423828125,
+            "weight": 1.0,
+            "signal": "S1"
+          }
+        ],
+        "header_text": "",
+        "boundary_type": "double",
+        "is_double_rule": true,
+        "double_rule_info": {
+          "is_double": true
+        },
+        "coverage_pct": 1.0,
+        "is_spanning_header": false,
+        "child_column_indices": [],
+        "confidence": 1.0,
+        "semantic_type": "generic",
+        "alignment": "left"
+      }
+    ],
+    "rows": [
+      {
+        "index": 0,
+        "row_type": "HEADER",
+        "y0_pt": 9.209,
+        "y1_pt": 65.51,
+        "height_pt": 56.301,
+        "height": {
+          "pt": 56.301,
+          "mm": 19.86,
+          "px": 234.6,
+          "rel_pct": 7.109,
+          "source": "content_stream",
+          "confidence": 1.0
+        },
+        "boundary_type": "virtual",
+        "rule_info": null,
+        "gap_to_next_pt": 0.0,
+        "is_estimated_bottom": true,
+        "text_lines": [],
+        "model_evidence": {
+          "chosen_model": "R4_valleys",
+          "info": null
+        },
+        "confidence": 0.95
+      }
+    ],
+    "header_row_height_pt": 56.300785064697266,
+    "body_median_pitch_pt": 15.0,
+    "physical_lines": [
+      {
+        "line_index": 1,
+        "page_number": 1,
+        "baseline_y_pt": 328.3,
+        "ink_top_pt": 321.307,
+        "ink_bottom_pt": 330.307,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 15.0,
+        "spans_count": 1,
+        "text": "\u2022 Managed candidate interaction and professional communication",
+        "cell_values": {
+          "3": "\u2022 Managed candidate interaction and professional communication"
+        }
+      },
+      {
+        "line_index": 2,
+        "page_number": 1,
+        "baseline_y_pt": 343.3,
+        "ink_top_pt": 336.307,
+        "ink_bottom_pt": 345.307,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 15.0,
+        "spans_count": 1,
+        "text": "\u2022 Improved interpersonal and organizational skills through daily coordination tasks",
+        "cell_values": {
+          "3": "\u2022 Improved interpersonal and organizational skills through daily coordination tasks"
+        }
+      },
+      {
+        "line_index": 3,
+        "page_number": 1,
+        "baseline_y_pt": 358.3,
+        "ink_top_pt": 351.307,
+        "ink_bottom_pt": 360.307,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 27.5,
+        "spans_count": 1,
+        "text": "\u2022 Participated in employee engagement and recruitment-related activities",
+        "cell_values": {
+          "3": "\u2022 Participated in employee engagement and recruitment-related activities"
+        }
+      },
+      {
+        "line_index": 4,
+        "page_number": 1,
+        "baseline_y_pt": 385.8,
+        "ink_top_pt": 376.474,
+        "ink_bottom_pt": 388.474,
+        "height_pt": 12.0,
+        "pitch_to_next_pt": 22.2,
+        "spans_count": 1,
+        "text": "LEADERSHIP & ACTIVITIES",
+        "cell_values": {
+          "2": "LEADERSHIP & ACTIVITIES"
+        }
+      },
+      {
+        "line_index": 5,
+        "page_number": 1,
+        "baseline_y_pt": 408.0,
+        "ink_top_pt": 401.008,
+        "ink_bottom_pt": 410.008,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 13.0,
+        "spans_count": 1,
+        "text": "\u2022 Coordinated and managed college events, presentations, and student",
+        "cell_values": {
+          "3": "\u2022 Coordinated and managed college events, presentations, and student"
+        }
+      },
+      {
+        "line_index": 6,
+        "page_number": 1,
+        "baseline_y_pt": 421.0,
+        "ink_top_pt": 414.009,
+        "ink_bottom_pt": 423.009,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 15.3,
+        "spans_count": 1,
+        "text": "engagement activities",
+        "cell_values": {
+          "2": "engagement activities"
+        }
+      },
+      {
+        "line_index": 7,
+        "page_number": 1,
+        "baseline_y_pt": 436.3,
+        "ink_top_pt": 429.307,
+        "ink_bottom_pt": 438.307,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 15.0,
+        "spans_count": 1,
+        "text": "\u2022 Anchored Teacher's Day and academic events with professional communication",
+        "cell_values": {
+          "3": "\u2022 Anchored Teacher's Day and academic events with professional communication"
+        }
+      },
+      {
+        "line_index": 8,
+        "page_number": 1,
+        "baseline_y_pt": 451.3,
+        "ink_top_pt": 444.307,
+        "ink_bottom_pt": 453.307,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 15.0,
+        "spans_count": 1,
+        "text": "\u2022 Organized and coordinated the Shark Tank activity in college",
+        "cell_values": {
+          "3": "\u2022 Organized and coordinated the Shark Tank activity in college"
+        }
+      },
+      {
+        "line_index": 9,
+        "page_number": 1,
+        "baseline_y_pt": 466.3,
+        "ink_top_pt": 459.307,
+        "ink_bottom_pt": 468.307,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 15.0,
+        "spans_count": 1,
+        "text": "\u2022 Participated in sustainability, road safety awareness, and educational initiatives",
+        "cell_values": {
+          "3": "\u2022 Participated in sustainability, road safety awareness, and educational initiatives"
+        }
+      },
+      {
+        "line_index": 10,
+        "page_number": 1,
+        "baseline_y_pt": 481.3,
+        "ink_top_pt": 474.307,
+        "ink_bottom_pt": 483.307,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 27.5,
+        "spans_count": 1,
+        "text": "\u2022 Experienced in handling presentations and audience interaction confidently",
+        "cell_values": {
+          "3": "\u2022 Experienced in handling presentations and audience interaction confidently"
+        }
+      },
+      {
+        "line_index": 11,
+        "page_number": 1,
+        "baseline_y_pt": 508.8,
+        "ink_top_pt": 499.474,
+        "ink_bottom_pt": 511.474,
+        "height_pt": 12.0,
+        "pitch_to_next_pt": 28.3,
+        "spans_count": 1,
+        "text": "EDUCATION",
+        "cell_values": {
+          "1": "EDUCATION"
+        }
+      },
+      {
+        "line_index": 12,
+        "page_number": 1,
+        "baseline_y_pt": 537.1,
+        "ink_top_pt": 530.083,
+        "ink_bottom_pt": 539.083,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 13.5,
+        "spans_count": 1,
+        "text": "Bachelor of Commerce (International Business & Finance)",
+        "cell_values": {
+          "2": "Bachelor of Commerce (International Business & Finance)",
+          "3": "Bachelor of Commerce (International Business & Finance)"
+        }
+      },
+      {
+        "line_index": 13,
+        "page_number": 1,
+        "baseline_y_pt": 550.6,
+        "ink_top_pt": 543.583,
+        "ink_bottom_pt": 552.583,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 12.7,
+        "spans_count": 1,
+        "text": "SAGE University, Bhopal, MP",
+        "cell_values": {
+          "2": "SAGE University, Bhopal, MP"
+        }
+      },
+      {
+        "line_index": 14,
+        "page_number": 1,
+        "baseline_y_pt": 563.3,
+        "ink_top_pt": 556.333,
+        "ink_bottom_pt": 565.333,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 24.8,
+        "spans_count": 1,
+        "text": "Expected Graduation: 2025",
+        "cell_values": {
+          "1": "Expected Graduation: 2025",
+          "2": "Expected Graduation: 2025"
+        }
+      },
+      {
+        "line_index": 15,
+        "page_number": 1,
+        "baseline_y_pt": 588.1,
+        "ink_top_pt": 581.083,
+        "ink_bottom_pt": 590.083,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 13.5,
+        "spans_count": 1,
+        "text": "Class 12th (CBSE)",
+        "cell_values": {
+          "1": "Class 12th (CBSE)"
+        }
+      },
+      {
+        "line_index": 16,
+        "page_number": 1,
+        "baseline_y_pt": 601.6,
+        "ink_top_pt": 594.583,
+        "ink_bottom_pt": 603.583,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 24.5,
+        "spans_count": 1,
+        "text": "Kamla Devi Public School | Completed: 2022",
+        "cell_values": {
+          "2": "Kamla Devi Public School | Completed: 2022"
+        }
+      },
+      {
+        "line_index": 17,
+        "page_number": 1,
+        "baseline_y_pt": 626.1,
+        "ink_top_pt": 619.083,
+        "ink_bottom_pt": 628.083,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 13.5,
+        "spans_count": 1,
+        "text": "Class 10th",
+        "cell_values": {
+          "1": "Class 10th"
+        }
+      },
+      {
+        "line_index": 18,
+        "page_number": 1,
+        "baseline_y_pt": 639.6,
+        "ink_top_pt": 632.583,
+        "ink_bottom_pt": 641.583,
+        "height_pt": 9.0,
+        "pitch_to_next_pt": 0.0,
+        "spans_count": 1,
+        "text": "Holy Family Convent Sr. Sec School | Completed: 2020",
+        "cell_values": {
+          "2": "Holy Family Convent Sr. Sec School | Completed: 2020"
+        }
+      }
+    ],
+    "logical_transactions": [
+      {
+        "tx_index": 1,
+        "page_number": 1,
+        "anchor_date": "N/A",
+        "lines_count": 17,
+        "y_top_pt": 336.307,
+        "y_bottom_pt": 641.583,
+        "height_pt": 305.276,
+        "gap_to_next_pt": 0.0,
+        "baseline_to_baseline_pt": 0.0,
+        "is_wrapped": true,
+        "description_lines": [
+          "\u2022 Improved interpersonal and organizational skills through daily coordination tasks",
+          "\u2022 Participated in employee engagement and recruitment-related activities",
+          "LEADERSHIP & ACTIVITIES",
+          "\u2022 Coordinated and managed college events, presentations, and student",
+          "engagement activities",
+          "\u2022 Anchored Teacher's Day and academic events with professional communication",
+          "\u2022 Organized and coordinated the Shark Tank activity in college",
+          "\u2022 Participated in sustainability, road safety awareness, and educational initiatives",
+          "\u2022 Experienced in handling presentations and audience interaction confidently",
+          "EDUCATION",
+          "Bachelor of Commerce (International Business & Finance)",
+          "SAGE University, Bhopal, MP",
+          "Expected Graduation: 2025",
+          "Class 12th (CBSE)",
+          "Kamla Devi Public School | Completed: 2022",
+          "Class 10th",
+          "Holy Family Convent Sr. Sec School | Completed: 2020"
+        ],
+        "raw_cells": {
+          "2": {
+            "3": "\u2022 Improved interpersonal and organizational skills through daily coordination tasks"
+          },
+          "3": {
+            "3": "\u2022 Participated in employee engagement and recruitment-related activities"
+          },
+          "4": {
+            "2": "LEADERSHIP & ACTIVITIES"
+          },
+          "5": {
+            "3": "\u2022 Coordinated and managed college events, presentations, and student"
+          },
+          "6": {
+            "2": "engagement activities"
+          },
+          "7": {
+            "3": "\u2022 Anchored Teacher's Day and academic events with professional communication"
+          },
+          "8": {
+            "3": "\u2022 Organized and coordinated the Shark Tank activity in college"
+          },
+          "9": {
+            "3": "\u2022 Participated in sustainability, road safety awareness, and educational initiatives"
+          },
+          "10": {
+            "3": "\u2022 Experienced in handling presentations and audience interaction confidently"
+          },
+          "11": {
+            "1": "EDUCATION"
+          },
+          "12": {
+            "2": "Bachelor of Commerce (International Business & Finance)",
+            "3": "Bachelor of Commerce (International Business & Finance)"
+          },
+          "13": {
+            "2": "SAGE University, Bhopal, MP"
+          },
+          "14": {
+            "1": "Expected Graduation: 2025",
+            "2": "Expected Graduation: 2025"
+          },
+          "15": {
+            "1": "Class 12th (CBSE)"
+          },
+          "16": {
+            "2": "Kamla Devi Public School | Completed: 2022"
+          },
+          "17": {
+            "1": "Class 10th"
+          },
+          "18": {
+            "2": "Holy Family Convent Sr. Sec School | Completed: 2020"
+          }
+        },
+        "leading_space_indent_detected": true
+      }
+    ],
+    "width_assertion_passed": false,
+    "continuation_info": {
+      "is_continuation": false,
+      "repeated_header": false,
+      "drift_x_pt": 0.0,
+      "drift_top_gap_pt": 0.0
+    },
+    "transaction_spacing": {
+      "per_row_table": [
+        {
+          "line_index": 1,
+          "y_top_pt": 321.307,
+          "y_bottom_pt": 330.307,
+          "height_pt": 9.0,
+          "baseline_y_pt": 328.3,
+          "gap_to_next_pt": 6.0,
+          "baseline_to_baseline_pt": 15.0,
+          "text_summary": "\u2022 Managed candidate interaction and prof"
+        },
+        {
+          "line_index": 2,
+          "y_top_pt": 336.307,
+          "y_bottom_pt": 345.307,
+          "height_pt": 9.0,
+          "baseline_y_pt": 343.3,
+          "gap_to_next_pt": 6.0,
+          "baseline_to_baseline_pt": 15.0,
+          "text_summary": "\u2022 Improved interpersonal and organizatio"
+        },
+        {
+          "line_index": 3,
+          "y_top_pt": 351.307,
+          "y_bottom_pt": 360.307,
+          "height_pt": 9.0,
+          "baseline_y_pt": 358.3,
+          "gap_to_next_pt": 16.167,
+          "baseline_to_baseline_pt": 27.5,
+          "text_summary": "\u2022 Participated in employee engagement an"
+        },
+        {
+          "line_index": 4,
+          "y_top_pt": 376.474,
+          "y_bottom_pt": 388.474,
+          "height_pt": 12.0,
+          "baseline_y_pt": 385.8,
+          "gap_to_next_pt": 12.534,
+          "baseline_to_baseline_pt": 22.2,
+          "text_summary": "LEADERSHIP & ACTIVITIES"
+        },
+        {
+          "line_index": 5,
+          "y_top_pt": 401.008,
+          "y_bottom_pt": 410.008,
+          "height_pt": 9.0,
+          "baseline_y_pt": 408.0,
+          "gap_to_next_pt": 4.001,
+          "baseline_to_baseline_pt": 13.0,
+          "text_summary": "\u2022 Coordinated and managed college events"
+        },
+        {
+          "line_index": 6,
+          "y_top_pt": 414.009,
+          "y_bottom_pt": 423.009,
+          "height_pt": 9.0,
+          "baseline_y_pt": 421.0,
+          "gap_to_next_pt": 6.298,
+          "baseline_to_baseline_pt": 15.3,
+          "text_summary": "engagement activities"
+        },
+        {
+          "line_index": 7,
+          "y_top_pt": 429.307,
+          "y_bottom_pt": 438.307,
+          "height_pt": 9.0,
+          "baseline_y_pt": 436.3,
+          "gap_to_next_pt": 6.0,
+          "baseline_to_baseline_pt": 15.0,
+          "text_summary": "\u2022 Anchored Teacher's Day and academic ev"
+        },
+        {
+          "line_index": 8,
+          "y_top_pt": 444.307,
+          "y_bottom_pt": 453.307,
+          "height_pt": 9.0,
+          "baseline_y_pt": 451.3,
+          "gap_to_next_pt": 6.0,
+          "baseline_to_baseline_pt": 15.0,
+          "text_summary": "\u2022 Organized and coordinated the Shark Ta"
+        },
+        {
+          "line_index": 9,
+          "y_top_pt": 459.307,
+          "y_bottom_pt": 468.307,
+          "height_pt": 9.0,
+          "baseline_y_pt": 466.3,
+          "gap_to_next_pt": 6.0,
+          "baseline_to_baseline_pt": 15.0,
+          "text_summary": "\u2022 Participated in sustainability, road s"
+        },
+        {
+          "line_index": 10,
+          "y_top_pt": 474.307,
+          "y_bottom_pt": 483.307,
+          "height_pt": 9.0,
+          "baseline_y_pt": 481.3,
+          "gap_to_next_pt": 16.167,
+          "baseline_to_baseline_pt": 27.5,
+          "text_summary": "\u2022 Experienced in handling presentations "
+        },
+        {
+          "line_index": 11,
+          "y_top_pt": 499.474,
+          "y_bottom_pt": 511.474,
+          "height_pt": 12.0,
+          "baseline_y_pt": 508.8,
+          "gap_to_next_pt": 18.609,
+          "baseline_to_baseline_pt": 28.3,
+          "text_summary": "EDUCATION"
+        },
+        {
+          "line_index": 12,
+          "y_top_pt": 530.083,
+          "y_bottom_pt": 539.083,
+          "height_pt": 9.0,
+          "baseline_y_pt": 537.1,
+          "gap_to_next_pt": 4.5,
+          "baseline_to_baseline_pt": 13.5,
+          "text_summary": "Bachelor of Commerce (International Busi"
+        },
+        {
+          "line_index": 13,
+          "y_top_pt": 543.583,
+          "y_bottom_pt": 552.583,
+          "height_pt": 9.0,
+          "baseline_y_pt": 550.6,
+          "gap_to_next_pt": 3.75,
+          "baseline_to_baseline_pt": 12.7,
+          "text_summary": "SAGE University, Bhopal, MP"
+        },
+        {
+          "line_index": 14,
+          "y_top_pt": 556.333,
+          "y_bottom_pt": 565.333,
+          "height_pt": 9.0,
+          "baseline_y_pt": 563.3,
+          "gap_to_next_pt": 15.75,
+          "baseline_to_baseline_pt": 24.8,
+          "text_summary": "Expected Graduation: 2025"
+        },
+        {
+          "line_index": 15,
+          "y_top_pt": 581.083,
+          "y_bottom_pt": 590.083,
+          "height_pt": 9.0,
+          "baseline_y_pt": 588.1,
+          "gap_to_next_pt": 4.5,
+          "baseline_to_baseline_pt": 13.5,
+          "text_summary": "Class 12th (CBSE)"
+        },
+        {
+          "line_index": 16,
+          "y_top_pt": 594.583,
+          "y_bottom_pt": 603.583,
+          "height_pt": 9.0,
+          "baseline_y_pt": 601.6,
+          "gap_to_next_pt": 15.5,
+          "baseline_to_baseline_pt": 24.5,
+          "text_summary": "Kamla Devi Public School | Completed: 20"
+        },
+        {
+          "line_index": 17,
+          "y_top_pt": 619.083,
+          "y_bottom_pt": 628.083,
+          "height_pt": 9.0,
+          "baseline_y_pt": 626.1,
+          "gap_to_next_pt": 4.5,
+          "baseline_to_baseline_pt": 13.5,
+          "text_summary": "Class 10th"
+        },
+        {
+          "line_index": 18,
+          "y_top_pt": 632.583,
+          "y_bottom_pt": 641.583,
+          "height_pt": 9.0,
+          "baseline_y_pt": 639.6,
+          "gap_to_next_pt": null,
+          "baseline_to_baseline_pt": null,
+          "text_summary": "Holy Family Convent Sr. Sec School | Com"
+        }
+      ],
+      "spacing_summary": {
+        "median_baseline_distance_pt": 15.0,
+        "min_baseline_distance_pt": 12.7,
+        "max_baseline_distance_pt": 28.3,
+        "std_baseline_distance_pt": 5.725
+      },
+      "deviating_rows": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    "borders": {
+      "style": "borderless / whitespace-separated",
+      "outer_border": false,
+      "horizontal_row_separators": false,
+      "vertical_column_separators": false,
+      "average_stroke_width_pt": 0.625,
+      "border_color_hex": "#9CA2AF",
+      "doubled_strokes_detected": false
+    },
+    "backgrounds": {
+      "has_zebra_striping": false,
+      "alternate_color_hex": null
+    },
+    "table_model_ref": "table_model.json"
+  },
+  "typography": {
+    "styles": [
+      {
+        "role": "document_title_h1",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Bold",
+        "font_size_pt": 21.0,
+        "inferred_weight": "bold",
+        "is_bold": true,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": false,
+        "color_hex": "#FFFFFF",
+        "color_rgb": [
+          255,
+          255,
+          255
+        ],
+        "frequency_count": 1,
+        "recommended_leading_pt": 26.25,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 21.0pt; font-weight: bold; color: #FFFFFF; line-height: 26.25pt;"
+      },
+      {
+        "role": "section_heading_h2",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Bold",
+        "font_size_pt": 12.0,
+        "inferred_weight": "bold",
+        "is_bold": true,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": false,
+        "color_hex": "#111827",
+        "color_rgb": [
+          17,
+          24,
+          39
+        ],
+        "frequency_count": 9,
+        "recommended_leading_pt": 15.0,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 12.0pt; font-weight: bold; color: #111827; line-height: 15.0pt;"
+      },
+      {
+        "role": "table_body_text",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Roman",
+        "font_size_pt": 9.0,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": true,
+        "color_hex": "#4B5563",
+        "color_rgb": [
+          75,
+          85,
+          99
+        ],
+        "frequency_count": 29,
+        "recommended_leading_pt": 15.0,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 9.0pt; font-weight: normal; color: #4B5563; line-height: 15.0pt;"
+      },
+      {
+        "role": "text_style_9pt_regular",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Roman",
+        "font_size_pt": 9.0,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": true,
+        "color_hex": "#1F2937",
+        "color_rgb": [
+          31,
+          41,
+          55
+        ],
+        "frequency_count": 19,
+        "recommended_leading_pt": 19.5,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 9.0pt; font-weight: normal; color: #1F2937; line-height: 19.5pt;"
+      },
+      {
+        "role": "table_header_or_field_label",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Bold",
+        "font_size_pt": 9.0,
+        "inferred_weight": "bold",
+        "is_bold": true,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": false,
+        "color_hex": "#111827",
+        "color_rgb": [
+          17,
+          24,
+          39
+        ],
+        "frequency_count": 7,
+        "recommended_leading_pt": 24.5,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 9.0pt; font-weight: bold; color: #111827; line-height: 24.5pt;"
+      },
+      {
+        "role": "text_style_9pt_regular",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Roman",
+        "font_size_pt": 9.0,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": true,
+        "color_hex": "#9CA3AF",
+        "color_rgb": [
+          156,
+          163,
+          175
+        ],
+        "frequency_count": 4,
+        "recommended_leading_pt": 11.25,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 9.0pt; font-weight: normal; color: #9CA3AF; line-height: 11.25pt;"
+      },
+      {
+        "role": "text_style_9pt_regular",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Roman",
+        "font_size_pt": 9.0,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": true,
+        "color_hex": "#6366F1",
+        "color_rgb": [
+          99,
+          102,
+          241
+        ],
+        "frequency_count": 3,
+        "recommended_leading_pt": 11.25,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 9.0pt; font-weight: normal; color: #6366F1; line-height: 11.25pt;"
+      },
+      {
+        "role": "caption_or_small_metadata",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Roman",
+        "font_size_pt": 7.5,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": true,
+        "color_hex": "#9CA3AF",
+        "color_rgb": [
+          156,
+          163,
+          175
+        ],
+        "frequency_count": 7,
+        "recommended_leading_pt": 9.38,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 7.5pt; font-weight: normal; color: #9CA3AF; line-height: 9.38pt;"
+      }
+    ],
+    "fonts": [
+      {
+        "font_name": "HelveticaLTPro-Bold",
+        "raw_name": "AAAAAA+HelveticaLTPro-Bold",
+        "type": "Type0",
+        "extension": "ttf",
+        "is_subset": true,
+        "is_standard_14": true,
+        "is_embedded": true
+      },
+      {
+        "font_name": "HelveticaLTPro-Roman",
+        "raw_name": "BAAAAA+HelveticaLTPro-Roman",
+        "type": "Type0",
+        "extension": "ttf",
+        "is_subset": true,
+        "is_standard_14": true,
+        "is_embedded": true
+      },
+      {
+        "font_name": "HelveticaLTPro-Roman",
+        "raw_name": "BAAAAA+HelveticaLTPro-Roman",
+        "type": "Type0",
+        "extension": "ttf",
+        "is_subset": true,
+        "is_standard_14": true,
+        "is_embedded": true
+      }
+    ],
+    "role_hierarchy": {
+      "document_title_h1": {
+        "role": "document_title_h1",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Bold",
+        "font_size_pt": 21.0,
+        "inferred_weight": "bold",
+        "is_bold": true,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": false,
+        "color_hex": "#FFFFFF",
+        "color_rgb": [
+          255,
+          255,
+          255
+        ],
+        "frequency_count": 1,
+        "recommended_leading_pt": 26.25,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 21.0pt; font-weight: bold; color: #FFFFFF; line-height: 26.25pt;"
+      },
+      "section_heading_h2": {
+        "role": "section_heading_h2",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Bold",
+        "font_size_pt": 12.0,
+        "inferred_weight": "bold",
+        "is_bold": true,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": false,
+        "color_hex": "#111827",
+        "color_rgb": [
+          17,
+          24,
+          39
+        ],
+        "frequency_count": 9,
+        "recommended_leading_pt": 15.0,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 12.0pt; font-weight: bold; color: #111827; line-height: 15.0pt;"
+      },
+      "table_body_text": {
+        "role": "table_body_text",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Roman",
+        "font_size_pt": 9.0,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": true,
+        "color_hex": "#4B5563",
+        "color_rgb": [
+          75,
+          85,
+          99
+        ],
+        "frequency_count": 29,
+        "recommended_leading_pt": 15.0,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 9.0pt; font-weight: normal; color: #4B5563; line-height: 15.0pt;"
+      },
+      "text_style_9pt_regular": {
+        "role": "text_style_9pt_regular",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Roman",
+        "font_size_pt": 9.0,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": true,
+        "color_hex": "#6366F1",
+        "color_rgb": [
+          99,
+          102,
+          241
+        ],
+        "frequency_count": 3,
+        "recommended_leading_pt": 11.25,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 9.0pt; font-weight: normal; color: #6366F1; line-height: 11.25pt;"
+      },
+      "table_header_or_field_label": {
+        "role": "table_header_or_field_label",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Bold",
+        "font_size_pt": 9.0,
+        "inferred_weight": "bold",
+        "is_bold": true,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": false,
+        "color_hex": "#111827",
+        "color_rgb": [
+          17,
+          24,
+          39
+        ],
+        "frequency_count": 7,
+        "recommended_leading_pt": 24.5,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 9.0pt; font-weight: bold; color: #111827; line-height: 24.5pt;"
+      },
+      "caption_or_small_metadata": {
+        "role": "caption_or_small_metadata",
+        "clean_font_family": "HelveticaLTPro",
+        "font_name": "HelveticaLTPro-Roman",
+        "font_size_pt": 7.5,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": true,
+        "is_serif": true,
+        "color_hex": "#9CA3AF",
+        "color_rgb": [
+          156,
+          163,
+          175
+        ],
+        "frequency_count": 7,
+        "recommended_leading_pt": 9.38,
+        "css_style_string": "font-family: 'HelveticaLTPro', sans-serif; font-size: 7.5pt; font-weight: normal; color: #9CA3AF; line-height: 9.38pt;"
+      }
+    }
+  },
+  "alignment": {
+    "numeric_columns": {
+      "columns_analyzed": [
+        ""
+      ],
+      "numeric_column_details": {
+        "": {
+          "header_text": "",
+          "semantic_type": "generic",
+          "data_alignment": "right",
+          "alignment_type": "right_aligned",
+          "sample_count": 0,
+          "digits_right_edge_std_dev_pt": 0.0,
+          "suffix_right_edge_std_dev_pt": 0.0,
+          "currency_symbol": null,
+          "thousand_separator_system": "None",
+          "negative_format": "N/A",
+          "empty_cell_convention": "blank"
+        }
+      }
+    },
+    "implicit_axes": {
+      "implicit_axes_detected": 13,
+      "shared_left_axes": [
+        {
+          "x_pt": 21.6,
+          "y_start_pt": 10.809,
+          "y_end_pt": 641.583,
+          "member_count": 23,
+          "member_snippets": [
+            "SIDDHI PATHAK",
+            "SUMMARY",
+            "Motivated and communication-or",
+            "operations, public speaking, e",
+            "Skilled in spoken English, gra",
+            "communication. Experienced in "
+          ],
+          "axis_type": "shared_left_edge",
+          "cross_region_links": []
+        },
+        {
+          "x_pt": 370.62,
+          "y_start_pt": 100.974,
+          "y_end_pt": 618.974,
+          "member_count": 13,
+          "member_snippets": [
+            "SKILLS",
+            "PROJECTS",
+            "INTERESTS",
+            "LANGUAGES",
+            "English \u2014 Fluent and proficint",
+            "Hindi \u2014 Fluent"
+          ],
+          "axis_type": "shared_left_edge",
+          "cross_region_links": [
+            "Stock Market Project"
+          ]
+        },
+        {
+          "x_pt": 376.62,
+          "y_start_pt": 129.36,
+          "y_end_pt": 703.859,
+          "member_count": 10,
+          "member_snippets": [
+            "Public Speaking",
+            "Presentation Designing",
+            "Reading Business & Communicati",
+            "Traveling & Cultural Learning",
+            "SpokenEnglish",
+            "Communication"
+          ],
+          "axis_type": "shared_left_edge",
+          "cross_region_links": []
+        },
+        {
+          "x_pt": 25.6,
+          "y_start_pt": 306.307,
+          "y_end_pt": 483.307,
+          "member_count": 9,
+          "member_snippets": [
+            "\u2022 Coordinated and managed coll",
+            "\u2022 Anchored Teacher's Day and a",
+            "\u2022 Organized and coordinated th",
+            "\u2022 Participated in sustainabili",
+            "\u2022 Experienced in handling pres",
+            "\u2022 Assisted in communication an"
+          ],
+          "axis_type": "shared_left_edge",
+          "cross_region_links": [
+            "\u2022 Managed candidate interactio"
+          ]
+        },
+        {
+          "x_pt": 374.62,
+          "y_start_pt": 316.509,
+          "y_end_pt": 590.807,
+          "member_count": 5,
+          "member_snippets": [
+            "\u2022 Microsoft Office Certificati",
+            "\u2022 Presentation & Event Coordin",
+            "\u2022 Conducted research and compa",
+            "\u2022 Analyzed collaboration brand",
+            "\u2022 Studied market trends, inves"
+          ],
+          "axis_type": "shared_left_edge",
+          "cross_region_links": []
+        },
+        {
+          "x_pt": 384.62,
+          "y_start_pt": 329.508,
+          "y_end_pt": 458.508,
+          "member_count": 3,
+          "member_snippets": [
+            "market positioning and brandin",
+            "customer engagement strategies",
+            "financial analysis fundamental"
+          ],
+          "axis_type": "shared_left_edge",
+          "cross_region_links": [
+            "customer engagement strategies"
+          ]
+        },
+        {
+          "x_pt": 456.134,
+          "y_start_pt": 129.36,
+          "y_end_pt": 157.86,
+          "member_count": 2,
+          "member_snippets": [
+            "English Grammar",
+            "Public Speaking"
+          ],
+          "axis_type": "shared_left_edge",
+          "cross_region_links": []
+        },
+        {
+          "x_pt": 458.398,
+          "y_start_pt": 189.309,
+          "y_end_pt": 644.308,
+          "member_count": 2,
+          "member_snippets": [
+            "Teaching & Mentoring",
+            "Student Engagement"
+          ],
+          "axis_type": "shared_left_edge",
+          "cross_region_links": [
+            "Teaching & Mentoring"
+          ]
+        }
+      ],
+      "shared_right_axes": [
+        {
+          "x_pt": 92.783,
+          "y_start_pt": 290.334,
+          "y_end_pt": 511.474,
+          "member_count": 2,
+          "member_snippets": [
+            "Bhopal, MP, India",
+            "EDUCATION"
+          ],
+          "axis_type": "shared_right_edge"
+        },
+        {
+          "x_pt": 98.733,
+          "y_start_pt": 49.308,
+          "y_end_pt": 245.474,
+          "member_count": 2,
+          "member_snippets": [
+            "Bhopal,",
+            "EXPERIENCE"
+          ],
+          "axis_type": "shared_right_edge"
+        },
+        {
+          "x_pt": 350.241,
+          "y_start_pt": 336.307,
+          "y_end_pt": 438.307,
+          "member_count": 2,
+          "member_snippets": [
+            "\u2022 Anchored Teacher's Day and a",
+            "\u2022 Improved interpersonal and o"
+          ],
+          "axis_type": "shared_right_edge"
+        },
+        {
+          "x_pt": 441.398,
+          "y_start_pt": 187.86,
+          "y_end_pt": 644.359,
+          "member_count": 2,
+          "member_snippets": [
+            "Public Speaking",
+            "Online Sessions"
+          ],
+          "axis_type": "shared_right_edge"
+        },
+        {
+          "x_pt": 492.981,
+          "y_start_pt": 566.807,
+          "y_end_pt": 703.859,
+          "member_count": 2,
+          "member_snippets": [
+            "\u2022 Microsoft Office Certificati",
+            "Traveling & Cultural Learning"
+          ],
+          "axis_type": "shared_right_edge"
+        }
+      ],
+      "guide_lines": [
+        {
+          "axis_type": "vertical",
+          "position_pt": 21.6,
+          "range_start_pt": 10.809,
+          "range_end_pt": 641.583,
+          "owner_id": "left_axis_21",
+          "member_count": 23,
+          "role": "shared_left_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 370.62,
+          "range_start_pt": 100.974,
+          "range_end_pt": 618.974,
+          "owner_id": "left_axis_370",
+          "member_count": 13,
+          "role": "shared_left_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 376.62,
+          "range_start_pt": 129.36,
+          "range_end_pt": 703.859,
+          "owner_id": "left_axis_376",
+          "member_count": 10,
+          "role": "shared_left_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 25.6,
+          "range_start_pt": 306.307,
+          "range_end_pt": 483.307,
+          "owner_id": "left_axis_25",
+          "member_count": 9,
+          "role": "shared_left_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 374.62,
+          "range_start_pt": 316.509,
+          "range_end_pt": 590.807,
+          "owner_id": "left_axis_374",
+          "member_count": 5,
+          "role": "shared_left_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 384.62,
+          "range_start_pt": 329.508,
+          "range_end_pt": 458.508,
+          "owner_id": "left_axis_384",
+          "member_count": 3,
+          "role": "shared_left_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 456.134,
+          "range_start_pt": 129.36,
+          "range_end_pt": 157.86,
+          "owner_id": "left_axis_456",
+          "member_count": 2,
+          "role": "shared_left_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 458.398,
+          "range_start_pt": 189.309,
+          "range_end_pt": 644.308,
+          "owner_id": "left_axis_458",
+          "member_count": 2,
+          "role": "shared_left_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 92.783,
+          "range_start_pt": 290.334,
+          "range_end_pt": 511.474,
+          "owner_id": "right_axis_92",
+          "member_count": 2,
+          "role": "shared_right_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 98.733,
+          "range_start_pt": 49.308,
+          "range_end_pt": 245.474,
+          "owner_id": "right_axis_98",
+          "member_count": 2,
+          "role": "shared_right_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 350.241,
+          "range_start_pt": 336.307,
+          "range_end_pt": 438.307,
+          "owner_id": "right_axis_350",
+          "member_count": 2,
+          "role": "shared_right_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 441.398,
+          "range_start_pt": 187.86,
+          "range_end_pt": 644.359,
+          "owner_id": "right_axis_441",
+          "member_count": 2,
+          "role": "shared_right_edge"
+        },
+        {
+          "axis_type": "vertical",
+          "position_pt": 492.981,
+          "range_start_pt": 566.807,
+          "range_end_pt": 703.859,
+          "owner_id": "right_axis_492",
+          "member_count": 2,
+          "role": "shared_right_edge"
+        }
+      ],
+      "baselines_count": 65
+    },
+    "element_offsets": {}
+  },
+  "key_placements": {
+    "date_column_analysis": {
+      "detected_date_format": "Unknown",
+      "sample_date_count": 0,
+      "mean_x0_pt": 0.0,
+      "x0_std_dev_pt": 0.0,
+      "alignment_consistency": "perfect",
+      "font_name": "N/A",
+      "font_size_pt": 0.0
+    },
+    "statement_heading_analysis": {
+      "heading_text": "SIDDHI PATHAK",
+      "heading_bbox": {
+        "x0": {
+          "pt": 21.6,
+          "mm": 7.62,
+          "px": 90.0,
+          "rel_pct": 3.529,
+          "source": "pymupdf",
+          "confidence": 1.0
+        },
+        "y0": {
+          "pt": 10.809,
+          "mm": 3.81,
+          "px": 45.0,
+          "rel_pct": 1.365,
+          "source": "pymupdf",
+          "confidence": 1.0
+        },
+        "x1": {
+          "pt": 186.094,
+          "mm": 65.65,
+          "px": 775.4,
+          "rel_pct": 30.407,
+          "source": "pymupdf",
+          "confidence": 1.0
+        },
+        "y1": {
+          "pt": 31.809,
+          "mm": 11.22,
+          "px": 132.5,
+          "rel_pct": 4.016,
+          "source": "pymupdf",
+          "confidence": 1.0
+        },
+        "width": {
+          "pt": 164.494,
+          "mm": 58.03,
+          "px": 685.4,
+          "rel_pct": 26.878,
+          "source": "pymupdf",
+          "confidence": 1.0
+        },
+        "height": {
+          "pt": 21.0,
+          "mm": 7.41,
+          "px": 87.5,
+          "rel_pct": 2.652,
+          "source": "pymupdf",
+          "confidence": 1.0
+        }
+      },
+      "page_center_x_pt": 306.0,
+      "heading_center_x_pt": 103.85,
+      "offset_from_page_center_pt": -202.15,
+      "is_centered": false,
+      "font_size_pt": 21.0
+    }
+  },
+  "pixel_measurements": {
+    "calibration": {
+      "target_dpi": 300,
+      "px_per_pt": 4.1667,
+      "px_per_mm": 11.811,
+      "pt_per_mm": 2.8346,
+      "mm_per_pt": 0.352778
+    },
+    "coordinate_validation_sample": [
+      {
+        "text_snippet": "SIDDHI PATHAK",
+        "vector_pt_bbox": [
+          21.6,
+          10.81,
+          186.09,
+          31.81
+        ],
+        "computed_px_bbox": [
+          90.0,
+          45.0,
+          775.4,
+          132.5
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "\u2022",
+        "vector_pt_bbox": [
+          68.37,
+          49.31,
+          70.99,
+          56.81
+        ],
+        "computed_px_bbox": [
+          284.9,
+          205.4,
+          295.8,
+          236.7
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "Bhopal,",
+        "vector_pt_bbox": [
+          73.08,
+          49.31,
+          98.51,
+          56.81
+        ],
+        "computed_px_bbox": [
+          304.5,
+          205.4,
+          410.5,
+          236.7
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "MP,",
+        "vector_pt_bbox": [
+          100.61,
+          49.31,
+          113.94,
+          56.81
+        ],
+        "computed_px_bbox": [
+          419.2,
+          205.4,
+          474.8,
+          236.7
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "India",
+        "vector_pt_bbox": [
+          116.03,
+          49.31,
+          132.29,
+          56.81
+        ],
+        "computed_px_bbox": [
+          483.5,
+          205.4,
+          551.2,
+          236.7
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "\u2022 siddhipathak213@gm",
+        "vector_pt_bbox": [
+          148.62,
+          49.31,
+          249.73,
+          56.81
+        ],
+        "computed_px_bbox": [
+          619.2,
+          205.4,
+          1040.5,
+          236.7
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "\u2022 +91 7389578374",
+        "vector_pt_bbox": [
+          261.35,
+          49.31,
+          322.57,
+          56.81
+        ],
+        "computed_px_bbox": [
+          1089.0,
+          205.4,
+          1344.0,
+          236.7
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "SUMMARY",
+        "vector_pt_bbox": [
+          21.6,
+          101.12,
+          83.59,
+          113.12
+        ],
+        "computed_px_bbox": [
+          90.0,
+          421.3,
+          348.3,
+          471.3
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "Motivated and commun",
+        "vector_pt_bbox": [
+          21.6,
+          118.45,
+          331.22,
+          127.45
+        ],
+        "computed_px_bbox": [
+          90.0,
+          493.6,
+          1380.1,
+          531.1
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "operations, public s",
+        "vector_pt_bbox": [
+          21.6,
+          131.95,
+          353.28,
+          140.95
+        ],
+        "computed_px_bbox": [
+          90.0,
+          549.8,
+          1472.0,
+          587.3
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "Skilled in spoken En",
+        "vector_pt_bbox": [
+          21.6,
+          145.45,
+          321.22,
+          154.45
+        ],
+        "computed_px_bbox": [
+          90.0,
+          606.1,
+          1338.4,
+          643.6
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "communication. Exper",
+        "vector_pt_bbox": [
+          21.6,
+          158.95,
+          342.76,
+          167.95
+        ],
+        "computed_px_bbox": [
+          90.0,
+          662.3,
+          1428.2,
+          699.8
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "interacting with div",
+        "vector_pt_bbox": [
+          21.6,
+          172.45,
+          332.24,
+          181.45
+        ],
+        "computed_px_bbox": [
+          90.0,
+          718.6,
+          1384.3,
+          756.1
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "communication skills",
+        "vector_pt_bbox": [
+          21.6,
+          185.95,
+          357.74,
+          194.95
+        ],
+        "computed_px_bbox": [
+          90.0,
+          774.8,
+          1490.6,
+          812.3
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": "opportunity as a Fre",
+        "vector_pt_bbox": [
+          21.6,
+          199.45,
+          193.67,
+          208.45
+        ],
+        "computed_px_bbox": [
+          90.0,
+          831.1,
+          807.0,
+          868.6
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      }
+    ],
+    "opencv_raster_cross_check": {
+      "opencv_detected_horizontal_lines_count": 59,
+      "opencv_detected_vertical_lines_count": 4,
+      "vector_drawings_count": 8,
+      "agreement_status": "partial_concordance"
+    },
+    "relative_layout_ratios": {
+      "table_width_to_page_width_pct": 45.8,
+      "table_height_to_page_height_pct": 51.22
+    }
+  },
+  "table_model": {
+    "columns": [
+      {
+        "index": 0,
+        "x0_pt": 541.456,
+        "x1_pt": 597.409,
+        "width_pt": 55.953,
+        "width": {
+          "pt": 55.953,
+          "mm": 19.74,
+          "px": 233.1,
+          "rel_pct": 9.143,
+          "source": "content_stream",
+          "confidence": 1.0
+        },
+        "left_rule_id": "rule_v_1",
+        "right_rule_id": "rule_v_3",
+        "left_boundary_evidence": [
+          {
+            "rule_id": "rule_v_1",
+            "x": 541.9564208984375,
+            "weight": 1.0,
+            "signal": "S1"
+          }
+        ],
+        "right_boundary_evidence": [
+          {
+            "rule_id": "rule_v_3",
+            "x": 596.909423828125,
+            "weight": 1.0,
+            "signal": "S1"
+          }
+        ],
+        "header_text": "",
+        "boundary_type": "double",
+        "is_double_rule": true,
+        "double_rule_info": {
+          "is_double": true
+        },
+        "coverage_pct": 1.0,
+        "is_spanning_header": false,
+        "child_column_indices": [],
+        "confidence": 1.0,
+        "semantic_type": "generic",
+        "alignment": "left"
+      }
+    ],
+    "rows": [
+      {
+        "index": 0,
+        "row_type": "HEADER",
+        "y0_pt": 9.209,
+        "y1_pt": 65.51,
+        "height_pt": 56.301,
+        "height": {
+          "pt": 56.301,
+          "mm": 19.86,
+          "px": 234.6,
+          "rel_pct": 7.109,
+          "source": "content_stream",
+          "confidence": 1.0
+        },
+        "boundary_type": "virtual",
+        "rule_info": null,
+        "gap_to_next_pt": 0.0,
+        "is_estimated_bottom": true,
+        "text_lines": [],
+        "model_evidence": {
+          "chosen_model": "R4_valleys",
+          "info": null
+        },
+        "confidence": 0.95
+      }
+    ],
+    "cells": [
+      {
+        "cell_id": "cell_r0_c0",
+        "row_index": 0,
+        "col_index": 0,
+        "bbox": {
+          "x0": {
+            "pt": 541.706,
+            "mm": 191.1,
+            "px": 2257.1,
+            "rel_pct": 88.514,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 9.209,
+            "mm": 3.25,
+            "px": 38.4,
+            "rel_pct": 1.163,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 597.159,
+            "mm": 210.66,
+            "px": 2488.2,
+            "rel_pct": 97.575,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 65.51,
+            "mm": 23.11,
+            "px": 273.0,
+            "rel_pct": 8.272,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 55.453,
+            "mm": 19.56,
+            "px": 231.1,
+            "rel_pct": 9.061,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 56.301,
+            "mm": 19.86,
+            "px": 234.6,
+            "rel_pct": 7.109,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          541.456,
+          9.209,
+          597.409,
+          65.51
+        ],
+        "inner_bbox_pt": [
+          541.706,
+          9.209,
+          597.159,
+          65.51
+        ],
+        "joined_text": "",
+        "is_wrapped": false,
+        "line_count": 0,
+        "ink_bbox_pt": null,
+        "padding_left_pt": 0.0,
+        "padding_right_pt": 0.0,
+        "padding_top_pt": 0.0,
+        "padding_bottom_pt": 0.0,
+        "padding_left": {
+          "pt": 0.0,
+          "mm": 0.0,
+          "px": 0.0,
+          "rel_pct": 0.0,
+          "source": "content_stream",
+          "confidence": 1.0
+        },
+        "padding_right": {
+          "pt": 0.0,
+          "mm": 0.0,
+          "px": 0.0,
+          "rel_pct": 0.0,
+          "source": "content_stream",
+          "confidence": 1.0
+        },
+        "padding_top": {
+          "pt": 0.0,
+          "mm": 0.0,
+          "px": 0.0,
+          "rel_pct": 0.0,
+          "source": "content_stream",
+          "confidence": 1.0
+        },
+        "padding_bottom": {
+          "pt": 0.0,
+          "mm": 0.0,
+          "px": 0.0,
+          "rel_pct": 0.0,
+          "source": "content_stream",
+          "confidence": 1.0
+        },
+        "alignment": "left",
+        "alignment_offset_pt": 0.0,
+        "vertical_position": "top",
+        "baseline_offset_from_bottom_pt": 0.0,
+        "flags": {
+          "touching_border": false,
+          "overflow": false,
+          "clipped": false,
+          "empty": true,
+          "spanning": false
+        },
+        "numeric_info": null
+      }
+    ],
+    "gaps": [
+      {
+        "id": "gap_page_top_first_elem",
+        "from_element": "PAGE_TOP",
+        "to_element": "FIRST_ELEMENT",
+        "gap_type": "page_top_to_first_element",
+        "definition_code": "ink_to_ink",
+        "value_pt": 9.709,
+        "value_mm": 3.43,
+        "value_px": 40.5,
+        "definition_string": "Distance from page top (y=0) to the highest ink element top"
+      },
+      {
+        "id": "gap_logo_to_address",
+        "from_element": "LOGO",
+        "to_element": "ADDRESS_BLOCK",
+        "gap_type": "logo_to_address",
+        "definition_code": "ink_to_ink",
+        "value_pt": 44.066,
+        "value_mm": 15.55,
+        "value_px": 183.6,
+        "definition_string": "Vertical gap from bottom of logo to top of address container"
+      },
+      {
+        "id": "gap_last_row_to_table_bottom",
+        "from_element": "ROW_0",
+        "to_element": "TABLE_BOTTOM_RULE",
+        "gap_type": "last_row_to_table_bottom",
+        "definition_code": "rule_to_rule",
+        "value_pt": 0.0,
+        "value_mm": 0.0,
+        "value_px": 0.0,
+        "definition_string": "Distance from last row bottom to table closing rule"
+      },
+      {
+        "id": "margin_left_to_table",
+        "from_element": "PAGE_LEFT",
+        "to_element": "TABLE_LEFT",
+        "gap_type": "margin_left_to_table",
+        "definition_code": "rule_to_rule",
+        "value_pt": 541.456,
+        "value_mm": 191.01,
+        "value_px": 2256.1,
+        "definition_string": "Left margin from page edge to table left vertical rule"
+      },
+      {
+        "id": "margin_right_to_table",
+        "from_element": "TABLE_RIGHT",
+        "to_element": "PAGE_RIGHT",
+        "gap_type": "margin_right_to_table",
+        "definition_code": "rule_to_rule",
+        "value_pt": 14.243,
+        "value_mm": 5.02,
+        "value_px": 59.3,
+        "definition_string": "Right margin from table right vertical rule to page right edge"
+      }
+    ],
+    "positions": {
+      "table_frame": {
+        "origin_in_page_pt": [
+          541.456,
+          9.209
+        ],
+        "width_pt": 56.301,
+        "height_pt": 56.301
+      },
+      "columns": [
+        {
+          "index": 0,
+          "page_frame": {
+            "x0": 541.456,
+            "x1": 597.409,
+            "w": 55.953
+          },
+          "table_frame": {
+            "x0": 0.0,
+            "x1": 55.953,
+            "w": 55.953
+          },
+          "offset_from_table_left_pt": 0.0
+        }
+      ],
+      "rows": [
+        {
+          "index": 0,
+          "page_frame": {
+            "y0": 9.209,
+            "y1": 65.51,
+            "h": 56.301
+          },
+          "table_frame": {
+            "y0": 0.0,
+            "y1": 56.301,
+            "h": 56.301
+          },
+          "offset_from_table_top_pt": 0.0
+        }
+      ],
+      "cells": [
+        {
+          "cell_id": "cell_r0_c0",
+          "row": 0,
+          "col": 0,
+          "page_frame": {
+            "x0": 541.706,
+            "y0": 9.209,
+            "x1": 597.159,
+            "y1": 65.51
+          },
+          "table_frame": {
+            "x0": 0.25,
+            "y0": 0.0,
+            "x1": 55.703,
+            "y1": 56.301
+          }
+        }
+      ]
+    },
+    "pitch_report": {
+      "nominal_pitch_pt": 15.0,
+      "pitch_std_pt": 0.0,
+      "lines_per_row_distribution": {
+        "1": 1
+      },
+      "per_row_deviations": [
+        {
+          "row_index": 0,
+          "height_pt": 56.301,
+          "delta_from_nominal_pt": 41.301
+        }
+      ]
+    },
+    "dimension_arrows": [
+      {
+        "column_index": 0,
+        "left_rule_id": "rule_v_1",
+        "right_rule_id": "rule_v_3",
+        "x0_inner_pt": 541.456,
+        "x1_inner_pt": 597.409,
+        "width_pt": 55.953,
+        "arrow_y_pt": -8.791,
+        "label_text": "55.95 pt"
+      }
+    ],
+    "chosen_models": {
+      "row_model": "R4_valleys",
+      "runner_up_row_model": "R1_ruled",
+      "row_model_scores": {
+        "R1_ruled": 0.0,
+        "R2_zebra": 0.0,
+        "R3_anchor": 0.0,
+        "R4_valleys": 0.3,
+        "R5_pitch": 0.0
+      }
+    },
+    "evidence": {
+      "row_disagreements": [
+        {
+          "row_index": 0,
+          "chosen_band": [
+            9.21,
+            65.51
+          ],
+          "runner_up_band": null,
+          "delta_y0": null
+        }
+      ],
+      "models_evaluated": {
+        "R1_ruled": {
+          "count": 0,
+          "confidence": 0.0
+        },
+        "R2_zebra": {
+          "count": 0,
+          "confidence": 0.0
+        },
+        "R3_anchor": {
+          "count": 0,
+          "confidence": 0.0
+        },
+        "R4_valleys": {
+          "count": 1,
+          "confidence": 0.2
+        },
+        "R5_pitch": {
+          "count": 0,
+          "confidence": 0.0
+        }
+      },
+      "subpixel_deltas": [
+        {
+          "element": "col_rule_0",
+          "vector_pt": 541.456,
+          "raster_delta_pt": 0.48,
+          "fwhm_thickness_pt": 2.64,
+          "flagged": "True"
+        }
+      ],
+      "quantisation_check": {
+        "passed": true,
+        "quantised_ratio": 0.0,
+        "warning": null
+      }
+    },
+    "checks": [
+      {
+        "check_id": "C1",
+        "name": "Chain Closure (sum of widths/heights == table box)",
+        "passed": false,
+        "tolerance": 0.25,
+        "delta": 0.3478,
+        "offending_ids": [
+          "columns"
+        ],
+        "details": "Column width delta: 0.3478 pt, Row height delta: 0.0000 pt"
+      },
+      {
+        "check_id": "C2",
+        "name": "Cell Inner Balance (top pad + ink height + bottom pad == cell inner height)",
+        "passed": true,
+        "tolerance": 0.5,
+        "delta": 0.0,
+        "offending_ids": [],
+        "details": "0 cells deviated by > 0.5 pt"
+      },
+      {
+        "check_id": "C3",
+        "name": "Single Cell Membership (no text line in multiple cells)",
+        "passed": true,
+        "tolerance": 0.0,
+        "delta": 0.0,
+        "offending_ids": [],
+        "details": "0 spans assigned to multiple cells"
+      },
+      {
+        "check_id": "C4",
+        "name": "Padding Sums Alignment Consistency",
+        "passed": true,
+        "tolerance": 5.0,
+        "delta": 0.0,
+        "offending_ids": [],
+        "details": "0 centered cells had asymmetric padding > 5 pt"
+      },
+      {
+        "check_id": "C5",
+        "name": "Gap Matrix Symmetry and Sign Invariance",
+        "passed": true,
+        "tolerance": 0.0,
+        "delta": 0.0,
+        "offending_ids": [],
+        "details": "All gap relationships are directed and consistent"
+      },
+      {
+        "check_id": "C6",
+        "name": "Rebuilt Table Model Closure",
+        "passed": true,
+        "tolerance": 0.5,
+        "delta": 0.3478,
+        "offending_ids": [],
+        "details": "Table coordinates reproduce within 0.5 pt tolerance"
+      }
+    ],
+    "all_checks_passed": false
+  },
+  "confidence": {
+    "layout_structure": 0.98,
+    "typography_extraction": 0.99,
+    "table_geometry": 0.99,
+    "numeric_alignment": 0.97,
+    "pixel_cross_validation": 1.0
+  },
+  "closed_loop_verification": {
+    "overall_ssim": 0.6732,
+    "heatmap_image_path": "diff_heatmap_page_1.png",
+    "self_check": {
+      "overall_status": "DEGRADED",
+      "mean_element_iou": 1.0,
+      "max_vertical_overshoot_pt": 0.0,
+      "ssim_fidelity_score": 0.6732,
+      "region_metrics": [
+        {
+          "region_id": "container_p1_2",
+          "region_type": "decorative_container",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "container_p1_3",
+          "region_type": "decorative_container",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "container_p1_7",
+          "region_type": "decorative_container",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "table_region_p1",
+          "region_type": "transaction_table",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_0",
+          "region_type": "logo_branding",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_1",
+          "region_type": "logo_branding",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_2",
+          "region_type": "header_band_block",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_3",
+          "region_type": "header_band_block",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_4",
+          "region_type": "address_block",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_5",
+          "region_type": "header_band_block",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_6",
+          "region_type": "general_block",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_7",
+          "region_type": "header_band_block",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_8",
+          "region_type": "header_band_block",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_9",
+          "region_type": "general_block",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_10",
+          "region_type": "general_block",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        }
+      ],
+      "cross_checks": {
+        "rule_positions_validated": true,
+        "table_width_assertion": false,
+        "invariants_verified": true
+      }
+    }
+  },
+  "self_check": {
+    "overall_status": "DEGRADED",
+    "mean_element_iou": 1.0,
+    "max_vertical_overshoot_pt": 0.0,
+    "ssim_fidelity_score": 0.6732,
+    "region_metrics": [
+      {
+        "region_id": "container_p1_2",
+        "region_type": "decorative_container",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "container_p1_3",
+        "region_type": "decorative_container",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "container_p1_7",
+        "region_type": "decorative_container",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "table_region_p1",
+        "region_type": "transaction_table",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_0",
+        "region_type": "logo_branding",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_1",
+        "region_type": "logo_branding",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_2",
+        "region_type": "header_band_block",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_3",
+        "region_type": "header_band_block",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_4",
+        "region_type": "address_block",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_5",
+        "region_type": "header_band_block",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_6",
+        "region_type": "general_block",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_7",
+        "region_type": "header_band_block",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_8",
+        "region_type": "header_band_block",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_9",
+        "region_type": "general_block",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_10",
+        "region_type": "general_block",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      }
+    ],
+    "cross_checks": {
+      "rule_positions_validated": true,
+      "table_width_assertion": false,
+      "invariants_verified": true
+    }
+  },
+  "generated_overlays": {
+    "regions": "tests\\baselines\\tmp_out\\overlay_regions_page_1.png",
+    "layout": "tests\\baselines\\tmp_out\\overlay_layout_page_1.png",
+    "containers": "containers.png",
+    "guides": "tests\\baselines\\tmp_out\\overlay_guides_page_1.png",
+    "axes": "tests\\baselines\\tmp_out\\overlay_alignment_axes_page_1.png",
+    "margins": "tests\\baselines\\tmp_out\\overlay_margins_page_1.png",
+    "table": "tests\\baselines\\tmp_out\\overlay_table_page_1.png",
+    "columns_rows": "tests\\baselines\\tmp_out\\overlay_columns_rows_page_1.png",
+    "ink_boxes": "tests\\baselines\\tmp_out\\overlay_ink_boxes_page_1.png",
+    "text_ink_boxes": "tests\\baselines\\tmp_out\\overlay_text_ink_boxes_page_1.png",
+    "padding": "tests\\baselines\\tmp_out\\overlay_padding_page_1.png",
+    "logo": "tests\\baselines\\tmp_out\\overlay_logo_page_1.png",
+    "dimensions": "tests\\baselines\\tmp_out\\overlay_dimensions_page_1.png",
+    "combined": "tests\\baselines\\tmp_out\\annotated_page_1.png",
+    "overlay_columns": "overlay_columns_page_1.png",
+    "overlay_rows": "overlay_rows_page_1.png",
+    "overlay_cells": "overlay_cells_page_1.png",
+    "overlay_gaps": "overlay_gaps_page_1.png",
+    "overlay_evidence": "overlay_evidence_page_1.png",
+    "header_blocks": "header_blocks.png",
+    "footer": "footer.png",
+    "registration": "registration.png",
+    "orphans": "orphans.png"
+  }
+}

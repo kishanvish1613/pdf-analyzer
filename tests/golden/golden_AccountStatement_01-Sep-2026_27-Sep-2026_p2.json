@@ -1,0 +1,34 @@
+{
+  "source": "independent_probe_pymupdf",
+  "pdf_path": "D:\\pdf-analyzer\\uploads\\AccountStatement_01-Sep-2026_27-Sep-2026.pdf",
+  "page_number": 2,
+  "has_table": true,
+  "table_bbox": {
+    "x0_pt": 36.0,
+    "y0_pt": 105.0,
+    "x1_pt": 559.0,
+    "y1_pt": 802.6480102539062,
+    "width_pt": 523.0,
+    "height_pt": 697.6480102539062
+  },
+  "columns": [
+    {
+      "column_index": 1,
+      "x0_pt": 36.0,
+      "x1_pt": 273.72998046875,
+      "width_pt": 237.72998046875
+    },
+    {
+      "column_index": 2,
+      "x0_pt": 273.72998046875,
+      "x1_pt": 416.3699951171875,
+      "width_pt": 142.6400146484375
+    },
+    {
+      "column_index": 3,
+      "x0_pt": 416.3699951171875,
+      "x1_pt": 559.0,
+      "width_pt": 142.6300048828125
+    }
+  ]
+}

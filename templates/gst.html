@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form GSTR-3B Pixel-Perfect Cloner & Layout Engine</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/css/editor.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    code, pre { font-family: 'JetBrains Mono', monospace; }
+    .tab-btn.active {
+      background-color: #1e293b;
+      color: #38bdf8;
+      border-color: #38bdf8;
+    }
+  </style>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col custom-scrollbar">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800 bg-slate-950/90 sticky top-0 z-50 backdrop-blur">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="/" class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-600 via-orange-500 to-yellow-400 flex items-center justify-center shadow-lg shadow-orange-500/20 hover:scale-105 transition-transform">
+          <i class="fa-solid fa-file-invoice text-white text-lg"></i>
+        </a>
+        <div>
+          <div class="flex items-center space-x-2">
+            <span class="font-bold text-lg text-white tracking-tight">Form GSTR-3B Clone Engine</span>
+            <span class="px-2 py-0.5 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">100% Pixel-Match</span>
+          </div>
+          <p class="text-xs text-slate-400">Exact 3-Page GST Return Layout with Peach Banners, Roboto Fonts &amp; Watermark</p>
+        </div>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="/" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-700 transition flex items-center space-x-1.5">
+          <i class="fa-solid fa-arrow-left"></i>
+          <span>Analyzer Home</span>
+        </a>
+        <button id="btnCopyPromptTop" class="text-xs bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-3.5 py-1.5 rounded-lg transition flex items-center space-x-1.5 shadow-md shadow-indigo-600/20">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <span>Copy AI Prompt</span>
+        </button>
+        <button id="btnDownloadPdf" class="text-xs bg-emerald-600 hover:bg-emerald-500 text-white font-medium px-3.5 py-1.5 rounded-lg transition flex items-center space-x-1.5 shadow-md shadow-emerald-600/20">
+          <i class="fa-solid fa-file-pdf"></i>
+          <span>Download PDF</span>
+        </button>
+        <button id="btnViewHtml" class="text-xs bg-blue-600 hover:bg-blue-500 text-white font-medium px-3.5 py-1.5 rounded-lg transition flex items-center space-x-1.5 shadow-md shadow-blue-600/20">
+          <i class="fa-solid fa-code"></i>
+          <span>Open HTML Clone</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+    
+    <!-- Hero / Info Banner -->
+    <section class="bg-slate-950 border border-slate-800 rounded-2xl p-5 shadow-xl relative overflow-hidden">
+      <div class="absolute -right-16 -top-16 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 relative z-10">
+        <div class="space-y-1">
+          <div class="flex items-center space-x-2">
+            <span class="px-2 py-0.5 text-xs font-semibold rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">FORM GSTR-3B</span>
+            <span class="text-xs text-slate-400">[See rule 61(5)]</span>
+            <span class="text-xs text-emerald-400 font-mono font-semibold">STATUS: FILED</span>
+            <span class="text-xs text-sky-400 font-mono bg-sky-500/10 px-2 py-0.5 rounded border border-sky-500/20">pdfmake v1.3</span>
+          </div>
+          <h1 class="text-xl font-bold text-white">Indian Goods & Services Tax Return Clone</h1>
+          <p class="text-slate-400 text-xs">
+            Exact A4 reproduction (595.28 x 841.89 pt), peach section headers (<code class="text-amber-300">#fde8d7</code>), 
+            Roboto font metrics (Medium, Italic, Regular), hierarchical tables (3.1, 3.1.1, 3.2, 4, 5, 5.1, 6.1 &amp; Breakup), and diagonal <span class="text-slate-300 font-semibold">"FILED"</span> watermark.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center gap-2">
+          <button id="btnRecompile" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-4 py-2 rounded-xl transition flex items-center space-x-2 shadow-lg shadow-indigo-600/30">
+            <i class="fa-solid fa-rotate"></i>
+            <span>Recompile PDF &amp; Previews</span>
+          </button>
+          <button id="btnResetData" class="bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs px-3 py-2 rounded-xl border border-slate-700 transition flex items-center space-x-1.5">
+            <i class="fa-solid fa-arrow-rotate-left"></i>
+            <span>Reset Data</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation Tabs -->
+    <div class="flex border-b border-slate-800 space-x-2 text-sm overflow-x-auto">
+      <button id="tabPreviewBtn" class="tab-btn active px-4 py-2.5 font-medium border-b-2 border-transparent transition flex items-center space-x-2 whitespace-nowrap">
+        <i class="fa-solid fa-eye"></i>
+        <span>Live 3-Page Visual Preview</span>
+      </button>
+      <button id="tabEditorBtn" class="tab-btn px-4 py-2.5 font-medium border-b-2 border-transparent transition flex items-center space-x-2 text-slate-400 hover:text-slate-200 whitespace-nowrap">
+        <i class="fa-solid fa-pen-to-square"></i>
+        <span>Interactive Data Editor</span>
+      </button>
+      <button id="tabMetaBtn" class="tab-btn px-4 py-2.5 font-medium border-b-2 border-transparent transition flex items-center space-x-2 text-slate-400 hover:text-slate-200 whitespace-nowrap">
+        <i class="fa-solid fa-circle-info text-amber-400"></i>
+        <span>PDF Metadata &amp; Fonts / Colors</span>
+      </button>
+      <button id="tabPromptBtn" class="tab-btn px-4 py-2.5 font-medium border-b-2 border-transparent transition flex items-center space-x-2 text-slate-400 hover:text-slate-200 whitespace-nowrap">
+        <i class="fa-solid fa-wand-magic-sparkles text-indigo-400"></i>
+        <span>AI Prompt &amp; Layout Spec</span>
+      </button>
+      <button id="tabSpecBtn" class="tab-btn px-4 py-2.5 font-medium border-b-2 border-transparent transition flex items-center space-x-2 text-slate-400 hover:text-slate-200 whitespace-nowrap">
+        <i class="fa-solid fa-brackets-curly"></i>
+        <span>JSON Specification</span>
+      </button>
+    </div>
+
+    <!-- Tab 1: Live Preview -->
+    <section id="tabPreview" class="space-y-6">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        
+        <!-- Page 1 Card -->
+        <div class="bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-lg flex flex-col">
+          <div class="p-3 bg-slate-900 border-b border-slate-800 flex items-center justify-between text-xs font-medium">
+            <span class="text-amber-400 font-semibold"><i class="fa-solid fa-file-lines mr-1.5"></i> Page 1: Tables 3.1, 3.1.1, 3.2, 4(A)</span>
+            <span class="text-slate-500">A4 Portrait</span>
+          </div>
+          <div class="p-3 bg-slate-900/50 flex-1 flex items-center justify-center min-h-[450px]">
+            <a id="linkP1" href="/output/gstr3b_page_1.png" target="_blank" class="block w-full group relative overflow-hidden rounded border border-slate-800 hover:border-blue-500 transition">
+              <img id="imgP1" src="/output/gstr3b_page_1.png" alt="Form GSTR-3B Page 1" class="w-full h-auto object-contain transition group-hover:scale-[1.02]">
+              <div class="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
+                <span class="bg-slate-950/80 text-white text-xs px-2.5 py-1 rounded-md border border-slate-700 shadow"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Expand</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Page 2 Card -->
+        <div class="bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-lg flex flex-col">
+          <div class="p-3 bg-slate-900 border-b border-slate-800 flex items-center justify-between text-xs font-medium">
+            <span class="text-amber-400 font-semibold"><i class="fa-solid fa-file-lines mr-1.5"></i> Page 2: Tables 4(cont), 5, 5.1, 6.1</span>
+            <span class="text-slate-500">A4 Portrait</span>
+          </div>
+          <div class="p-3 bg-slate-900/50 flex-1 flex items-center justify-center min-h-[450px]">
+            <a id="linkP2" href="/output/gstr3b_page_2.png" target="_blank" class="block w-full group relative overflow-hidden rounded border border-slate-800 hover:border-blue-500 transition">
+              <img id="imgP2" src="/output/gstr3b_page_2.png" alt="Form GSTR-3B Page 2" class="w-full h-auto object-contain transition group-hover:scale-[1.02]">
+              <div class="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
+                <span class="bg-slate-950/80 text-white text-xs px-2.5 py-1 rounded-md border border-slate-700 shadow"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Expand</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Page 3 Card -->
+        <div class="bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-lg flex flex-col">
+          <div class="p-3 bg-slate-900 border-b border-slate-800 flex items-center justify-between text-xs font-medium">
+            <span class="text-amber-400 font-semibold"><i class="fa-solid fa-file-lines mr-1.5"></i> Page 3: Breakup &amp; Verification</span>
+            <span class="text-slate-500">A4 Portrait</span>
+          </div>
+          <div class="p-3 bg-slate-900/50 flex-1 flex items-center justify-center min-h-[450px]">
+            <a id="linkP3" href="/output/gstr3b_page_3.png" target="_blank" class="block w-full group relative overflow-hidden rounded border border-slate-800 hover:border-blue-500 transition">
+              <img id="imgP3" src="/output/gstr3b_page_3.png" alt="Form GSTR-3B Page 3" class="w-full h-auto object-contain transition group-hover:scale-[1.02]">
+              <div class="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
+                <span class="bg-slate-950/80 text-white text-xs px-2.5 py-1 rounded-md border border-slate-700 shadow"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Expand</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Tab 2: Interactive Data Editor -->
+    <section id="tabEditor" class="hidden space-y-6">
+      <form id="gstForm" class="space-y-6">
+        
+        <!-- Basic Filing Metadata -->
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-5 shadow-lg space-y-4">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+            <h3 class="text-sm font-bold text-amber-400 flex items-center">
+              <i class="fa-solid fa-id-card mr-2"></i> 1. Supplier &amp; Filing Metadata
+            </h3>
+            <span class="text-xs text-slate-500">Header Information</span>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+            <div>
+              <label class="block text-slate-400 mb-1">Financial Year</label>
+              <input type="text" id="inp_year" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">Tax Period</label>
+              <input type="text" id="inp_period" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">GSTIN</label>
+              <input type="text" id="inp_gstin" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">Legal Name of the Registered Person</label>
+              <input type="text" id="inp_legal_name" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">Trade Name, if any</label>
+              <input type="text" id="inp_trade_name" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">ARN (Ack Reference Number)</label>
+              <input type="text" id="inp_arn" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">ARN Date</label>
+              <input type="text" id="inp_arn_date" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">Filing Status Watermark</label>
+              <input type="text" id="inp_filing_status" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+          </div>
+        </div>
+
+        <!-- Table 3.1 & 3.1.1 Highlights -->
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-5 shadow-lg space-y-4">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+            <h3 class="text-sm font-bold text-amber-400 flex items-center">
+              <i class="fa-solid fa-calculator mr-2"></i> 2. Table 3.1 &amp; Key Tax Figures
+            </h3>
+            <span class="text-xs text-slate-500">Outward Supplies</span>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-xs">
+            <div>
+              <label class="block text-slate-400 mb-1">3.1(a) Taxable Value</label>
+              <input type="text" id="inp_3_1_taxable" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">3.1(a) Central Tax (CGST)</label>
+              <input type="text" id="inp_3_1_cgst" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">3.1(a) State/UT Tax (SGST)</label>
+              <input type="text" id="inp_3_1_sgst" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">3.1(d) Inward Supplies (RCM) Taxable</label>
+              <input type="text" id="inp_3_1_rcm_taxable" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+          </div>
+        </div>
+
+        <!-- Verification & Signatory -->
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-5 shadow-lg space-y-4">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+            <h3 class="text-sm font-bold text-amber-400 flex items-center">
+              <i class="fa-solid fa-signature mr-2"></i> 3. Verification &amp; Authorized Signatory
+            </h3>
+            <span class="text-xs text-slate-500">Signatory Details</span>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+            <div>
+              <label class="block text-slate-400 mb-1">Verification Date</label>
+              <input type="text" id="inp_verif_date" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">Name of Authorized Signatory</label>
+              <input type="text" id="inp_verif_signatory" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+            <div>
+              <label class="block text-slate-400 mb-1">Designation / Status</label>
+              <input type="text" id="inp_verif_desig" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white font-mono focus:border-amber-500 outline-none">
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-end space-x-3 pt-2">
+          <button type="submit" class="bg-amber-600 hover:bg-amber-500 text-slate-950 font-bold px-6 py-2.5 rounded-xl transition flex items-center space-x-2 shadow-lg shadow-amber-600/30">
+            <i class="fa-solid fa-floppy-disk"></i>
+            <span>Save &amp; Generate New PDF</span>
+          </button>
+        </div>
+
+      </form>
+    </section>
+
+    <!-- Tab 3: PDF Metadata & Fonts / Colors Spec -->
+    <section id="tabMeta" class="hidden space-y-6">
+      
+      <!-- Top Overview Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 shadow-lg">
+          <div class="text-xs text-slate-400 uppercase tracking-wider font-semibold">PDF Engine / Creator</div>
+          <div class="text-base font-bold text-white mt-1 flex items-center space-x-2">
+            <span class="text-sky-400 font-mono">pdfmake</span>
+            <span class="px-2 py-0.5 text-[10px] rounded bg-sky-500/20 text-sky-300 border border-sky-500/30">v1.3</span>
+          </div>
+          <div class="text-xs text-slate-500 mt-1">Linearized: No | Tagged: No</div>
+        </div>
+
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 shadow-lg">
+          <div class="text-xs text-slate-400 uppercase tracking-wider font-semibold">Page Layout &amp; Size</div>
+          <div class="text-base font-bold text-white mt-1 font-mono">A4 Portrait</div>
+          <div class="text-xs text-slate-500 mt-1">595.28 x 841.89 pt | 3 Pages</div>
+        </div>
+
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 shadow-lg">
+          <div class="text-xs text-slate-400 uppercase tracking-wider font-semibold">Primary Typeface</div>
+          <div class="text-base font-bold text-amber-400 mt-1 font-mono">Roboto Family</div>
+          <div class="text-xs text-slate-500 mt-1">CID TrueType (Identity-H)</div>
+        </div>
+
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 shadow-lg">
+          <div class="text-xs text-slate-400 uppercase tracking-wider font-semibold">Checksum SHA-256</div>
+          <div class="text-xs font-mono text-emerald-400 mt-1 truncate" title="0d04dd9f6ea9b693e99c80e3746a62d00195c7816aca129c08c641266777016d" id="metaSha256">
+            0d04dd9f6ea9b693e99c80...
+          </div>
+          <div class="text-xs text-slate-500 mt-1">Status: Verified Match</div>
+        </div>
+      </div>
+
+      <!-- Fonts & Typography Section -->
+      <div class="bg-slate-950 border border-slate-800 rounded-xl p-5 shadow-lg space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+          <h3 class="text-sm font-bold text-amber-400 flex items-center">
+            <i class="fa-solid fa-font mr-2"></i> Font Spectrum &amp; Advance Metrics
+          </h3>
+          <span class="text-xs text-slate-500">TrueType CID Identity-H Subsets</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-4 space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold text-white font-mono">AZZZZZ+Roboto-Medium</span>
+              <span class="px-2 py-0.5 text-[10px] rounded bg-blue-500/20 text-blue-300">Obj 10</span>
+            </div>
+            <p class="text-xs text-slate-400">Used for Table Headers, Section Banners, and Column Titles.</p>
+            <div class="text-[11px] font-mono text-slate-500 space-y-0.5 pt-1 border-t border-slate-800">
+              <div>Type: CID TrueType</div>
+              <div>Encoding: Identity-H | Subset: True</div>
+              <div>Weights: Medium (500)</div>
+            </div>
+          </div>
+
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-4 space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold text-white font-mono">BZZZZZ+Roboto-Italic</span>
+              <span class="px-2 py-0.5 text-[10px] rounded bg-purple-500/20 text-purple-300">Obj 11</span>
+            </div>
+            <p class="text-xs text-slate-400">Used for Rule [See rule 61(5)], notes, and descriptive disclaimers.</p>
+            <div class="text-[11px] font-mono text-slate-500 space-y-0.5 pt-1 border-t border-slate-800">
+              <div>Type: CID TrueType</div>
+              <div>Encoding: Identity-H | Subset: True</div>
+              <div>Style: Italic (400)</div>
+            </div>
+          </div>
+
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-4 space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold text-white font-mono">CZZZZZ+Roboto-Regular</span>
+              <span class="px-2 py-0.5 text-[10px] rounded bg-emerald-500/20 text-emerald-300">Obj 13</span>
+            </div>
+            <p class="text-xs text-slate-400">Used for Table Cell values, monetary figures, and verification text.</p>
+            <div class="text-[11px] font-mono text-slate-500 space-y-0.5 pt-1 border-t border-slate-800">
+              <div>Type: CID TrueType</div>
+              <div>Encoding: Identity-H | Subset: True</div>
+              <div>Weights: Regular (400)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Color Tokens & Swatches -->
+      <div class="bg-slate-950 border border-slate-800 rounded-xl p-5 shadow-lg space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+          <h3 class="text-sm font-bold text-amber-400 flex items-center">
+            <i class="fa-solid fa-palette mr-2"></i> Color Palette &amp; Visual Tokens
+          </h3>
+          <span class="text-xs text-slate-500">Official GST Portal Color Specification</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+          
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3 space-y-2">
+            <div class="w-full h-12 rounded border border-amber-300/40 shadow-inner" style="background-color: #fde8d7;"></div>
+            <div>
+              <div class="text-xs font-bold text-white">Peach Banner</div>
+              <div class="text-xs font-mono text-amber-300">#fde8d7</div>
+              <div class="text-[10px] text-slate-400">rgb(253, 232, 215)</div>
+            </div>
+          </div>
+
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3 space-y-2">
+            <div class="w-full h-12 rounded border border-slate-700 shadow-inner" style="background-color: #1e293b;"></div>
+            <div>
+              <div class="text-xs font-bold text-white">Table Border</div>
+              <div class="text-xs font-mono text-slate-300">#1e293b</div>
+              <div class="text-[10px] text-slate-400">rgb(30, 41, 59)</div>
+            </div>
+          </div>
+
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3 space-y-2">
+            <div class="w-full h-12 rounded border border-slate-600 shadow-inner" style="background-color: #94a3b8;"></div>
+            <div>
+              <div class="text-xs font-bold text-white">Inner Grid Rule</div>
+              <div class="text-xs font-mono text-slate-300">#94a3b8</div>
+              <div class="text-[10px] text-slate-400">rgb(148, 163, 184)</div>
+            </div>
+          </div>
+
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3 space-y-2">
+            <div class="w-full h-12 rounded border border-slate-800 shadow-inner" style="background-color: #0f172a;"></div>
+            <div>
+              <div class="text-xs font-bold text-white">Primary Text</div>
+              <div class="text-xs font-mono text-slate-300">#0f172a</div>
+              <div class="text-[10px] text-slate-400">rgb(15, 23, 42)</div>
+            </div>
+          </div>
+
+          <div class="bg-slate-900 border border-slate-800 rounded-lg p-3 space-y-2">
+            <div class="w-full h-12 rounded border border-slate-700 shadow-inner flex items-center justify-center font-bold text-xs" style="background-color: rgba(203, 213, 225, 0.35); color: #cbd5e1;">
+              FILED (52°)
+            </div>
+            <div>
+              <div class="text-xs font-bold text-white">Watermark</div>
+              <div class="text-xs font-mono text-slate-300">#cbd5e1 / 35%</div>
+              <div class="text-[10px] text-slate-400">Angle: 52° | Size: 100pt</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Geometry & Page Boxes -->
+      <div class="bg-slate-950 border border-slate-800 rounded-xl p-5 shadow-lg space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+          <h3 class="text-sm font-bold text-amber-400 flex items-center">
+            <i class="fa-solid fa-ruler-combined mr-2"></i> Page Geometry &amp; Box Coordinates (pt)
+          </h3>
+          <span class="text-xs text-slate-500">A4 ISO 216 Dimensions</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
+          <div class="bg-slate-900 p-4 rounded-lg space-y-2 border border-slate-800">
+            <div class="text-amber-300 font-bold">Coordinate Boxes</div>
+            <div class="text-slate-300">mediaBox : <span class="text-white">0.00 0.00 595.28 841.89</span></div>
+            <div class="text-slate-300">cropBox  : <span class="text-white">0.00 0.00 595.28 841.89</span></div>
+            <div class="text-slate-300">bleedBox : <span class="text-white">0.00 0.00 595.28 841.89</span></div>
+            <div class="text-slate-300">trimBox  : <span class="text-white">0.00 0.00 595.28 841.89</span></div>
+            <div class="text-slate-300">artBox   : <span class="text-white">0.00 0.00 595.28 841.89</span></div>
+          </div>
+
+          <div class="bg-slate-900 p-4 rounded-lg space-y-2 border border-slate-800">
+            <div class="text-amber-300 font-bold">Margins &amp; Usable Area</div>
+            <div class="text-slate-300">Page Size   : <span class="text-white">595.28 x 841.89 pt (210 x 297 mm)</span></div>
+            <div class="text-slate-300">Margin L/R  : <span class="text-white">28.35 pt (10.0 mm)</span></div>
+            <div class="text-slate-300">Margin T/B  : <span class="text-white">28.35 pt (10.0 mm)</span></div>
+            <div class="text-slate-300">Usable Width: <span class="text-white">538.57 pt</span></div>
+            <div class="text-slate-300">Orientation : <span class="text-white">Portrait (pageRot: 0)</span></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Tab 4: AI Prompt Generator & Layout Specification -->
+    <section id="tabPrompt" class="hidden space-y-4">
+      <div class="bg-slate-950 border border-slate-800 rounded-xl p-5 shadow-lg">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3 mb-4">
+          <div>
+            <h3 class="text-sm font-bold text-indigo-400 flex items-center">
+              <i class="fa-solid fa-wand-magic-sparkles mr-2"></i> Form GSTR-3B System Prompt &amp; Layout Specification
+            </h3>
+            <p class="text-xs text-slate-400">Authoritative mathematical specification for feeding to AI PDF generation models</p>
+          </div>
+          <button id="btnCopyPrompt" class="text-xs bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-3.5 py-1.5 rounded-lg transition flex items-center space-x-1.5 shadow-md shadow-indigo-600/20">
+            <i class="fa-regular fa-copy"></i>
+            <span>Copy Full Prompt</span>
+          </button>
+        </div>
+        <pre id="promptViewer" class="p-4 bg-slate-900 rounded-lg text-slate-200 text-xs overflow-x-auto max-h-[600px] border border-slate-800 font-mono whitespace-pre-wrap"></pre>
+      </div>
+    </section>
+
+    <!-- Tab 5: JSON Specification -->
+    <section id="tabSpec" class="hidden space-y-4">
+      <div class="bg-slate-950 border border-slate-800 rounded-xl p-5 shadow-lg">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3 mb-4">
+          <div>
+            <h3 class="text-sm font-bold text-amber-400 flex items-center">
+              <i class="fa-solid fa-code mr-2"></i> Full GSTR-3B Filing JSON Payload &amp; Metadata
+            </h3>
+            <p class="text-xs text-slate-400">Structured data driving the PDF &amp; HTML compilers</p>
+          </div>
+          <button id="btnCopyJson" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-700 transition flex items-center space-x-1.5">
+            <i class="fa-regular fa-copy"></i>
+            <span>Copy JSON</span>
+          </button>
+        </div>
+        <pre id="jsonViewer" class="p-4 bg-slate-900 rounded-lg text-emerald-400 text-xs overflow-x-auto max-h-[600px] border border-slate-800 font-mono"></pre>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="fixed bottom-6 right-6 bg-slate-900 border border-slate-700 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-3 transform translate-y-24 opacity-0 transition-all duration-300 z-50">
+    <div id="toastIcon" class="text-emerald-400"><i class="fa-solid fa-circle-check text-lg"></i></div>
+    <div id="toastMsg" class="text-xs font-medium">Operation completed successfully!</div>
+  </div>
+
+  <script>
+    let currentGstrData = null;
+    let currentGstrMeta = null;
+    let currentGstrPrompt = '';
+
+    function showToast(msg, isError = false) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toastMsg');
+      const toastIcon = document.getElementById('toastIcon');
+      
+      toastMsg.innerText = msg;
+      toastIcon.innerHTML = isError 
+        ? '<i class="fa-solid fa-circle-exclamation text-rose-400 text-lg"></i>' 
+        : '<i class="fa-solid fa-circle-check text-emerald-400 text-lg"></i>';
+      
+      toast.classList.remove('translate-y-24', 'opacity-0');
+      setTimeout(() => {
+        toast.classList.add('translate-y-24', 'opacity-0');
+      }, 3500);
+    }
+
+    // Tab Switching
+    const tabPreviewBtn = document.getElementById('tabPreviewBtn');
+    const tabEditorBtn = document.getElementById('tabEditorBtn');
+    const tabMetaBtn = document.getElementById('tabMetaBtn');
+    const tabPromptBtn = document.getElementById('tabPromptBtn');
+    const tabSpecBtn = document.getElementById('tabSpecBtn');
+    const tabPreview = document.getElementById('tabPreview');
+    const tabEditor = document.getElementById('tabEditor');
+    const tabMeta = document.getElementById('tabMeta');
+    const tabPrompt = document.getElementById('tabPrompt');
+    const tabSpec = document.getElementById('tabSpec');
+
+    const allTabs = [
+      { btn: tabPreviewBtn, sec: tabPreview },
+      { btn: tabEditorBtn, sec: tabEditor },
+      { btn: tabMetaBtn, sec: tabMeta },
+      { btn: tabPromptBtn, sec: tabPrompt },
+      { btn: tabSpecBtn, sec: tabSpec },
+    ];
+
+    function switchTab(activeBtn, activeSection) {
+      allTabs.forEach(t => {
+        t.btn.classList.remove('active', 'border-amber-400', 'text-amber-400');
+        t.btn.classList.add('text-slate-400');
+        t.sec.classList.add('hidden');
+      });
+
+      activeBtn.classList.add('active', 'border-amber-400', 'text-amber-400');
+      activeBtn.classList.remove('text-slate-400');
+      activeSection.classList.remove('hidden');
+    }
+
+    tabPreviewBtn.addEventListener('click', () => switchTab(tabPreviewBtn, tabPreview));
+    tabEditorBtn.addEventListener('click', () => switchTab(tabEditorBtn, tabEditor));
+    tabMetaBtn.addEventListener('click', () => switchTab(tabMetaBtn, tabMeta));
+    tabPromptBtn.addEventListener('click', () => switchTab(tabPromptBtn, tabPrompt));
+    tabSpecBtn.addEventListener('click', () => switchTab(tabSpecBtn, tabSpec));
+
+    // Load initial data, metadata, and prompt
+    async function loadData() {
+      try {
+        const [dataRes, metaRes, promptRes] = await Promise.all([
+          fetch('/api/gst/data'),
+          fetch('/api/gst/metadata'),
+          fetch('/api/gst/prompt')
+        ]);
+        const data = await dataRes.json();
+        const meta = await metaRes.json();
+        const promptJson = await promptRes.json();
+        
+        currentGstrData = data;
+        currentGstrMeta = meta;
+        currentGstrPrompt = promptJson.prompt || '';
+        
+        populateForm(data);
+        if (meta && meta.sha256) {
+          document.getElementById('metaSha256').innerText = meta.sha256;
+          document.getElementById('metaSha256').title = meta.sha256;
+        }
+        document.getElementById('promptViewer').innerText = currentGstrPrompt;
+        document.getElementById('jsonViewer').innerText = JSON.stringify({ data, metadata: meta }, null, 2);
+      } catch (e) {
+        console.error('Failed to load GST data', e);
+      }
+    }
+
+    function populateForm(d) {
+      document.getElementById('inp_year').value = d.year || '';
+      document.getElementById('inp_period').value = d.period || '';
+      document.getElementById('inp_gstin').value = d.gstin || '';
+      document.getElementById('inp_legal_name').value = d.legal_name || '';
+      document.getElementById('inp_trade_name').value = d.trade_name || '';
+      document.getElementById('inp_arn').value = d.arn || '';
+      document.getElementById('inp_arn_date').value = d.arn_date || '';
+      document.getElementById('inp_filing_status').value = d.filing_status || 'FILED';
+
+      if (d.table_3_1 && d.table_3_1.length > 0) {
+        document.getElementById('inp_3_1_taxable').value = d.table_3_1[0].taxable || '';
+        document.getElementById('inp_3_1_cgst').value = d.table_3_1[0].cgst || '';
+        document.getElementById('inp_3_1_sgst').value = d.table_3_1[0].sgst || '';
+      }
+      if (d.table_3_1 && d.table_3_1.length > 3) {
+        document.getElementById('inp_3_1_rcm_taxable').value = d.table_3_1[3].taxable || '';
+      }
+
+      if (d.verification) {
+        document.getElementById('inp_verif_date').value = d.verification.date || '';
+        document.getElementById('inp_verif_signatory').value = d.verification.signatory_name || '';
+        document.getElementById('inp_verif_desig').value = d.verification.designation || '';
+      }
+    }
+
+    // Refresh Preview Images
+    function updatePreviews(t) {
+      const ts = t || Date.now();
+      document.getElementById('imgP1').src = `/output/gstr3b_page_1.png?t=${ts}`;
+      document.getElementById('imgP2').src = `/output/gstr3b_page_2.png?t=${ts}`;
+      document.getElementById('imgP3').src = `/output/gstr3b_page_3.png?t=${ts}`;
+      document.getElementById('linkP1').href = `/output/gstr3b_page_1.png?t=${ts}`;
+      document.getElementById('linkP2').href = `/output/gstr3b_page_2.png?t=${ts}`;
+      document.getElementById('linkP3').href = `/output/gstr3b_page_3.png?t=${ts}`;
+    }
+
+    // Trigger Recompile
+    async function recompilePdf(customData = null) {
+      showToast('Compiling Form GSTR-3B PDF & HTML...');
+      try {
+        const payload = customData || currentGstrData || {};
+        const res = await fetch('/api/gst/generate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const result = await res.json();
+        if (result.status === 'success') {
+          showToast('Form GSTR-3B successfully recompiled!');
+          updatePreviews(Date.now());
+          currentGstrData = result.data;
+          currentGstrMeta = result.metadata;
+          if (result.metadata && result.metadata.sha256) {
+            document.getElementById('metaSha256').innerText = result.metadata.sha256;
+            document.getElementById('metaSha256').title = result.metadata.sha256;
+          }
+          
+          // Refresh prompt
+          const pRes = await fetch('/api/gst/prompt', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(result.data)
+          });
+          const pJson = await pRes.json();
+          currentGstrPrompt = pJson.prompt || '';
+          document.getElementById('promptViewer').innerText = currentGstrPrompt;
+          
+          document.getElementById('jsonViewer').innerText = JSON.stringify({ data: result.data, metadata: result.metadata }, null, 2);
+        } else {
+          showToast(result.error || 'Generation failed', true);
+        }
+      } catch (err) {
+        showToast('Network error during generation: ' + err.message, true);
+      }
+    }
+
+    document.getElementById('btnRecompile').addEventListener('click', () => recompilePdf());
+    document.getElementById('btnDownloadPdf').addEventListener('click', () => {
+      window.location.href = '/api/gst/download-pdf';
+    });
+    document.getElementById('btnViewHtml').addEventListener('click', () => {
+      window.open('/output/Form_GSTR_3B.html', '_blank');
+    });
+
+    function copyPromptAction() {
+      const textToCopy = currentGstrPrompt || document.getElementById('promptViewer').innerText;
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        showToast('Form GSTR-3B AI Layout Prompt copied to clipboard!');
+      });
+    }
+
+    document.getElementById('btnCopyPrompt').addEventListener('click', copyPromptAction);
+    document.getElementById('btnCopyPromptTop').addEventListener('click', copyPromptAction);
+
+    document.getElementById('btnCopyJson').addEventListener('click', () => {
+      const jsonText = document.getElementById('jsonViewer').innerText;
+      navigator.clipboard.writeText(jsonText).then(() => {
+        showToast('JSON copied to clipboard!');
+      });
+    });
+
+    document.getElementById('btnResetData').addEventListener('click', async () => {
+      await loadData();
+      await recompilePdf(currentGstrData);
+      showToast('Reset to authoritative default filing values');
+    });
+
+    // Form submission
+    document.getElementById('gstForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!currentGstrData) return;
+
+      // Update fields
+      currentGstrData.year = document.getElementById('inp_year').value;
+      currentGstrData.period = document.getElementById('inp_period').value;
+      currentGstrData.gstin = document.getElementById('inp_gstin').value;
+      currentGstrData.legal_name = document.getElementById('inp_legal_name').value;
+      currentGstrData.trade_name = document.getElementById('inp_trade_name').value;
+      currentGstrData.arn = document.getElementById('inp_arn').value;
+      currentGstrData.arn_date = document.getElementById('inp_arn_date').value;
+      currentGstrData.filing_status = document.getElementById('inp_filing_status').value;
+
+      if (currentGstrData.table_3_1 && currentGstrData.table_3_1.length > 0) {
+        currentGstrData.table_3_1[0].taxable = document.getElementById('inp_3_1_taxable').value;
+        currentGstrData.table_3_1[0].cgst = document.getElementById('inp_3_1_cgst').value;
+        currentGstrData.table_3_1[0].sgst = document.getElementById('inp_3_1_sgst').value;
+      }
+      if (currentGstrData.table_3_1 && currentGstrData.table_3_1.length > 3) {
+        currentGstrData.table_3_1[3].taxable = document.getElementById('inp_3_1_rcm_taxable').value;
+      }
+
+      if (currentGstrData.verification) {
+        currentGstrData.verification.date = document.getElementById('inp_verif_date').value;
+        currentGstrData.verification.signatory_name = document.getElementById('inp_verif_signatory').value;
+        currentGstrData.verification.designation = document.getElementById('inp_verif_desig').value;
+      }
+
+      await recompilePdf(currentGstrData);
+      switchTab(tabPreviewBtn, tabPreview);
+    });
+
+    // Initial load
+    loadData();
+  </script>
+</body>
+</html>

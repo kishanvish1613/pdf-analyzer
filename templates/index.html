@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Design Analyzer — Visual Layout & Interactive Dimension Editor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/css/editor.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    code, pre { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col custom-scrollbar">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800 bg-slate-950/80 sticky top-0 z-50 backdrop-blur">
+    <div class="max-w-[1760px] 2xl:max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-500 to-cyan-400 flex items-center justify-center shadow-lg shadow-indigo-500/20">
+          <i class="fa-solid fa-layer-group text-white text-lg"></i>
+        </div>
+        <div>
+          <span class="font-bold text-lg text-white tracking-tight">PDF Design Analyzer</span>
+          <span class="ml-2 px-2 py-0.5 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-400 border border-blue-500/30">v2.0 Editor Pro</span>
+        </div>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="/gst" class="text-xs bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 font-medium px-3.5 py-1.5 rounded-lg border border-amber-500/30 transition flex items-center space-x-1.5 shadow-sm">
+          <i class="fa-solid fa-file-invoice"></i>
+          <span>Form GSTR-3B Clone</span>
+        </a>
+        <button id="btnSample" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 px-3.5 py-1.5 rounded-lg border border-slate-700 transition flex items-center space-x-1.5 shadow-sm">
+          <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i>
+          <span>Try Sample Statement</span>
+        </button>
+        <a href="https://github.com" target="_blank" class="text-slate-400 hover:text-slate-200 transition text-sm">
+          <i class="fa-brands fa-github text-lg"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="flex-1 max-w-[1760px] 2xl:max-w-[1920px] w-full mx-auto px-3 sm:px-5 lg:px-6 py-5 space-y-5">
+    
+    <!-- Hero / Upload Section -->
+    <section class="bg-slate-950 border border-slate-800/80 rounded-2xl p-6 relative overflow-hidden shadow-2xl">
+      <div class="absolute -right-20 -top-20 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -left-20 -bottom-20 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div class="lg:col-span-7 space-y-3">
+          <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white leading-tight">
+            Pixel-Accurate PDF Design Reverse-Engineering <br/>
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-indigo-300 to-cyan-400">& Interactive Dimension Editor</span>
+          </h1>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+            Extract exact visual design specifications, column grids, margin guides, and typography. Correct any residual measurements with sub-pixel snapping, loupe magnification, and copy all dimensions in Markdown, TSV, CSV, or Prompt formats.
+          </p>
+          <div class="flex flex-wrap gap-2 text-xs text-slate-400 pt-1">
+            <span class="px-2.5 py-1 rounded-md bg-slate-900 border border-slate-800"><i class="fa-solid fa-check text-green-400 mr-1"></i> Interactive SVG Workbench</span>
+            <span class="px-2.5 py-1 rounded-md bg-slate-900 border border-slate-800"><i class="fa-solid fa-check text-green-400 mr-1"></i> 6-Layer L0-L5 Pipeline</span>
+            <span class="px-2.5 py-1 rounded-md bg-slate-900 border border-slate-800"><i class="fa-solid fa-check text-green-400 mr-1"></i> 1-Click Clipboard Formats</span>
+          </div>
+        </div>
+
+        <!-- Upload Dropzone -->
+        <div class="lg:col-span-5">
+          <form id="uploadForm" class="space-y-3">
+            <div id="dropZone" class="border-2 border-dashed border-slate-700 hover:border-blue-500 bg-slate-900/60 hover:bg-slate-900/90 rounded-2xl p-5 text-center cursor-pointer transition flex flex-col items-center justify-center min-h-[160px] group">
+              <input type="file" id="pdfFileInput" accept=".pdf" class="hidden">
+              <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mb-2 group-hover:scale-110 transition">
+                <i class="fa-solid fa-cloud-arrow-up text-xl"></i>
+              </div>
+              <p class="text-xs font-semibold text-slate-200" id="dropLabel">Drag & drop your PDF file here</p>
+              <p class="text-[11px] text-slate-500 mt-0.5" id="dropSub">or click to browse from device</p>
+              <div id="selectedFileBadge" class="hidden mt-2 px-3 py-1 bg-blue-500/20 text-blue-300 border border-blue-500/40 rounded-full text-xs font-mono flex items-center space-x-1.5">
+                <i class="fa-regular fa-file-pdf"></i>
+                <span id="selectedFileName">filename.pdf</span>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label class="block text-[11px] font-medium text-slate-400 mb-1">Raster DPI</label>
+                <select id="dpiSelect" class="w-full bg-slate-900 border border-slate-700 text-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:ring-1 focus:ring-blue-500 focus:outline-none">
+                  <option value="300" selected>300 DPI (High Fidelity)</option>
+                  <option value="150">150 DPI (Fast)</option>
+                  <option value="600">600 DPI (Ultra)</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-[11px] font-medium text-slate-400 mb-1">Select Page to Analyze</label>
+                <select id="pageSelectDropdown" class="w-full bg-slate-900 border border-slate-700 text-slate-200 rounded-lg px-2.5 py-1.5 text-xs focus:ring-1 focus:ring-blue-500 focus:outline-none font-semibold text-amber-300">
+                  <option value="1" selected>Page 1</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" id="btnAnalyze" class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium py-2 px-4 rounded-xl text-xs transition shadow-lg shadow-blue-500/20 flex items-center justify-center space-x-2">
+              <i class="fa-solid fa-bolt text-amber-300"></i>
+              <span>Analyze & Reverse-Engineer Selected Page</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Progress / Loading Spinner -->
+    <div id="loadingState" class="hidden bg-slate-950 border border-slate-800 rounded-2xl p-8 text-center space-y-4">
+      <div class="inline-block animate-spin rounded-full h-10 w-10 border-4 border-blue-500 border-t-transparent"></div>
+      <h3 class="text-base font-semibold text-slate-200">Executing Deep Layout Extraction Pipeline...</h3>
+      <p class="text-xs text-slate-400 max-w-md mx-auto" id="loadingStage">
+        Running PyMuPDF text spans & OpenCV computer vision measurements...
+      </p>
+    </div>
+
+    <!-- Results Section (Visible after analysis) -->
+    <div id="resultsContainer" class="hidden space-y-6 scroll-mt-20">
+      
+      <!-- Summary Bar & Export Action Controls -->
+      <div class="bg-slate-950 border border-slate-800 rounded-2xl p-4 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center justify-center text-lg">
+            <i class="fa-solid fa-circle-check"></i>
+          </div>
+          <div>
+            <div class="flex items-center space-x-2">
+              <h2 class="text-base font-bold text-white" id="resDocName">Statement Analysis Complete</h2>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300" id="resPageBadge">1 Page</span>
+            </div>
+            <p class="text-xs text-slate-400" id="resDimBadge">612 x 792 pt | 300 DPI | Letter</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2 text-xs">
+          <button id="btnOpenInEditor" class="px-3 py-1.5 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white rounded-lg font-medium flex items-center space-x-1.5 transition shadow-sm">
+            <i class="fa-solid fa-pen-ruler"></i>
+            <span>Open in Editor</span>
+          </button>
+          <a id="btnDownloadJson" href="#" download class="px-3 py-1.5 bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 rounded-lg font-medium flex items-center space-x-1.5 transition">
+            <i class="fa-solid fa-code text-blue-400"></i>
+            <span>design_spec.json</span>
+          </a>
+          <a id="btnDownloadMd" href="#" download class="px-3 py-1.5 bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 rounded-lg font-medium flex items-center space-x-1.5 transition">
+            <i class="fa-solid fa-file-lines text-amber-400"></i>
+            <span>design_report.md</span>
+          </a>
+          <a id="btnDownloadCsv" href="#" download class="px-3 py-1.5 bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 rounded-lg font-medium flex items-center space-x-1.5 transition">
+            <i class="fa-solid fa-table text-emerald-400"></i>
+            <span>elements.csv</span>
+          </a>
+          <a id="btnDownloadPdf" href="#" download class="px-3 py-1.5 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-medium flex items-center space-x-1.5 transition shadow-sm">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span>Reproduced PDF</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Main Navigation Tabs -->
+      <div class="border-b border-slate-800">
+        <nav class="flex space-x-2 overflow-x-auto custom-scrollbar pb-2" id="tabNav">
+          <button class="tab-btn px-4 py-2 text-xs font-semibold rounded-lg bg-blue-600 text-white shadow-sm flex items-center space-x-2" data-target="tab-editor">
+            <i class="fa-solid fa-pen-ruler text-cyan-300"></i><span>Interactive Dimension Editor</span>
+          </button>
+          <button class="tab-btn px-4 py-2 text-xs font-semibold rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-slate-200 transition flex items-center space-x-2" data-target="tab-visual">
+            <i class="fa-solid fa-eye"></i><span>Visual Overlay</span>
+          </button>
+          <button class="tab-btn px-4 py-2 text-xs font-semibold rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-slate-200 transition flex items-center space-x-2" data-target="tab-table">
+            <i class="fa-solid fa-table-columns"></i><span>Table & Alignment</span>
+          </button>
+          <button class="tab-btn px-4 py-2 text-xs font-semibold rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-slate-200 transition flex items-center space-x-2" data-target="tab-typography">
+            <i class="fa-solid fa-font"></i><span>Typography & Colors</span>
+          </button>
+          <button class="tab-btn px-4 py-2 text-xs font-semibold rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-slate-200 transition flex items-center space-x-2" data-target="tab-reproduction">
+            <i class="fa-solid fa-clone"></i><span>HTML/CSS Sandbox</span>
+          </button>
+          <button class="tab-btn px-4 py-2 text-xs font-semibold rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-slate-200 transition flex items-center space-x-2" data-target="tab-report">
+            <i class="fa-solid fa-book-open"></i><span>Full Report (MD)</span>
+          </button>
+          <button class="tab-btn px-4 py-2 text-xs font-semibold rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-slate-200 transition flex items-center space-x-2" data-target="tab-json">
+            <i class="fa-solid fa-code"></i><span>JSON Spec</span>
+          </button>
+        </nav>
+      </div>
+
+      <!-- TAB 0: Interactive Dimension Editor Workbench -->
+      <div id="tab-editor" class="tab-content block w-full">
+        <div id="editorContainer" class="h-full w-full"></div>
+      </div>
+
+      <!-- Tab 1: Visual Overlay & Inspector -->
+      <div id="tab-visual" class="tab-content hidden space-y-6">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+          <div class="lg:col-span-8 bg-slate-950 border border-slate-800 rounded-2xl p-4 flex flex-col items-center justify-center relative">
+            <div class="w-full flex items-center justify-between pb-3 border-b border-slate-800 text-xs text-slate-400">
+              <span class="font-semibold text-slate-200">Annotated Raster Inspector</span>
+              <div class="flex items-center space-x-2">
+                <button id="btnVisualZoomOut" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-300"><i class="fa-solid fa-minus"></i></button>
+                <button id="btnVisualZoomReset" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 font-mono text-[11px]">100%</button>
+                <button id="btnVisualZoomIn" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-300"><i class="fa-solid fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="w-full overflow-auto max-h-[750px] flex justify-center bg-slate-900/50 p-4 rounded-xl border border-slate-900 custom-scrollbar mt-3">
+              <img id="annotatedImage" src="" alt="Annotated Page" class="max-w-full h-auto rounded-lg shadow-2xl border border-slate-800 transition-transform origin-top">
+            </div>
+          </div>
+          <div class="lg:col-span-4 space-y-4">
+            <div class="bg-slate-950 border border-slate-800 rounded-2xl p-5 space-y-4">
+              <h3 class="text-sm font-bold text-white flex items-center space-x-2">
+                <i class="fa-solid fa-shapes text-indigo-400"></i>
+                <span>Detected Region Hierarchy</span>
+              </h3>
+              <div id="regionList" class="space-y-2 max-h-[280px] overflow-y-auto custom-scrollbar text-xs"></div>
+            </div>
+            <div class="bg-slate-950 border border-slate-800 rounded-2xl p-5 space-y-3">
+              <h3 class="text-sm font-bold text-white flex items-center space-x-2">
+                <i class="fa-solid fa-image text-cyan-400"></i>
+                <span>Brand Logo / Emblem</span>
+              </h3>
+              <div id="logoCardContent" class="text-xs text-slate-300 space-y-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 2: Table & Alignment -->
+      <div id="tab-table" class="tab-content hidden space-y-6">
+        <div class="bg-slate-950 border border-slate-800 rounded-2xl p-6 space-y-4">
+          <h3 class="text-base font-bold text-white flex items-center space-x-2">
+            <i class="fa-solid fa-table-columns text-blue-400"></i>
+            <span>Table Column Partitions & Widths</span>
+          </h3>
+          <div class="overflow-x-auto custom-scrollbar">
+            <table class="w-full text-left text-xs border-collapse">
+              <thead>
+                <tr class="border-b border-slate-800 bg-slate-900/60 text-slate-400">
+                  <th class="p-3">#</th>
+                  <th class="p-3">Header Text</th>
+                  <th class="p-3">Type</th>
+                  <th class="p-3">Width (pt)</th>
+                  <th class="p-3">Width (mm)</th>
+                  <th class="p-3">Width (%)</th>
+                </tr>
+              </thead>
+              <tbody id="tableColumnsBody" class="divide-y divide-slate-800/60 text-slate-300"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 3: Typography -->
+      <div id="tab-typography" class="tab-content hidden space-y-6">
+        <div class="bg-slate-950 border border-slate-800 rounded-2xl p-6 space-y-4">
+          <h3 class="text-base font-bold text-white flex items-center space-x-2">
+            <i class="fa-solid fa-font text-purple-400"></i>
+            <span>Typography Hierarchy & Colors</span>
+          </h3>
+          <div class="overflow-x-auto custom-scrollbar">
+            <table class="w-full text-left text-xs border-collapse">
+              <thead>
+                <tr class="border-b border-slate-800 bg-slate-900/60 text-slate-400">
+                  <th class="p-3">Role</th>
+                  <th class="p-3">Font Family</th>
+                  <th class="p-3">Size (pt)</th>
+                  <th class="p-3">Color</th>
+                </tr>
+              </thead>
+              <tbody id="typographyBody" class="divide-y divide-slate-800/60 text-slate-300"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 4: HTML Sandbox -->
+      <div id="tab-reproduction" class="tab-content hidden space-y-6">
+        <div class="bg-slate-950 border border-slate-800 rounded-2xl p-6 space-y-4">
+          <div class="flex items-center justify-between">
+            <h3 class="text-base font-bold text-white flex items-center space-x-2">
+              <i class="fa-solid fa-code text-cyan-400"></i>
+              <span>Pixel-Accurate HTML & CSS Reproduction</span>
+            </h3>
+            <a id="btnOpenHtmlTab" href="/output/reproduced_layout.html" target="_blank" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded text-xs">
+              <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i> Open in New Tab
+            </a>
+          </div>
+          <div class="w-full h-[700px] border border-slate-800 rounded-xl overflow-hidden bg-white">
+            <iframe id="reproductionIframe" src="/output/reproduced_layout.html" class="w-full h-full border-0"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 5: Report -->
+      <div id="tab-report" class="tab-content hidden space-y-6">
+        <div class="bg-slate-950 border border-slate-800 rounded-2xl p-8 space-y-4 text-xs prose prose-invert max-w-none custom-scrollbar">
+          <div id="markdownRenderedContent"></div>
+        </div>
+      </div>
+
+      <!-- Tab 6: JSON Spec -->
+      <div id="tab-json" class="tab-content hidden space-y-6">
+        <div class="bg-slate-950 border border-slate-800 rounded-2xl p-6 space-y-3">
+          <div class="flex items-center justify-between">
+            <h3 class="text-sm font-bold text-white">Full Structured JSON Specification</h3>
+            <button id="btnCopyJson" class="px-3 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs rounded">Copy JSON</button>
+          </div>
+          <pre class="bg-slate-900 p-4 rounded-xl text-2xs font-mono text-cyan-300 overflow-x-auto max-h-[600px] custom-scrollbar" id="jsonCodeBlock"></pre>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script type="module">
+    import { DimensionEditor } from '/static/js/editor.js';
+
+    let globalEditor = null;
+    let globalSpec = null;
+    let globalElements = [];
+    let currentDocId = "sample_statement.pdf";
+    let visualZoom = 1.0;
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlDoc = urlParams.get('doc');
+      if (urlDoc) currentDocId = urlDoc;
+
+      globalEditor = new DimensionEditor('editorContainer', currentDocId);
+
+      // Auto load if opened via /editor
+      if (window.location.pathname === '/editor' || urlDoc) {
+        loadDocumentEditor(currentDocId);
+      }
+    });
+
+    // Navigation Tab Switching
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    function switchTab(targetId) {
+      tabBtns.forEach(b => {
+        b.classList.remove('bg-blue-600', 'text-white', 'shadow-sm');
+        b.classList.add('bg-slate-900', 'text-slate-400');
+        if (b.dataset.target === targetId) {
+          b.classList.remove('bg-slate-900', 'text-slate-400');
+          b.classList.add('bg-blue-600', 'text-white', 'shadow-sm');
+        }
+      });
+      tabContents.forEach(c => c.classList.add('hidden'));
+      document.getElementById(targetId)?.classList.remove('hidden');
+
+      if (targetId === 'tab-editor' && globalEditor) {
+        setTimeout(() => {
+          globalEditor.zoomFitPage();
+          globalEditor.render();
+        }, 50);
+      }
+    }
+
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => switchTab(btn.dataset.target));
+    });
+
+    document.getElementById('btnOpenInEditor')?.addEventListener('click', () => {
+      switchTab('tab-editor');
+    });
+
+    // Visual Overlay Tab Zoom Controls
+    const visualImg = document.getElementById('annotatedImage');
+    const visualResetBtn = document.getElementById('btnVisualZoomReset');
+    function setVisualZoom(z) {
+      visualZoom = Math.max(0.3, Math.min(3.0, z));
+      if (visualImg) visualImg.style.transform = `scale(${visualZoom})`;
+      if (visualResetBtn) visualResetBtn.textContent = `${Math.round(visualZoom * 100)}%`;
+    }
+    document.getElementById('btnVisualZoomIn')?.addEventListener('click', () => setVisualZoom(visualZoom * 1.25));
+    document.getElementById('btnVisualZoomOut')?.addEventListener('click', () => setVisualZoom(visualZoom / 1.25));
+    document.getElementById('btnVisualZoomReset')?.addEventListener('click', () => setVisualZoom(1.0));
+
+    async function loadDocumentEditor(docId) {
+      try {
+        const res = await fetch(`/api/editor/${docId}/page/1/model`);
+        const data = await res.json();
+        if (data.status === 'success' && data.editor_model) {
+          const pageImg = data.page_image || data.urls?.page_image || `/output/page_1.png`;
+          globalEditor.loadModel(data.editor_model, pageImg, docId);
+          document.getElementById('resultsContainer').classList.remove('hidden');
+          switchTab('tab-editor');
+        }
+      } catch (err) {
+        console.error("Failed to load document into editor:", err);
+      }
+    }
+
+    // File Drag & Drop
+    const dropZone = document.getElementById('dropZone');
+    const fileInput = document.getElementById('pdfFileInput');
+    const selectedBadge = document.getElementById('selectedFileBadge');
+    const selectedName = document.getElementById('selectedFileName');
+
+    dropZone.addEventListener('click', () => fileInput.click());
+    dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('border-blue-500', 'bg-slate-900/90'); });
+    dropZone.addEventListener('dragleave', () => dropZone.classList.remove('border-blue-500', 'bg-slate-900/90'));
+    dropZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropZone.classList.remove('border-blue-500', 'bg-slate-900/90');
+      if (e.dataTransfer.files.length > 0) {
+        fileInput.files = e.dataTransfer.files;
+        handleFileSelect(fileInput.files[0]);
+      }
+    });
+    fileInput.addEventListener('change', () => {
+      if (fileInput.files.length > 0) handleFileSelect(fileInput.files[0]);
+    });
+
+    async function handleFileSelect(file) {
+      selectedName.textContent = file.name;
+      selectedBadge.classList.remove('hidden');
+
+      // Fetch PDF page count immediately to populate dropdown
+      try {
+        const formData = new FormData();
+        formData.append('pdf', file);
+        const res = await fetch('/api/pdf-info', { method: 'POST', body: formData });
+        const data = await res.json();
+        if (data.status === 'success' && data.total_pages) {
+          const pageSelect = document.getElementById('pageSelectDropdown');
+          pageSelect.innerHTML = '';
+          for (let p = 1; p <= data.total_pages; p++) {
+            const opt = document.createElement('option');
+            opt.value = p;
+            opt.textContent = `Page ${p} of ${data.total_pages}`;
+            pageSelect.appendChild(opt);
+          }
+        }
+      } catch (err) {
+        console.warn("Could not retrieve PDF info:", err);
+      }
+    }
+
+    // Try Sample Button
+    document.getElementById('btnSample').addEventListener('click', async () => {
+      const selectedPage = document.getElementById('pageSelectDropdown')?.value || "1";
+      showLoading(true, `Generating synthetic benchmark statement & analyzing Page ${selectedPage}...`);
+      try {
+        const formData = new FormData();
+        formData.append('dpi', document.getElementById('dpiSelect').value);
+        formData.append('page', selectedPage);
+
+        const res = await fetch('/api/sample', { method: 'POST', body: formData });
+        const data = await res.json();
+        if (data.status === 'success') {
+          currentDocId = data.doc_id || "sample_statement.pdf";
+          populateResults(data);
+        } else {
+          alert("Error: " + (data.error || "Analysis failed"));
+        }
+      } catch (err) {
+        alert("Request failed: " + err.message);
+      } finally {
+        showLoading(false);
+      }
+    });
+
+    // Upload Form Submit
+    document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!fileInput.files.length) {
+        alert("Please select a PDF file to upload.");
+        return;
+      }
+      const selectedPage = document.getElementById('pageSelectDropdown')?.value || "1";
+      showLoading(true, `Running analysis & recovering design specification for Page ${selectedPage}...`);
+      try {
+        const formData = new FormData();
+        formData.append('pdf', fileInput.files[0]);
+        formData.append('dpi', document.getElementById('dpiSelect').value);
+        formData.append('page', selectedPage);
+
+        const res = await fetch('/api/upload', { method: 'POST', body: formData });
+        const data = await res.json();
+        if (data.status === 'success') {
+          currentDocId = data.doc_id || fileInput.files[0].name;
+          populateResults(data);
+        } else {
+          alert("Error: " + (data.error || "Upload failed"));
+        }
+      } catch (err) {
+        alert("Upload error: " + err.message);
+      } finally {
+        showLoading(false);
+      }
+    });
+
+    function showLoading(show, stageMsg = "") {
+      const loader = document.getElementById('loadingState');
+      const results = document.getElementById('resultsContainer');
+      if (show) {
+        loader.classList.remove('hidden');
+        results.classList.add('hidden');
+        document.getElementById('loadingStage').textContent = stageMsg;
+      } else {
+        loader.classList.add('hidden');
+      }
+    }
+
+    function populateResults(data) {
+      globalSpec = data.spec;
+      globalElements = data.elements || [];
+
+      document.getElementById('resDocName').textContent = data.filename;
+      document.getElementById('resDimBadge').textContent = `${data.spec.frame?.width_pt || 612} x ${data.spec.frame?.height_pt || 792} pt | ${data.spec.frame?.dpi || 300} DPI`;
+      document.getElementById('annotatedImage').src = data.urls.annotated_image;
+
+      // Initialize Dimension Editor Model with active doc ID
+      if (globalEditor && data.editor_model) {
+        const pageImg = data.urls?.page_image || data.page_image || `/output/page_${data.page_number || 1}.png`;
+        globalEditor.loadModel(data.editor_model, pageImg, currentDocId);
+      }
+
+      // Populate Visual Cards
+      const regList = document.getElementById('regionList');
+      regList.innerHTML = '';
+      (data.spec.layout?.regions || []).forEach(r => {
+        const div = document.createElement('div');
+        div.className = 'p-2.5 rounded-lg bg-slate-900 border border-slate-800 flex justify-between items-center';
+        div.innerHTML = `
+          <span class="font-bold text-white capitalize">${r.name}</span>
+          <span class="font-mono text-cyan-400 text-xs">${r.height_pt} pt (${r.width_pct}%)</span>
+        `;
+        regList.appendChild(div);
+      });
+
+      // Populate Table Columns
+      const colBody = document.getElementById('tableColumnsBody');
+      colBody.innerHTML = '';
+      (data.spec.table_model?.columns || []).forEach(col => {
+        const tr = document.createElement('tr');
+        tr.className = 'hover:bg-slate-900/40';
+        tr.innerHTML = `
+          <td class="p-3 font-mono text-slate-400">${col.column_index}</td>
+          <td class="p-3 font-semibold text-white">${col.header_text}</td>
+          <td class="p-3 text-slate-300 capitalize">${col.semantic_type}</td>
+          <td class="p-3 font-mono text-slate-200">${col.width_pt} pt</td>
+          <td class="p-3 font-mono text-slate-400">${col.width_mm} mm</td>
+          <td class="p-3 font-mono text-cyan-400">${col.width_pct}%</td>
+        `;
+        colBody.appendChild(tr);
+      });
+
+      // Populate Typography
+      const typoBody = document.getElementById('typographyBody');
+      typoBody.innerHTML = '';
+      (data.spec.typography?.styles || []).forEach(st => {
+        const tr = document.createElement('tr');
+        tr.className = 'hover:bg-slate-900/40';
+        tr.innerHTML = `
+          <td class="p-3"><span class="px-2 py-0.5 rounded bg-slate-800 text-indigo-300 font-mono">${st.role}</span></td>
+          <td class="p-3 font-semibold text-white">${st.clean_font_family}</td>
+          <td class="p-3 font-mono text-slate-200">${st.font_size_pt} pt</td>
+          <td class="p-3 font-mono text-slate-300">${st.color_hex}</td>
+        `;
+        typoBody.appendChild(tr);
+      });
+
+      // Full Report Markdown
+      if (data.markdown_text) {
+        document.getElementById('markdownRenderedContent').innerHTML = marked.parse(data.markdown_text);
+      }
+
+      // JSON Spec
+      document.getElementById('jsonCodeBlock').textContent = JSON.stringify(data.spec, null, 2);
+
+      document.getElementById('resultsContainer').classList.remove('hidden');
+      switchTab('tab-editor');
+      document.getElementById('resultsContainer').scrollIntoView({ behavior: 'smooth' });
+    }
+    window.populateResults = populateResults;
+
+    // Copy JSON Spec
+    document.getElementById('btnCopyJson')?.addEventListener('click', () => {
+      if (globalSpec) {
+        navigator.clipboard.writeText(JSON.stringify(globalSpec, null, 2));
+        alert("JSON Spec copied to clipboard!");
+      }
+    });
+  </script>
+</body>
+</html>

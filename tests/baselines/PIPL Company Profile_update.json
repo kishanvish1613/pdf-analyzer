@@ -1,0 +1,1393 @@
+{
+  "meta": {
+    "page_number": 1,
+    "total_pages": 10,
+    "width": {
+      "pt": 960.0,
+      "mm": 338.67,
+      "px": 4000.0,
+      "rel_pct": 100.0,
+      "source": "content_stream",
+      "confidence": 1.0
+    },
+    "height": {
+      "pt": 540.0,
+      "mm": 190.5,
+      "px": 2250.0,
+      "rel_pct": 100.0,
+      "source": "content_stream",
+      "confidence": 1.0
+    },
+    "orientation": "landscape",
+    "rotation_deg": 0,
+    "cropbox_pt": [
+      0.0,
+      0.0,
+      960.0,
+      540.0
+    ],
+    "mediabox_pt": [
+      0.0,
+      0.0,
+      960.0,
+      540.0
+    ],
+    "dpi": 300,
+    "coordinate_system": "Top-Left origin (x=0, y=0 at top-left; x increases right, y increases down). Unified transform applied."
+  },
+  "frame": {
+    "page_number": 1,
+    "cropbox_pt": [
+      0.0,
+      0.0,
+      960.0,
+      540.0
+    ],
+    "mediabox_pt": [
+      0.0,
+      0.0,
+      960.0,
+      540.0
+    ],
+    "rotation_deg": 0,
+    "user_unit": 1.0,
+    "dpi": 300,
+    "width_pt": 960.0,
+    "height_pt": 540.0,
+    "raster_width_px": 4001,
+    "raster_height_px": 2250,
+    "pixel_scale": 4.166667,
+    "pixel_convention": "Continuous top-left origin; pixel center at (x+0.5, y+0.5)"
+  },
+  "registration": {
+    "page_number": 1,
+    "status": "PASS",
+    "control_points_count": 0,
+    "fitted_transform": {
+      "dx_pt": 0.0,
+      "dy_pt": 0.0,
+      "sx": 1.0,
+      "sy": 1.0
+    },
+    "gate_checks": {
+      "dx_within_0_1pt": true,
+      "dy_within_0_1pt": true,
+      "sx_within_0_0005": true,
+      "sy_within_0_0005": true,
+      "max_residual_pt": 0.0,
+      "mean_residual_pt": 0.0,
+      "gate_passed": true
+    },
+    "offending_rules": [],
+    "measurements": []
+  },
+  "containers": [],
+  "header_blocks": {
+    "blocks": [],
+    "reading_order": [],
+    "pairing": {}
+  },
+  "key_values": {
+    "entities": [],
+    "chosen_style": "none",
+    "runner_up_style": "none",
+    "axes": {}
+  },
+  "footer_blocks": {
+    "page_number": 1,
+    "classification": "none",
+    "bbox_pt": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sub_blocks": [],
+    "gap_table_to_footer_ink_pt": 0.0,
+    "gap_table_to_footer_border_pt": 0.0,
+    "gap_footer_to_page_bottom_pt": 0.0
+  },
+  "coverage": {
+    "total_characters": 25,
+    "assigned_characters": 25,
+    "orphaned_characters": 0,
+    "characters_per_region": {
+      "header": 0,
+      "table": 25,
+      "footer": 0
+    },
+    "residual_ink_pixel_count": 0,
+    "residual_ink_pct": 0.0,
+    "invisible_text_spans_count": 0,
+    "unclassified_ink_components_count": 0,
+    "status": "PASS"
+  },
+  "template_profile": {
+    "table_style": "borderless",
+    "runner_up_table_style": "vertical_rules_only",
+    "header_style": "single_block",
+    "footer_style": "none",
+    "kv_style": "none",
+    "is_ambiguous": false,
+    "confidence_score": 0.98
+  },
+  "layout": {
+    "layout_tree": {
+      "page_root_p1": {
+        "id": "page_root_p1",
+        "type": "PAGE_ROOT",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 960.0,
+            "mm": 338.67,
+            "px": 4000.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 540.0,
+            "mm": 190.5,
+            "px": 2250.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 960.0,
+            "mm": 338.67,
+            "px": 4000.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 540.0,
+            "mm": 190.5,
+            "px": 2250.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": null,
+        "children": [
+          "container_p1_1",
+          "block_p1_0",
+          "block_p1_1"
+        ],
+        "member_ids": [],
+        "classifying_rule": "page_boundary",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "container_p1_1": {
+        "id": "container_p1_1",
+        "type": "DECORATIVE_CONTAINER",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 0.24,
+            "mm": 0.08,
+            "px": 1.0,
+            "rel_pct": 0.025,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 504.72,
+            "mm": 178.05,
+            "px": 2103.0,
+            "rel_pct": 93.467,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 960.0,
+            "mm": 338.67,
+            "px": 4000.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 540.0,
+            "mm": 190.5,
+            "px": 2250.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 959.76,
+            "mm": 338.58,
+            "px": 3999.0,
+            "rel_pct": 99.975,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 35.28,
+            "mm": 12.45,
+            "px": 147.0,
+            "rel_pct": 6.533,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [],
+        "classifying_rule": "vector_closed_path",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": true,
+        "attributes": {}
+      },
+      "block_p1_0": {
+        "id": "block_p1_0",
+        "type": "LOGO_BRANDING",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 10.0,
+            "mm": 3.53,
+            "px": 41.7,
+            "rel_pct": 1.042,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 10.0,
+            "mm": 3.53,
+            "px": 41.7,
+            "rel_pct": 1.852,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 10.0,
+            "mm": 3.53,
+            "px": 41.7,
+            "rel_pct": 1.042,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 10.0,
+            "mm": 3.53,
+            "px": 41.7,
+            "rel_pct": 1.852,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "img_p1_0",
+          "img_p1_1",
+          "img_p1_2",
+          "img_p1_3"
+        ],
+        "classifying_rule": "logo_image_or_top_left_brand",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      },
+      "block_p1_1": {
+        "id": "block_p1_1",
+        "type": "GENERAL_BLOCK",
+        "page": 1,
+        "bbox": {
+          "x0": {
+            "pt": 13.536,
+            "mm": 4.78,
+            "px": 56.4,
+            "rel_pct": 1.41,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 173.746,
+            "mm": 61.29,
+            "px": 723.9,
+            "rel_pct": 32.175,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 573.335,
+            "mm": 202.26,
+            "px": 2388.9,
+            "rel_pct": 59.722,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 257.074,
+            "mm": 90.69,
+            "px": 1071.1,
+            "rel_pct": 47.606,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 559.799,
+            "mm": 197.48,
+            "px": 2332.5,
+            "rel_pct": 58.312,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 83.328,
+            "mm": 29.4,
+            "px": 347.2,
+            "rel_pct": 15.431,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "parent": "page_root_p1",
+        "children": [],
+        "member_ids": [
+          "span_p1_0",
+          "span_p1_1"
+        ],
+        "classifying_rule": "unclassified_leaf_block",
+        "confidence": 1.0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "sibling_overlap_area": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "is_container": false,
+        "attributes": {}
+      }
+    },
+    "regions": [
+      {
+        "region_id": "container_p1_1",
+        "region_type": "decorative_container",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 0.24,
+            "mm": 0.08,
+            "px": 1.0,
+            "rel_pct": 0.025,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 504.72,
+            "mm": 178.05,
+            "px": 2103.0,
+            "rel_pct": 93.467,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 960.0,
+            "mm": 338.67,
+            "px": 4000.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 540.0,
+            "mm": 190.5,
+            "px": 2250.0,
+            "rel_pct": 100.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 959.76,
+            "mm": 338.58,
+            "px": 3999.0,
+            "rel_pct": 99.975,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 35.28,
+            "mm": 12.45,
+            "px": 147.0,
+            "rel_pct": 6.533,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          0.23999999463558197,
+          504.7198181152344,
+          960.0,
+          539.9998168945312
+        ],
+        "is_container": true,
+        "element_count": 0,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "vector_closed_path"
+      },
+      {
+        "region_id": "block_p1_0",
+        "region_type": "logo_branding",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 0.0,
+            "mm": 0.0,
+            "px": 0.0,
+            "rel_pct": 0.0,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 10.0,
+            "mm": 3.53,
+            "px": 41.7,
+            "rel_pct": 1.042,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 10.0,
+            "mm": 3.53,
+            "px": 41.7,
+            "rel_pct": 1.852,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 10.0,
+            "mm": 3.53,
+            "px": 41.7,
+            "rel_pct": 1.042,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 10.0,
+            "mm": 3.53,
+            "px": 41.7,
+            "rel_pct": 1.852,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          0.0,
+          0.0,
+          10.0,
+          10.0
+        ],
+        "is_container": false,
+        "element_count": 4,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "logo_image_or_top_left_brand"
+      },
+      {
+        "region_id": "block_p1_1",
+        "region_type": "general_block",
+        "page_number": 1,
+        "bbox": {
+          "x0": {
+            "pt": 13.536,
+            "mm": 4.78,
+            "px": 56.4,
+            "rel_pct": 1.41,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y0": {
+            "pt": 173.746,
+            "mm": 61.29,
+            "px": 723.9,
+            "rel_pct": 32.175,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "x1": {
+            "pt": 573.335,
+            "mm": 202.26,
+            "px": 2388.9,
+            "rel_pct": 59.722,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "y1": {
+            "pt": 257.074,
+            "mm": 90.69,
+            "px": 1071.1,
+            "rel_pct": 47.606,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "width": {
+            "pt": 559.799,
+            "mm": 197.48,
+            "px": 2332.5,
+            "rel_pct": 58.312,
+            "source": "content_stream",
+            "confidence": 1.0
+          },
+          "height": {
+            "pt": 83.328,
+            "mm": 29.4,
+            "px": 347.2,
+            "rel_pct": 15.431,
+            "source": "content_stream",
+            "confidence": 1.0
+          }
+        },
+        "raw_bbox_pt": [
+          13.53600025177002,
+          173.7464599609375,
+          573.3346557617188,
+          257.0740661621094
+        ],
+        "is_container": false,
+        "element_count": 2,
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "classifying_rule": "unclassified_leaf_block"
+      }
+    ],
+    "page_structure": {
+      "column_structure": "single_column",
+      "total_regions": 3,
+      "containers_count": 1,
+      "invariants_satisfied": true
+    },
+    "auto_repair_logs": {
+      "status": "OK",
+      "repairs_performed": [],
+      "violations": []
+    }
+  },
+  "margins_spacing": {
+    "page_margins": {
+      "top": {
+        "pt": -0.0,
+        "mm": -0.0,
+        "px": -0.0,
+        "rel_pct": -0.0,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "right": {
+        "pt": 0.0,
+        "mm": 0.0,
+        "px": 0.0,
+        "rel_pct": 0.0,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "bottom": {
+        "pt": 0.0,
+        "mm": 0.0,
+        "px": 0.0,
+        "rel_pct": 0.0,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "left": {
+        "pt": 0.0,
+        "mm": 0.0,
+        "px": 0.0,
+        "rel_pct": 0.0,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "source_elements": {
+        "top": "Vector Drawing/Rule",
+        "left": "Image (xref 11)",
+        "right": "Vector Drawing/Rule",
+        "bottom": "Vector Drawing/Rule"
+      }
+    },
+    "text_only_margins": {
+      "top": {
+        "pt": 173.746,
+        "mm": 61.29,
+        "px": 723.9,
+        "rel_pct": 32.175,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "right": {
+        "pt": 386.665,
+        "mm": 136.41,
+        "px": 1611.1,
+        "rel_pct": 40.278,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "bottom": {
+        "pt": 282.926,
+        "mm": 99.81,
+        "px": 1178.9,
+        "rel_pct": 52.394,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "left": {
+        "pt": 13.536,
+        "mm": 4.78,
+        "px": 56.4,
+        "rel_pct": 1.41,
+        "source": "content_stream",
+        "confidence": 1.0
+      }
+    },
+    "inter_block_gaps": {},
+    "line_spacing_and_leading": {
+      "mean_leading_pt": 12.0,
+      "median_leading_pt": 12.0,
+      "estimated_leading_multiplier": 1.2
+    },
+    "whitespace_map": []
+  },
+  "header": {
+    "bank_name": null,
+    "statement_title": null
+  },
+  "account_details": {
+    "address_box": null,
+    "colon_grid": {
+      "layout_type": "standard_free_block",
+      "colon_axis_x_pt": null,
+      "pairs": []
+    },
+    "fields": [],
+    "layout_type": "standard_free_block",
+    "side_by_side_pitches": {
+      "address_block_pitch_pt": 12.0,
+      "key_value_grid_pitch_pt": 12.0
+    }
+  },
+  "logo": {
+    "type": "raster_image",
+    "placement": "top-right",
+    "bbox": {
+      "x0": {
+        "pt": 852.0,
+        "mm": 300.57,
+        "px": 3550.0,
+        "rel_pct": 88.75,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "y0": {
+        "pt": 6.0,
+        "mm": 2.12,
+        "px": 25.0,
+        "rel_pct": 1.111,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "x1": {
+        "pt": 948.24,
+        "mm": 334.52,
+        "px": 3951.0,
+        "rel_pct": 98.775,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "y1": {
+        "pt": 93.6,
+        "mm": 33.02,
+        "px": 390.0,
+        "rel_pct": 17.333,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "width": {
+        "pt": 96.24,
+        "mm": 33.95,
+        "px": 401.0,
+        "rel_pct": 10.025,
+        "source": "content_stream",
+        "confidence": 1.0
+      },
+      "height": {
+        "pt": 87.6,
+        "mm": 30.9,
+        "px": 365.0,
+        "rel_pct": 16.222,
+        "source": "content_stream",
+        "confidence": 1.0
+      }
+    },
+    "aspect_ratio": 1.099,
+    "effective_dpi": 219.95014700696856,
+    "crop_clip_box_pt": [
+      852.0,
+      6.0,
+      948.24,
+      93.6
+    ],
+    "dist_from_left_margin_pt": 852.0,
+    "dist_from_top_margin_pt": 6.0,
+    "dist_from_right_margin_pt": 11.76,
+    "nearest_caption_text": null,
+    "caption_distance_pt": null,
+    "alignment_offsets": {
+      "offset_to_header_text_baseline_pt": 0.0,
+      "offset_to_table_right_edge_pt": -374.905
+    },
+    "saved_image_path": "extracted_logo.png",
+    "metadata": {
+      "xref": 6,
+      "original_pixel_size": [
+        294,
+        268
+      ],
+      "effective_dpi": 219.95,
+      "colorspace": "DeviceRGB",
+      "format": "PNG"
+    }
+  },
+  "table": {
+    "bbox": null,
+    "raw_bbox_pt": [
+      13.53600025177002,
+      173.7464599609375,
+      573.3346557617188,
+      460.0
+    ],
+    "row_model_type": "R4_valleys",
+    "columns": [],
+    "rows": [
+      {
+        "index": 0,
+        "row_type": "HEADER",
+        "y0_pt": 173.746,
+        "y1_pt": 460.0,
+        "height_pt": 286.254,
+        "height": {
+          "pt": 286.254,
+          "mm": 100.98,
+          "px": 1192.7,
+          "rel_pct": 53.01,
+          "source": "content_stream",
+          "confidence": 1.0
+        },
+        "boundary_type": "virtual",
+        "rule_info": null,
+        "gap_to_next_pt": 0.0,
+        "is_estimated_bottom": true,
+        "text_lines": [
+          "Potent InfoTech",
+          "Pvt. Ltd."
+        ],
+        "model_evidence": {
+          "chosen_model": "R4_valleys",
+          "info": null
+        },
+        "confidence": 0.95
+      }
+    ],
+    "header_row_height_pt": 286.2535400390625,
+    "body_median_pitch_pt": 15.0,
+    "physical_lines": [],
+    "logical_transactions": [],
+    "width_assertion_passed": true,
+    "continuation_info": {},
+    "transaction_spacing": {
+      "per_row_table": [],
+      "spacing_summary": {},
+      "deviating_rows": []
+    },
+    "borders": {
+      "style": "borderless / whitespace-separated",
+      "outer_border": false,
+      "horizontal_row_separators": false,
+      "vertical_column_separators": false,
+      "average_stroke_width_pt": 4.56,
+      "border_color_hex": "#7D7D7D",
+      "doubled_strokes_detected": false
+    },
+    "backgrounds": {
+      "has_zebra_striping": false,
+      "alternate_color_hex": null
+    },
+    "table_model_ref": "table_model.json"
+  },
+  "typography": {
+    "styles": [
+      {
+        "role": "table_body_text",
+        "clean_font_family": "Tw",
+        "font_name": "Tw Cen MT Condensed",
+        "font_size_pt": 80.0,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": false,
+        "is_serif": false,
+        "color_hex": "#252525",
+        "color_rgb": [
+          37,
+          37,
+          37
+        ],
+        "frequency_count": 1,
+        "recommended_leading_pt": 100.0,
+        "css_style_string": "font-family: 'Tw', sans-serif; font-size: 80.0pt; font-weight: normal; color: #252525; line-height: 100.0pt;"
+      },
+      {
+        "role": "document_title_h1",
+        "clean_font_family": "Tw",
+        "font_name": "Tw Cen MT Condensed",
+        "font_size_pt": 80.0,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": false,
+        "is_serif": false,
+        "color_hex": "#000000",
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "frequency_count": 1,
+        "recommended_leading_pt": 100.0,
+        "css_style_string": "font-family: 'Tw', sans-serif; font-size: 80.0pt; font-weight: normal; color: #000000; line-height: 100.0pt;"
+      }
+    ],
+    "fonts": [
+      {
+        "font_name": "Tw Cen MT Condensed",
+        "raw_name": "ABCDEE+Tw Cen MT Condensed",
+        "type": "TrueType",
+        "extension": "ttf",
+        "is_subset": true,
+        "is_standard_14": false,
+        "is_embedded": true
+      }
+    ],
+    "role_hierarchy": {
+      "table_body_text": {
+        "role": "table_body_text",
+        "clean_font_family": "Tw",
+        "font_name": "Tw Cen MT Condensed",
+        "font_size_pt": 80.0,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": false,
+        "is_serif": false,
+        "color_hex": "#252525",
+        "color_rgb": [
+          37,
+          37,
+          37
+        ],
+        "frequency_count": 1,
+        "recommended_leading_pt": 100.0,
+        "css_style_string": "font-family: 'Tw', sans-serif; font-size: 80.0pt; font-weight: normal; color: #252525; line-height: 100.0pt;"
+      },
+      "document_title_h1": {
+        "role": "document_title_h1",
+        "clean_font_family": "Tw",
+        "font_name": "Tw Cen MT Condensed",
+        "font_size_pt": 80.0,
+        "inferred_weight": "regular",
+        "is_bold": false,
+        "is_italic": false,
+        "is_monospace": false,
+        "is_serif": false,
+        "color_hex": "#000000",
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "frequency_count": 1,
+        "recommended_leading_pt": 100.0,
+        "css_style_string": "font-family: 'Tw', sans-serif; font-size: 80.0pt; font-weight: normal; color: #000000; line-height: 100.0pt;"
+      }
+    }
+  },
+  "alignment": {
+    "numeric_columns": {
+      "columns_analyzed": [],
+      "numeric_column_details": {}
+    },
+    "implicit_axes": {
+      "implicit_axes_detected": 0,
+      "shared_left_axes": [],
+      "shared_right_axes": [],
+      "guide_lines": [],
+      "baselines_count": 1
+    },
+    "element_offsets": {}
+  },
+  "key_placements": {
+    "date_column_analysis": {
+      "detected_date_format": "Unknown",
+      "sample_date_count": 0,
+      "mean_x0_pt": 0.0,
+      "x0_std_dev_pt": 0.0,
+      "alignment_consistency": "perfect",
+      "font_name": "N/A",
+      "font_size_pt": 0.0
+    },
+    "statement_heading_analysis": {
+      "is_centered": false,
+      "offset_from_page_center_pt": 0.0
+    }
+  },
+  "pixel_measurements": {
+    "calibration": {
+      "target_dpi": 300,
+      "px_per_pt": 4.1667,
+      "px_per_mm": 11.811,
+      "pt_per_mm": 2.8346,
+      "mm_per_pt": 0.352778
+    },
+    "coordinate_validation_sample": [
+      {
+        "text_snippet": "Potent InfoTech",
+        "vector_pt_bbox": [
+          13.54,
+          173.75,
+          359.07,
+          254.67
+        ],
+        "computed_px_bbox": [
+          56.4,
+          723.9,
+          1496.1,
+          1061.1
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      },
+      {
+        "text_snippet": " Pvt. Ltd.",
+        "vector_pt_bbox": [
+          359.07,
+          173.75,
+          573.33,
+          257.07
+        ],
+        "computed_px_bbox": [
+          1496.1,
+          723.9,
+          2388.9,
+          1071.1
+        ],
+        "discrepancy_px": 0.0,
+        "status": "validated_exact"
+      }
+    ],
+    "opencv_raster_cross_check": {
+      "opencv_detected_horizontal_lines_count": 41,
+      "opencv_detected_vertical_lines_count": 189,
+      "vector_drawings_count": 4,
+      "agreement_status": "partial_concordance"
+    },
+    "relative_layout_ratios": {}
+  },
+  "table_model": {
+    "columns": [],
+    "rows": [
+      {
+        "index": 0,
+        "row_type": "HEADER",
+        "y0_pt": 173.746,
+        "y1_pt": 460.0,
+        "height_pt": 286.254,
+        "height": {
+          "pt": 286.254,
+          "mm": 100.98,
+          "px": 1192.7,
+          "rel_pct": 53.01,
+          "source": "content_stream",
+          "confidence": 1.0
+        },
+        "boundary_type": "virtual",
+        "rule_info": null,
+        "gap_to_next_pt": 0.0,
+        "is_estimated_bottom": true,
+        "text_lines": [
+          "Potent InfoTech",
+          "Pvt. Ltd."
+        ],
+        "model_evidence": {
+          "chosen_model": "R4_valleys",
+          "info": null
+        },
+        "confidence": 0.95
+      }
+    ],
+    "cells": [],
+    "gaps": [
+      {
+        "id": "gap_page_top_first_elem",
+        "from_element": "PAGE_TOP",
+        "to_element": "FIRST_ELEMENT",
+        "gap_type": "page_top_to_first_element",
+        "definition_code": "ink_to_ink",
+        "value_pt": 0.0,
+        "value_mm": 0.0,
+        "value_px": 0.0,
+        "definition_string": "Distance from page top (y=0) to the highest ink element top"
+      },
+      {
+        "id": "gap_last_row_to_table_bottom",
+        "from_element": "ROW_0",
+        "to_element": "TABLE_BOTTOM_RULE",
+        "gap_type": "last_row_to_table_bottom",
+        "definition_code": "rule_to_rule",
+        "value_pt": 0.0,
+        "value_mm": 0.0,
+        "value_px": 0.0,
+        "definition_string": "Distance from last row bottom to table closing rule"
+      },
+      {
+        "id": "margin_left_to_table",
+        "from_element": "PAGE_LEFT",
+        "to_element": "TABLE_LEFT",
+        "gap_type": "margin_left_to_table",
+        "definition_code": "rule_to_rule",
+        "value_pt": 13.536,
+        "value_mm": 4.78,
+        "value_px": 56.4,
+        "definition_string": "Left margin from page edge to table left vertical rule"
+      },
+      {
+        "id": "margin_right_to_table",
+        "from_element": "TABLE_RIGHT",
+        "to_element": "PAGE_RIGHT",
+        "gap_type": "margin_right_to_table",
+        "definition_code": "rule_to_rule",
+        "value_pt": 386.665,
+        "value_mm": 136.41,
+        "value_px": 1611.1,
+        "definition_string": "Right margin from table right vertical rule to page right edge"
+      }
+    ],
+    "positions": {
+      "table_frame": {
+        "origin_in_page_pt": [
+          13.536,
+          173.746
+        ],
+        "width_pt": 559.799,
+        "height_pt": 286.254
+      },
+      "columns": [],
+      "rows": [
+        {
+          "index": 0,
+          "page_frame": {
+            "y0": 173.746,
+            "y1": 460.0,
+            "h": 286.254
+          },
+          "table_frame": {
+            "y0": 0.0,
+            "y1": 286.254,
+            "h": 286.254
+          },
+          "offset_from_table_top_pt": 0.0
+        }
+      ],
+      "cells": []
+    },
+    "pitch_report": {
+      "nominal_pitch_pt": 15.0,
+      "pitch_std_pt": 0.0,
+      "lines_per_row_distribution": {
+        "1": 1
+      },
+      "per_row_deviations": [
+        {
+          "row_index": 0,
+          "height_pt": 286.254,
+          "delta_from_nominal_pt": 271.254
+        }
+      ]
+    },
+    "dimension_arrows": [],
+    "chosen_models": {
+      "row_model": "R4_valleys",
+      "runner_up_row_model": "R1_ruled",
+      "row_model_scores": {
+        "R1_ruled": 0.0,
+        "R2_zebra": 0.0,
+        "R3_anchor": 0.0,
+        "R4_valleys": 1.3,
+        "R5_pitch": 0.0
+      }
+    },
+    "evidence": {
+      "row_disagreements": [
+        {
+          "row_index": 0,
+          "chosen_band": [
+            173.75,
+            460.0
+          ],
+          "runner_up_band": null,
+          "delta_y0": null
+        }
+      ],
+      "models_evaluated": {
+        "R1_ruled": {
+          "count": 0,
+          "confidence": 0.4
+        },
+        "R2_zebra": {
+          "count": 0,
+          "confidence": 0.0
+        },
+        "R3_anchor": {
+          "count": 0,
+          "confidence": 0.0
+        },
+        "R4_valleys": {
+          "count": 1,
+          "confidence": 0.2
+        },
+        "R5_pitch": {
+          "count": 0,
+          "confidence": 0.0
+        }
+      },
+      "subpixel_deltas": [],
+      "quantisation_check": {
+        "passed": true,
+        "quantised_ratio": 0.0
+      }
+    },
+    "checks": [
+      {
+        "check_id": "C1",
+        "name": "Chain Closure (sum of widths/heights == table box)",
+        "passed": true,
+        "tolerance": 0.25,
+        "delta": 0.0,
+        "offending_ids": [],
+        "details": "Column width delta: 0.0000 pt, Row height delta: 0.0000 pt"
+      },
+      {
+        "check_id": "C2",
+        "name": "Cell Inner Balance (top pad + ink height + bottom pad == cell inner height)",
+        "passed": true,
+        "tolerance": 0.5,
+        "delta": 0.0,
+        "offending_ids": [],
+        "details": "0 cells deviated by > 0.5 pt"
+      },
+      {
+        "check_id": "C3",
+        "name": "Single Cell Membership (no text line in multiple cells)",
+        "passed": true,
+        "tolerance": 0.0,
+        "delta": 0.0,
+        "offending_ids": [],
+        "details": "0 spans assigned to multiple cells"
+      },
+      {
+        "check_id": "C4",
+        "name": "Padding Sums Alignment Consistency",
+        "passed": true,
+        "tolerance": 5.0,
+        "delta": 0.0,
+        "offending_ids": [],
+        "details": "0 centered cells had asymmetric padding > 5 pt"
+      },
+      {
+        "check_id": "C5",
+        "name": "Gap Matrix Symmetry and Sign Invariance",
+        "passed": true,
+        "tolerance": 0.0,
+        "delta": 0.0,
+        "offending_ids": [],
+        "details": "All gap relationships are directed and consistent"
+      },
+      {
+        "check_id": "C6",
+        "name": "Rebuilt Table Model Closure",
+        "passed": true,
+        "tolerance": 0.5,
+        "delta": 0.0,
+        "offending_ids": [],
+        "details": "Table coordinates reproduce within 0.5 pt tolerance"
+      }
+    ],
+    "all_checks_passed": true
+  },
+  "confidence": {
+    "layout_structure": 0.98,
+    "typography_extraction": 0.99,
+    "table_geometry": 0.99,
+    "numeric_alignment": 0.97,
+    "pixel_cross_validation": 1.0
+  },
+  "closed_loop_verification": {
+    "overall_ssim": 0.5881,
+    "heatmap_image_path": "diff_heatmap_page_1.png",
+    "self_check": {
+      "overall_status": "DEGRADED",
+      "mean_element_iou": 1.0,
+      "max_vertical_overshoot_pt": 0.0,
+      "ssim_fidelity_score": 0.5881,
+      "region_metrics": [
+        {
+          "region_id": "container_p1_1",
+          "region_type": "decorative_container",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_0",
+          "region_type": "logo_branding",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        },
+        {
+          "region_id": "block_p1_1",
+          "region_type": "general_block",
+          "tightness_iou": 1.0,
+          "leakage_pct": 0.0,
+          "vertical_overshoot_pt": 0.0,
+          "status": "OK"
+        }
+      ],
+      "cross_checks": {
+        "rule_positions_validated": true,
+        "table_width_assertion": true,
+        "invariants_verified": true
+      }
+    }
+  },
+  "self_check": {
+    "overall_status": "DEGRADED",
+    "mean_element_iou": 1.0,
+    "max_vertical_overshoot_pt": 0.0,
+    "ssim_fidelity_score": 0.5881,
+    "region_metrics": [
+      {
+        "region_id": "container_p1_1",
+        "region_type": "decorative_container",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_0",
+        "region_type": "logo_branding",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      },
+      {
+        "region_id": "block_p1_1",
+        "region_type": "general_block",
+        "tightness_iou": 1.0,
+        "leakage_pct": 0.0,
+        "vertical_overshoot_pt": 0.0,
+        "status": "OK"
+      }
+    ],
+    "cross_checks": {
+      "rule_positions_validated": true,
+      "table_width_assertion": true,
+      "invariants_verified": true
+    }
+  },
+  "generated_overlays": {
+    "regions": "tests\\baselines\\tmp_out\\overlay_regions_page_1.png",
+    "layout": "tests\\baselines\\tmp_out\\overlay_layout_page_1.png",
+    "containers": "containers.png",
+    "guides": "tests\\baselines\\tmp_out\\overlay_guides_page_1.png",
+    "axes": "tests\\baselines\\tmp_out\\overlay_alignment_axes_page_1.png",
+    "margins": "tests\\baselines\\tmp_out\\overlay_margins_page_1.png",
+    "table": "tests\\baselines\\tmp_out\\overlay_table_page_1.png",
+    "columns_rows": "tests\\baselines\\tmp_out\\overlay_columns_rows_page_1.png",
+    "ink_boxes": "tests\\baselines\\tmp_out\\overlay_ink_boxes_page_1.png",
+    "text_ink_boxes": "tests\\baselines\\tmp_out\\overlay_text_ink_boxes_page_1.png",
+    "padding": "tests\\baselines\\tmp_out\\overlay_padding_page_1.png",
+    "logo": "tests\\baselines\\tmp_out\\overlay_logo_page_1.png",
+    "dimensions": "tests\\baselines\\tmp_out\\overlay_dimensions_page_1.png",
+    "combined": "tests\\baselines\\tmp_out\\annotated_page_1.png",
+    "overlay_columns": "overlay_columns_page_1.png",
+    "overlay_rows": "overlay_rows_page_1.png",
+    "overlay_cells": "overlay_cells_page_1.png",
+    "overlay_gaps": "overlay_gaps_page_1.png",
+    "overlay_evidence": "overlay_evidence_page_1.png",
+    "header_blocks": "header_blocks.png",
+    "footer": "footer.png",
+    "registration": "registration.png",
+    "orphans": "orphans.png"
+  }
+}

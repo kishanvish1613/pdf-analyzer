@@ -1,0 +1,28 @@
+# Core PDF Parsers & Stream Extractors
+pikepdf>=10.16.0          # Content-stream parsing, object graph traversal, cross-reference tables
+pymupdf>=1.28.0           # Fast sub-pixel raster rendering, vector extraction, text page layout
+pdfminer.six>=20260107    # Low-level font descriptor parsing, ToUnicode CMap recovery
+pdfplumber>=0.11.0        # Table heuristics and character bounding box verification
+pypdfium2>=5.13.0         # Reference rendering engine and sub-pixel antialiasing validation
+
+# Font Metrics & Glyphs
+fonttools>=4.66.0         # Extraction of TrueType/CFF glyph outlines, advance widths, font metrics
+
+# Spatial Geometry & Graph Topology
+shapely>=2.0.0            # High-precision 2D polygon clipping, stroked path offset buffering, boolean operations
+networkx>=3.4             # Layout tree hierarchical relations, bipartite table cell graph resolution
+
+# Numerical & Computer Vision Engine
+numpy>=2.0.0              # Sub-pixel raster matrices, line voting histograms, projection profiles
+scipy>=1.14.0             # Sub-pixel Gaussian line intensity fitting, multi-signal candidate clustering
+scikit-image>=0.24.0      # Morphological operations, edge detection, Hough transform verification
+opencv-python>=4.10.0     # Connected components analysis, high-speed raster bounding box detection
+pillow>=11.0.0            # High-DPI raster image manipulation, crop generation, visualization drawing
+pytesseract>=0.3.10       # OCR verification fallback for scanned or raster-only document segments
+rapidfuzz>=3.6.0          # Fast fuzzy text matching for table headers, transaction labels, key-value anchors
+
+# Web UI, Ground Truth & Testing
+flask>=3.1.0              # Interactive Dimension Editor backend and REST API server
+reportlab>=4.0.0          # Synthetic ground-truth statement generation and precision benchmark fixtures
+pytest>=8.0.0             # Regression test suite and invariant validation runner
+hypothesis>=6.90.0        # Property-based testing for coordinate transforms and bounding box invariants

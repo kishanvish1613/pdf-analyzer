@@ -1,0 +1,902 @@
+{
+  "blocks": [
+    {
+      "block_id": "header_block_0",
+      "position_role": "left_block",
+      "bbox_pt": [
+        36.0,
+        43.02,
+        189.582,
+        217.763
+      ],
+      "sub_blocks": [
+        {
+          "sub_block_id": "left_sub_0",
+          "block_type": "FREE_TEXT_LIST",
+          "bbox_pt": [
+            46.0,
+            43.02,
+            189.582,
+            154.542
+          ],
+          "lines": [
+            {
+              "line_index": 0,
+              "baseline_y_pt": 58.0,
+              "bbox_pt": [
+                48.0,
+                43.02,
+                86.878,
+                62.298
+              ],
+              "segments": [
+                {
+                  "text": "HDFC",
+                  "bbox_pt": [
+                    48.0,
+                    43.02,
+                    86.878,
+                    62.298
+                  ],
+                  "baseline_y_pt": 58.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 14.0,
+                  "is_bold": true,
+                  "color_hex": "#FFFFFF",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "HDFC",
+              "structure_type": "FREE_TEXT"
+            },
+            {
+              "line_index": 2,
+              "baseline_y_pt": 95.0,
+              "bbox_pt": [
+                46.0,
+                85.37,
+                139.483,
+                97.763
+              ],
+              "segments": [
+                {
+                  "text": "MR. ANAND SHARMA",
+                  "bbox_pt": [
+                    46.0,
+                    85.37,
+                    139.483,
+                    97.763
+                  ],
+                  "baseline_y_pt": 95.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 9.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "MR. ANAND SHARMA",
+              "structure_type": "FREE_TEXT"
+            },
+            {
+              "line_index": 4,
+              "baseline_y_pt": 110.0,
+              "bbox_pt": [
+                46.0,
+                100.863,
+                142.832,
+                112.541
+              ],
+              "segments": [
+                {
+                  "text": "FLAT NO 402, TOWER B",
+                  "bbox_pt": [
+                    46.0,
+                    100.863,
+                    142.832,
+                    112.541
+                  ],
+                  "baseline_y_pt": 110.0,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.5,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "FLAT NO 402, TOWER B",
+              "structure_type": "FREE_TEXT"
+            },
+            {
+              "line_index": 6,
+              "baseline_y_pt": 124.0,
+              "bbox_pt": [
+                46.0,
+                114.863,
+                189.582,
+                126.541
+              ],
+              "segments": [
+                {
+                  "text": "SUNSHINE RESIDENCY, S.V. ROAD",
+                  "bbox_pt": [
+                    46.0,
+                    114.863,
+                    189.582,
+                    126.541
+                  ],
+                  "baseline_y_pt": 124.0,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.5,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "SUNSHINE RESIDENCY, S.V. ROAD",
+              "structure_type": "FREE_TEXT"
+            },
+            {
+              "line_index": 8,
+              "baseline_y_pt": 138.0,
+              "bbox_pt": [
+                46.0,
+                128.863,
+                182.978,
+                140.542
+              ],
+              "segments": [
+                {
+                  "text": "BANDRA WEST, MUMBAI - 400050",
+                  "bbox_pt": [
+                    46.0,
+                    128.863,
+                    182.978,
+                    140.542
+                  ],
+                  "baseline_y_pt": 138.0,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.5,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "BANDRA WEST, MUMBAI - 400050",
+              "structure_type": "FREE_TEXT"
+            },
+            {
+              "line_index": 10,
+              "baseline_y_pt": 152.0,
+              "bbox_pt": [
+                46.0,
+                142.863,
+                138.565,
+                154.542
+              ],
+              "segments": [
+                {
+                  "text": "MAHARASHTRA, INDIA",
+                  "bbox_pt": [
+                    46.0,
+                    142.863,
+                    138.565,
+                    154.542
+                  ],
+                  "baseline_y_pt": 152.0,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.5,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 171.435
+                }
+              ],
+              "joined_text": "MAHARASHTRA, INDIA",
+              "structure_type": "FREE_TEXT"
+            }
+          ],
+          "mean_pitch_pt": 18.8,
+          "pitch_std_pt": 9.108,
+          "per_line_pitches_pt": [
+            37.0,
+            15.0,
+            14.0,
+            14.0,
+            14.0
+          ]
+        },
+        {
+          "sub_block_id": "left_sub_1",
+          "block_type": "KV_GRID",
+          "bbox_pt": [
+            36.0,
+            156.863,
+            178.074,
+            217.763
+          ],
+          "lines": [
+            {
+              "line_index": 12,
+              "baseline_y_pt": 166.0,
+              "bbox_pt": [
+                46.0,
+                156.863,
+                147.354,
+                168.542
+              ],
+              "segments": [
+                {
+                  "text": "PHONE: +91 98200 12345",
+                  "bbox_pt": [
+                    46.0,
+                    156.863,
+                    147.354,
+                    168.542
+                  ],
+                  "baseline_y_pt": 166.0,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.5,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "PHONE: +91 98200 12345",
+              "structure_type": "KV"
+            },
+            {
+              "line_index": 14,
+              "baseline_y_pt": 192.0,
+              "bbox_pt": [
+                36.0,
+                182.905,
+                134.234,
+                194.609
+              ],
+              "segments": [
+                {
+                  "text": "Nomination : Registered",
+                  "bbox_pt": [
+                    36.0,
+                    182.905,
+                    134.234,
+                    194.609
+                  ],
+                  "baseline_y_pt": 192.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.5,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "Nomination : Registered",
+              "structure_type": "KV"
+            },
+            {
+              "line_index": 15,
+              "baseline_y_pt": 215.0,
+              "bbox_pt": [
+                36.0,
+                205.37,
+                178.074,
+                217.763
+              ],
+              "segments": [
+                {
+                  "text": "From: 01/01/2026   To: 31/01/2026",
+                  "bbox_pt": [
+                    36.0,
+                    205.37,
+                    178.074,
+                    217.763
+                  ],
+                  "baseline_y_pt": 215.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 9.0,
+                  "is_bold": true,
+                  "color_hex": "#4A5568",
+                  "gap_to_next_pt": 131.926
+                }
+              ],
+              "joined_text": "From: 01/01/2026   To: 31/01/2026",
+              "structure_type": "KV"
+            }
+          ],
+          "mean_pitch_pt": 24.5,
+          "pitch_std_pt": 1.5,
+          "per_line_pitches_pt": [
+            26.0,
+            23.0
+          ]
+        }
+      ],
+      "mean_pitch_pt": 19.625,
+      "pitch_std_pt": 7.921
+    },
+    {
+      "block_id": "header_block_1",
+      "position_role": "right_block",
+      "bbox_pt": [
+        310.0,
+        81.4,
+        514.672,
+        219.298
+      ],
+      "sub_blocks": [
+        {
+          "sub_block_id": "right_sub_0",
+          "block_type": "KV_GRID",
+          "bbox_pt": [
+            310.0,
+            81.4,
+            514.672,
+            167.456
+          ],
+          "lines": [
+            {
+              "line_index": 1,
+              "baseline_y_pt": 90.0,
+              "bbox_pt": [
+                310.0,
+                81.4,
+                482.272,
+                92.456
+              ],
+              "segments": [
+                {
+                  "text": "Account Number",
+                  "bbox_pt": [
+                    310.0,
+                    81.44,
+                    374.448,
+                    92.456
+                  ],
+                  "baseline_y_pt": 90.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 35.552
+                },
+                {
+                  "text": ":",
+                  "bbox_pt": [
+                    410.0,
+                    81.44,
+                    412.664,
+                    92.456
+                  ],
+                  "baseline_y_pt": 90.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 7.336
+                },
+                {
+                  "text": "50100234891280",
+                  "bbox_pt": [
+                    420.0,
+                    81.4,
+                    482.272,
+                    92.392
+                  ],
+                  "baseline_y_pt": 90.0,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.0,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "Account Number : 50100234891280",
+              "structure_type": "KV"
+            },
+            {
+              "line_index": 3,
+              "baseline_y_pt": 102.5,
+              "bbox_pt": [
+                310.0,
+                93.9,
+                497.344,
+                104.956
+              ],
+              "segments": [
+                {
+                  "text": "Account Type",
+                  "bbox_pt": [
+                    310.0,
+                    93.94,
+                    362.896,
+                    104.956
+                  ],
+                  "baseline_y_pt": 102.5,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 47.104
+                },
+                {
+                  "text": ":",
+                  "bbox_pt": [
+                    410.0,
+                    93.94,
+                    412.664,
+                    104.956
+                  ],
+                  "baseline_y_pt": 102.5,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 7.336
+                },
+                {
+                  "text": "SAVINGS ACCOUNT",
+                  "bbox_pt": [
+                    420.0,
+                    93.9,
+                    497.344,
+                    104.892
+                  ],
+                  "baseline_y_pt": 102.5,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.0,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "Account Type : SAVINGS ACCOUNT",
+              "structure_type": "KV"
+            },
+            {
+              "line_index": 5,
+              "baseline_y_pt": 115.0,
+              "bbox_pt": [
+                310.0,
+                106.4,
+                455.584,
+                117.456
+              ],
+              "segments": [
+                {
+                  "text": "Customer ID",
+                  "bbox_pt": [
+                    310.0,
+                    106.44,
+                    357.56,
+                    117.456
+                  ],
+                  "baseline_y_pt": 115.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 52.44
+                },
+                {
+                  "text": ":",
+                  "bbox_pt": [
+                    410.0,
+                    106.44,
+                    412.664,
+                    117.456
+                  ],
+                  "baseline_y_pt": 115.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 7.336
+                },
+                {
+                  "text": "89341209",
+                  "bbox_pt": [
+                    420.0,
+                    106.4,
+                    455.584,
+                    117.392
+                  ],
+                  "baseline_y_pt": 115.0,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.0,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "Customer ID : 89341209",
+              "structure_type": "KV"
+            },
+            {
+              "line_index": 7,
+              "baseline_y_pt": 127.5,
+              "bbox_pt": [
+                310.0,
+                118.9,
+                514.672,
+                129.956
+              ],
+              "segments": [
+                {
+                  "text": "Branch",
+                  "bbox_pt": [
+                    310.0,
+                    118.94,
+                    337.56,
+                    129.956
+                  ],
+                  "baseline_y_pt": 127.5,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 72.44
+                },
+                {
+                  "text": ":",
+                  "bbox_pt": [
+                    410.0,
+                    118.94,
+                    412.664,
+                    129.956
+                  ],
+                  "baseline_y_pt": 127.5,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 7.336
+                },
+                {
+                  "text": "BANDRA WEST BRANCH",
+                  "bbox_pt": [
+                    420.0,
+                    118.9,
+                    514.672,
+                    129.892
+                  ],
+                  "baseline_y_pt": 127.5,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.0,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "Branch : BANDRA WEST BRANCH",
+              "structure_type": "KV"
+            },
+            {
+              "line_index": 9,
+              "baseline_y_pt": 140.0,
+              "bbox_pt": [
+                310.0,
+                131.4,
+                473.352,
+                142.456
+              ],
+              "segments": [
+                {
+                  "text": "IFSC Code",
+                  "bbox_pt": [
+                    310.0,
+                    131.44,
+                    350.448,
+                    142.456
+                  ],
+                  "baseline_y_pt": 140.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 59.552
+                },
+                {
+                  "text": ":",
+                  "bbox_pt": [
+                    410.0,
+                    131.44,
+                    412.664,
+                    142.456
+                  ],
+                  "baseline_y_pt": 140.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 7.336
+                },
+                {
+                  "text": "HDFC0000128",
+                  "bbox_pt": [
+                    420.0,
+                    131.4,
+                    473.352,
+                    142.392
+                  ],
+                  "baseline_y_pt": 140.0,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.0,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "IFSC Code : HDFC0000128",
+              "structure_type": "KV"
+            },
+            {
+              "line_index": 10,
+              "baseline_y_pt": 152.0,
+              "bbox_pt": [
+                310.0,
+                143.9,
+                460.032,
+                154.956
+              ],
+              "segments": [
+                {
+                  "text": "MICR",
+                  "bbox_pt": [
+                    310.0,
+                    143.94,
+                    330.44,
+                    154.956
+                  ],
+                  "baseline_y_pt": 152.5,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 79.56
+                },
+                {
+                  "text": ":",
+                  "bbox_pt": [
+                    410.0,
+                    143.94,
+                    412.664,
+                    154.956
+                  ],
+                  "baseline_y_pt": 152.5,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 7.336
+                },
+                {
+                  "text": "400240012",
+                  "bbox_pt": [
+                    420.0,
+                    143.9,
+                    460.032,
+                    154.892
+                  ],
+                  "baseline_y_pt": 152.5,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.0,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "MICR : 400240012",
+              "structure_type": "KV"
+            },
+            {
+              "line_index": 11,
+              "baseline_y_pt": 165.0,
+              "bbox_pt": [
+                310.0,
+                156.4,
+                433.776,
+                167.456
+              ],
+              "segments": [
+                {
+                  "text": "Currency",
+                  "bbox_pt": [
+                    310.0,
+                    156.44,
+                    345.12,
+                    167.456
+                  ],
+                  "baseline_y_pt": 165.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 64.88
+                },
+                {
+                  "text": ":",
+                  "bbox_pt": [
+                    410.0,
+                    156.44,
+                    412.664,
+                    167.456
+                  ],
+                  "baseline_y_pt": 165.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 7.336
+                },
+                {
+                  "text": "INR",
+                  "bbox_pt": [
+                    420.0,
+                    156.4,
+                    433.776,
+                    167.392
+                  ],
+                  "baseline_y_pt": 165.0,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.0,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "Currency : INR",
+              "structure_type": "KV"
+            }
+          ],
+          "mean_pitch_pt": 12.5,
+          "pitch_std_pt": 0.289,
+          "per_line_pitches_pt": [
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.0,
+            13.0
+          ]
+        },
+        {
+          "sub_block_id": "right_sub_1",
+          "block_type": "FREE_TEXT_LIST",
+          "bbox_pt": [
+            310.0,
+            168.9,
+            511.184,
+            179.956
+          ],
+          "lines": [
+            {
+              "line_index": 13,
+              "baseline_y_pt": 177.5,
+              "bbox_pt": [
+                310.0,
+                168.9,
+                511.184,
+                179.956
+              ],
+              "segments": [
+                {
+                  "text": "Statement Period",
+                  "bbox_pt": [
+                    310.0,
+                    168.94,
+                    375.792,
+                    179.956
+                  ],
+                  "baseline_y_pt": 177.5,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 34.208
+                },
+                {
+                  "text": ":",
+                  "bbox_pt": [
+                    410.0,
+                    168.94,
+                    412.664,
+                    179.956
+                  ],
+                  "baseline_y_pt": 177.5,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 8.0,
+                  "is_bold": true,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 7.336
+                },
+                {
+                  "text": "01/01/2026 to 31/01/2026",
+                  "bbox_pt": [
+                    420.0,
+                    168.9,
+                    511.184,
+                    179.892
+                  ],
+                  "baseline_y_pt": 177.5,
+                  "font_name": "Helvetica",
+                  "font_size_pt": 8.0,
+                  "is_bold": false,
+                  "color_hex": "#1A202C",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "Statement Period : 01/01/2026 to 31/01/2026",
+              "structure_type": "TITLE"
+            }
+          ],
+          "mean_pitch_pt": 12.0,
+          "pitch_std_pt": 0.0,
+          "per_line_pitches_pt": []
+        },
+        {
+          "sub_block_id": "right_sub_2",
+          "block_type": "FREE_TEXT_LIST",
+          "bbox_pt": [
+            310.0,
+            200.02,
+            452.352,
+            219.298
+          ],
+          "lines": [
+            {
+              "line_index": 15,
+              "baseline_y_pt": 215.0,
+              "bbox_pt": [
+                310.0,
+                200.02,
+                452.352,
+                219.298
+              ],
+              "segments": [
+                {
+                  "text": "Statement of account",
+                  "bbox_pt": [
+                    310.0,
+                    200.02,
+                    452.352,
+                    219.298
+                  ],
+                  "baseline_y_pt": 215.0,
+                  "font_name": "Helvetica-Bold",
+                  "font_size_pt": 14.0,
+                  "is_bold": true,
+                  "color_hex": "#1A365D",
+                  "gap_to_next_pt": 0.0
+                }
+              ],
+              "joined_text": "Statement of account",
+              "structure_type": "FREE_TEXT"
+            }
+          ],
+          "mean_pitch_pt": 12.0,
+          "pitch_std_pt": 0.0,
+          "per_line_pitches_pt": []
+        }
+      ],
+      "mean_pitch_pt": 15.625,
+      "pitch_std_pt": 8.272
+    }
+  ],
+  "reading_order": [
+    "header_block_0",
+    "header_block_1"
+  ],
+  "pairing_record": {
+    "paired": true,
+    "left_block_id": "header_block_0",
+    "right_block_id": "header_block_1",
+    "gutter_width_pt": 120.418,
+    "vertical_offset_pt": 38.38,
+    "shared_baselines_count": 3,
+    "shared_baselines_pt": [
+      152.0,
+      166.0,
+      215.0
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "source": "independent_probe_pymupdf",
+  "pdf_path": "D:\\pdf-analyzer\\uploads\\AccountStatement_01-Sep-2026_17-Sep-2026.pdf",
+  "page_number": 1,
+  "has_table": true,
+  "table_bbox": {
+    "x0_pt": 36.0,
+    "y0_pt": 354.5,
+    "x1_pt": 559.0,
+    "y1_pt": 806.0,
+    "width_pt": 523.0,
+    "height_pt": 451.5
+  },
+  "columns": [
+    {
+      "column_index": 1,
+      "x0_pt": 36.0,
+      "x1_pt": 67.18000030517578,
+      "width_pt": 31.18000030517578
+    },
+    {
+      "column_index": 2,
+      "x0_pt": 67.18000030517578,
+      "x1_pt": 116.18000030517578,
+      "width_pt": 49.0
+    },
+    {
+      "column_index": 3,
+      "x0_pt": 116.18000030517578,
+      "x1_pt": 271.6600036621094,
+      "width_pt": 155.4800033569336
+    },
+    {
+      "column_index": 4,
+      "x0_pt": 271.6600036621094,
+      "x1_pt": 351.8500061035156,
+      "width_pt": 80.19000244140625
+    },
+    {
+      "column_index": 5,
+      "x0_pt": 351.8500061035156,
+      "x1_pt": 420.9000244140625,
+      "width_pt": 69.05001831054688
+    },
+    {
+      "column_index": 6,
+      "x0_pt": 420.9000244140625,
+      "x1_pt": 489.95001220703125,
+      "width_pt": 69.04998779296875
+    },
+    {
+      "column_index": 7,
+      "x0_pt": 489.95001220703125,
+      "x1_pt": 559.0,
+      "width_pt": 69.04998779296875
+    }
+  ]
+}

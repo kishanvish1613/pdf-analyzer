@@ -1,0 +1,22 @@
+{
+  "page_number": 1,
+  "status": "PASS",
+  "control_points_count": 0,
+  "fitted_transform": {
+    "dx_pt": 0.0,
+    "dy_pt": 0.0,
+    "sx": 1.0,
+    "sy": 1.0
+  },
+  "gate_checks": {
+    "dx_within_0_1pt": true,
+    "dy_within_0_1pt": true,
+    "sx_within_0_0005": true,
+    "sy_within_0_0005": true,
+    "max_residual_pt": 0.0,
+    "mean_residual_pt": 0.0,
+    "gate_passed": true
+  },
+  "offending_rules": [],
+  "measurements": []
+}

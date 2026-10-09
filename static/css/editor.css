@@ -1,0 +1,355 @@
+/* Interactive Dimension Editor Stylesheet — Focus Mode, Sub-pixel Vector Rendering & Zoom Control */
+
+/* Non-scaling strokes for sharp 1px display across 25% - 3200% zoom */
+.vector-guide {
+  vector-effect: non-scaling-stroke;
+}
+
+.guide-hit-area {
+  cursor: ew-resize;
+  pointer-events: stroke;
+}
+.guide-hit-area.horizontal {
+  cursor: ns-resize;
+}
+
+/* State Colors for Auto vs Edited vs Snapped */
+.state-gray {
+  stroke: #94a3b8 !important;
+}
+.state-amber {
+  stroke: #f59e0b !important;
+}
+.state-blue {
+  stroke: #38bdf8 !important;
+}
+.state-green {
+  stroke: #10b981 !important;
+}
+
+.guide-line {
+  transition: stroke 0.15s ease, stroke-width 0.15s ease;
+  vector-effect: non-scaling-stroke;
+}
+.guide-line:hover, .guide-line.selected {
+  stroke: #38bdf8 !important;
+  stroke-width: 2px !important;
+}
+
+.box-element {
+  transition: stroke 0.15s ease, fill 0.15s ease;
+  vector-effect: non-scaling-stroke;
+  cursor: move;
+}
+.box-element:hover, .box-element.selected {
+  stroke: #38bdf8 !important;
+  fill: rgba(56, 189, 248, 0.12) !important;
+}
+
+.box-resize-handle {
+  fill: #ffffff;
+  stroke: #0284c7;
+  stroke-width: 1.5px;
+  vector-effect: non-scaling-stroke;
+  transition: fill 0.1s ease, transform 0.1s ease;
+}
+.box-resize-handle:hover {
+  fill: #38bdf8;
+  stroke: #ffffff;
+}
+.box-resize-handle.handle-nw, .box-resize-handle.handle-se { cursor: nwse-resize; }
+.box-resize-handle.handle-ne, .box-resize-handle.handle-sw { cursor: nesw-resize; }
+.box-resize-handle.handle-n, .box-resize-handle.handle-s { cursor: ns-resize; }
+.box-resize-handle.handle-w, .box-resize-handle.handle-e { cursor: ew-resize; }
+
+.box-title-badge {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  user-select: none;
+  pointer-events: none;
+}
+
+.column-rect {
+  transition: fill 0.15s ease, stroke 0.15s ease;
+  vector-effect: non-scaling-stroke;
+}
+.column-rect:hover, .column-rect.selected {
+  fill: rgba(14, 165, 233, 0.15) !important;
+  stroke: #38bdf8 !important;
+}
+
+/* Endpoint Square Handles */
+.endpoint-handle {
+  fill: #ffffff;
+  stroke: #0284c7;
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+  cursor: grab;
+  transition: transform 0.1s ease, fill 0.1s ease;
+}
+.endpoint-handle:hover {
+  fill: #38bdf8;
+  stroke: #ffffff;
+}
+
+/* External Gutter Labels */
+.exterior-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  pointer-events: none;
+  user-select: none;
+}
+.leader-line {
+  stroke: #64748b;
+  stroke-width: 1px;
+  stroke-dasharray: 2,2;
+  vector-effect: non-scaling-stroke;
+  fill: none;
+}
+
+/* Fixed Viewport and Canvas Container with Complete Flex Isolation */
+#tab-editor {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 100px);
+  min-height: 860px;
+  overflow: hidden;
+  position: relative;
+}
+
+#editorContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-workbench {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+/* Fullscreen / Maximized Workbench Mode */
+.editor-workbench.fullscreen-workbench {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 99999 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.editor-toolbar {
+  flex-shrink: 0;
+  min-height: 42px;
+}
+
+.editor-action-bar {
+  flex-shrink: 0;
+  min-height: 38px;
+}
+
+.editor-main-area {
+  flex: 1 1 0%;
+  min-height: 0;
+  min-width: 0;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+#viewport {
+  flex: 1 1 0%;
+  min-height: 0;
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  background-color: #090d16;
+  background-image: radial-gradient(rgba(71, 85, 105, 0.35) 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+  touch-action: none;
+}
+
+.editor-sidebar {
+  flex-shrink: 0;
+  width: 384px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+}
+
+.editor-sidebar.collapsed {
+  width: 0 !important;
+  min-width: 0 !important;
+  padding: 0 !important;
+  border-left: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  display: none !important;
+}
+
+.editor-sidebar-tabs {
+  flex-shrink: 0;
+}
+
+#tabPanelDims, #tabPanelChecks, #tabPanelProps {
+  flex: 1 1 0%;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+#canvasTransformContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  will-change: transform;
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(255, 255, 255, 0.1);
+  background-color: #ffffff;
+}
+
+#pageRasterImg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+}
+
+#editorSvg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+/* Floating Zoom HUD */
+.floating-zoom-hud {
+  position: absolute;
+  bottom: 34px;
+  right: 18px;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(51, 65, 85, 0.85);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6);
+}
+
+/* Custom Scrollbars */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Whole Table Drag & Boundary Box */
+.table-boundary-rect {
+  stroke: #38bdf8;
+  stroke-width: 1.5px;
+  stroke-dasharray: 4, 4;
+  fill: rgba(56, 189, 248, 0.03);
+  vector-effect: non-scaling-stroke;
+  transition: stroke 0.15s ease, fill 0.15s ease;
+  cursor: move;
+}
+.table-boundary-rect:hover, .table-boundary-rect.hovered, .table-boundary-rect.selected {
+  stroke: #00f0ff !important;
+  stroke-width: 2.5px !important;
+  stroke-dasharray: none !important;
+  fill: rgba(6, 182, 212, 0.12) !important;
+  filter: drop-shadow(0 0 6px rgba(6, 182, 212, 0.6));
+}
+
+.table-drag-bar {
+  cursor: move;
+  transition: fill 0.15s ease;
+}
+.table-drag-bar:hover, .table-drag-bar.hovered, .table-drag-bar.selected {
+  fill: #0284c7 !important;
+}
+
+/* Interactive Row Hit Lines & Bands */
+.row-hit-line {
+  cursor: ns-resize;
+  pointer-events: stroke;
+  stroke: transparent;
+  stroke-width: 8px;
+}
+.row-separator-line {
+  transition: stroke 0.15s ease, stroke-width 0.15s ease;
+  vector-effect: non-scaling-stroke;
+}
+.row-separator-line.hovered, .row-separator-line.selected {
+  stroke: #38bdf8 !important;
+  stroke-width: 2px !important;
+  stroke-dasharray: none !important;
+  filter: drop-shadow(0 0 4px rgba(56, 189, 248, 0.8));
+}
+
+.row-band {
+  transition: fill 0.15s ease;
+  cursor: pointer;
+}
+.row-band.hovered, .row-band.selected {
+  fill: rgba(56, 189, 248, 0.18) !important;
+  stroke: #38bdf8;
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+}
+
+/* Hover & Active Synchronized Highlighting */
+.hovered-element {
+  stroke: #38bdf8 !important;
+  stroke-width: 2.5px !important;
+  filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.8)) !important;
+}
+
+.dim-row {
+  transition: all 0.15s ease;
+}
+.dim-row.dim-row-hovered {
+  border-color: #38bdf8 !important;
+  background-color: rgba(14, 165, 233, 0.22) !important;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
+  transform: translateX(2px);
+}
+.dim-row.dim-row-selected {
+  border-color: #00f0ff !important;
+  background-color: rgba(6, 182, 212, 0.28) !important;
+  box-shadow: 0 0 12px rgba(6, 182, 212, 0.4);
+}
+

@@ -1,0 +1,9 @@
+{
+  "table_style": "vertical_rules_only",
+  "runner_up_table_style": "borderless",
+  "header_style": "boxed_address_with_kv",
+  "footer_style": "flowing",
+  "kv_style": "colon_axis",
+  "is_ambiguous": false,
+  "confidence_score": 0.98
+}

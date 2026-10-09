@@ -1,0 +1,7 @@
+row_index,row_type,y0_pt,y1_pt,height_pt,height_mm,height_px,boundary_type,gap_to_next_pt,is_estimated_bottom,confidence
+0,HEADER,229.5,249.438,19.938,7.03,83.1,virtual,3.0,False,0.95
+1,BODY,249.438,290.438,41.0,14.46,170.8,virtual,0.0,False,0.95
+2,BODY,290.438,329.938,39.5,13.93,164.6,virtual,0.0,False,0.95
+3,HEADER,329.938,369.438,39.5,13.93,164.6,virtual,0.0,False,0.95
+4,BODY,369.438,408.938,39.5,13.93,164.6,virtual,0.0,False,0.95
+5,BODY,408.938,712.5,303.562,107.09,1264.8,virtual,0.0,True,0.95

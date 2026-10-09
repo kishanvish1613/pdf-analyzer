@@ -1,0 +1,58 @@
+{
+  "source": "independent_probe_pymupdf",
+  "pdf_path": "D:\\pdf-analyzer\\uploads\\shivay orthocare feb 25 to jan 26.pdf",
+  "page_number": 1,
+  "has_table": true,
+  "table_bbox": {
+    "x0_pt": 29.625,
+    "y0_pt": 384.6199951171875,
+    "x1_pt": 761.375,
+    "y1_pt": 780.3699951171875,
+    "width_pt": 731.75,
+    "height_pt": 395.75
+  },
+  "columns": [
+    {
+      "column_index": 1,
+      "x0_pt": 30.375,
+      "x1_pt": 59.625,
+      "width_pt": 29.25
+    },
+    {
+      "column_index": 2,
+      "x0_pt": 60.375,
+      "x1_pt": 139.625,
+      "width_pt": 79.25
+    },
+    {
+      "column_index": 3,
+      "x0_pt": 140.375,
+      "x1_pt": 214.625,
+      "width_pt": 74.25
+    },
+    {
+      "column_index": 4,
+      "x0_pt": 215.375,
+      "x1_pt": 459.625,
+      "width_pt": 244.25
+    },
+    {
+      "column_index": 5,
+      "x0_pt": 460.375,
+      "x1_pt": 539.625,
+      "width_pt": 79.25
+    },
+    {
+      "column_index": 6,
+      "x0_pt": 540.375,
+      "x1_pt": 619.625,
+      "width_pt": 79.25
+    },
+    {
+      "column_index": 7,
+      "x0_pt": 620.375,
+      "x1_pt": 760.625,
+      "width_pt": 140.25
+    }
+  ]
+}

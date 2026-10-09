@@ -1,0 +1,8 @@
+{
+  "source": "independent_probe_pymupdf",
+  "pdf_path": "D:\\pdf-analyzer\\uploads\\AccountStatement_20-Sep-2026_20-Sep-2026.pdf",
+  "page_number": 4,
+  "has_table": false,
+  "table_bbox": null,
+  "columns": []
+}

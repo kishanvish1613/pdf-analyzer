@@ -1,0 +1,58 @@
+{
+  "source": "independent_probe_pymupdf",
+  "pdf_path": "D:\\pdf-analyzer\\uploads\\upload_test.pdf",
+  "page_number": 2,
+  "has_table": true,
+  "table_bbox": {
+    "x0_pt": 35.5,
+    "y0_pt": 50.0,
+    "x1_pt": 576.5,
+    "y1_pt": 712.0,
+    "width_pt": 541.0,
+    "height_pt": 662.0
+  },
+  "columns": [
+    {
+      "column_index": 1,
+      "x0_pt": 36.5,
+      "x1_pt": 90.5,
+      "width_pt": 54.0
+    },
+    {
+      "column_index": 2,
+      "x0_pt": 91.5,
+      "x1_pt": 155.5,
+      "width_pt": 64.0
+    },
+    {
+      "column_index": 3,
+      "x0_pt": 156.5,
+      "x1_pt": 335.5,
+      "width_pt": 179.0
+    },
+    {
+      "column_index": 4,
+      "x0_pt": 336.5,
+      "x1_pt": 390.5,
+      "width_pt": 54.0
+    },
+    {
+      "column_index": 5,
+      "x0_pt": 391.5,
+      "x1_pt": 450.5,
+      "width_pt": 59.0
+    },
+    {
+      "column_index": 6,
+      "x0_pt": 451.5,
+      "x1_pt": 510.5,
+      "width_pt": 59.0
+    },
+    {
+      "column_index": 7,
+      "x0_pt": 511.5,
+      "x1_pt": 575.5,
+      "width_pt": 64.0
+    }
+  ]
+}

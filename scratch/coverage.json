@@ -1,0 +1,13 @@
+{
+  "total_characters": 1167,
+  "assigned_characters": 1167,
+  "orphaned_characters": 0,
+  "characters_per_region": {
+    "page": 1167
+  },
+  "residual_ink_pixel_count": 75143,
+  "residual_ink_pct": 67.5042,
+  "invisible_text_spans_count": 0,
+  "unclassified_ink_components_count": 733,
+  "status": "FAIL"
+}

@@ -1,0 +1,15 @@
+{
+  "total_characters": 1270,
+  "assigned_characters": 1270,
+  "orphaned_characters": 0,
+  "characters_per_region": {
+    "header": 457,
+    "table": 699,
+    "footer": 114
+  },
+  "residual_ink_pixel_count": 0,
+  "residual_ink_pct": 0.0,
+  "invisible_text_spans_count": 0,
+  "unclassified_ink_components_count": 0,
+  "status": "PASS"
+}

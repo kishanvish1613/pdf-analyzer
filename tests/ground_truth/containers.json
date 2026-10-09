@@ -1,0 +1,1256 @@
+[
+  {
+    "container_id": "container_raster_0",
+    "container_type": "closed_box",
+    "source": "raster_only",
+    "path_bbox_pt": [
+      35.52,
+      229.44,
+      576.72,
+      712.56
+    ],
+    "painted_outer_bbox_pt": [
+      35.02,
+      228.94,
+      577.22,
+      713.06
+    ],
+    "painted_inner_bbox_pt": [
+      36.02,
+      229.94,
+      576.22,
+      712.06
+    ],
+    "fill_color_rgb": null,
+    "stroke_color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "sides": {
+      "top": {
+        "side_name": "top",
+        "is_present": true,
+        "center_coord_pt": 229.44,
+        "painted_outer_edge_pt": 228.94,
+        "painted_inner_edge_pt": 229.94,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 35.02,
+        "end_pt": 577.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "bottom": {
+        "side_name": "bottom",
+        "is_present": true,
+        "center_coord_pt": 712.56,
+        "painted_outer_edge_pt": 713.06,
+        "painted_inner_edge_pt": 712.06,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 35.02,
+        "end_pt": 577.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "left": {
+        "side_name": "left",
+        "is_present": true,
+        "center_coord_pt": 35.52,
+        "painted_outer_edge_pt": 35.02,
+        "painted_inner_edge_pt": 36.02,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 228.94,
+        "end_pt": 713.06,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "right": {
+        "side_name": "right",
+        "is_present": true,
+        "center_coord_pt": 576.72,
+        "painted_outer_edge_pt": 577.22,
+        "painted_inner_edge_pt": 576.22,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 228.94,
+        "end_pt": 713.06,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      }
+    },
+    "member_primitive_ids": [],
+    "nested_parent_id": null,
+    "confidence": 1.0
+  },
+  {
+    "container_id": "container_raster_1",
+    "container_type": "closed_box",
+    "source": "raster_only",
+    "path_bbox_pt": [
+      511.2,
+      248.16,
+      575.76,
+      711.84
+    ],
+    "painted_outer_bbox_pt": [
+      510.7,
+      247.66,
+      576.26,
+      712.34
+    ],
+    "painted_inner_bbox_pt": [
+      511.7,
+      248.66,
+      575.26,
+      711.34
+    ],
+    "fill_color_rgb": null,
+    "stroke_color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "sides": {
+      "top": {
+        "side_name": "top",
+        "is_present": true,
+        "center_coord_pt": 248.16,
+        "painted_outer_edge_pt": 247.66,
+        "painted_inner_edge_pt": 248.66,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 510.7,
+        "end_pt": 576.26,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "bottom": {
+        "side_name": "bottom",
+        "is_present": true,
+        "center_coord_pt": 711.84,
+        "painted_outer_edge_pt": 712.34,
+        "painted_inner_edge_pt": 711.34,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 510.7,
+        "end_pt": 576.26,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "left": {
+        "side_name": "left",
+        "is_present": true,
+        "center_coord_pt": 511.2,
+        "painted_outer_edge_pt": 510.7,
+        "painted_inner_edge_pt": 511.7,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "right": {
+        "side_name": "right",
+        "is_present": true,
+        "center_coord_pt": 575.76,
+        "painted_outer_edge_pt": 576.26,
+        "painted_inner_edge_pt": 575.26,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      }
+    },
+    "member_primitive_ids": [],
+    "nested_parent_id": "container_raster_0",
+    "confidence": 1.0
+  },
+  {
+    "container_id": "container_raster_2",
+    "container_type": "closed_box",
+    "source": "raster_only",
+    "path_bbox_pt": [
+      451.2,
+      248.16,
+      510.72,
+      711.84
+    ],
+    "painted_outer_bbox_pt": [
+      450.7,
+      247.66,
+      511.22,
+      712.34
+    ],
+    "painted_inner_bbox_pt": [
+      451.7,
+      248.66,
+      510.22,
+      711.34
+    ],
+    "fill_color_rgb": null,
+    "stroke_color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "sides": {
+      "top": {
+        "side_name": "top",
+        "is_present": true,
+        "center_coord_pt": 248.16,
+        "painted_outer_edge_pt": 247.66,
+        "painted_inner_edge_pt": 248.66,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 450.7,
+        "end_pt": 511.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "bottom": {
+        "side_name": "bottom",
+        "is_present": true,
+        "center_coord_pt": 711.84,
+        "painted_outer_edge_pt": 712.34,
+        "painted_inner_edge_pt": 711.34,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 450.7,
+        "end_pt": 511.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "left": {
+        "side_name": "left",
+        "is_present": true,
+        "center_coord_pt": 451.2,
+        "painted_outer_edge_pt": 450.7,
+        "painted_inner_edge_pt": 451.7,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "right": {
+        "side_name": "right",
+        "is_present": true,
+        "center_coord_pt": 510.72,
+        "painted_outer_edge_pt": 511.22,
+        "painted_inner_edge_pt": 510.22,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      }
+    },
+    "member_primitive_ids": [],
+    "nested_parent_id": "container_raster_0",
+    "confidence": 1.0
+  },
+  {
+    "container_id": "container_raster_3",
+    "container_type": "closed_box",
+    "source": "raster_only",
+    "path_bbox_pt": [
+      391.2,
+      248.16,
+      450.72,
+      711.84
+    ],
+    "painted_outer_bbox_pt": [
+      390.7,
+      247.66,
+      451.22,
+      712.34
+    ],
+    "painted_inner_bbox_pt": [
+      391.7,
+      248.66,
+      450.22,
+      711.34
+    ],
+    "fill_color_rgb": null,
+    "stroke_color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "sides": {
+      "top": {
+        "side_name": "top",
+        "is_present": true,
+        "center_coord_pt": 248.16,
+        "painted_outer_edge_pt": 247.66,
+        "painted_inner_edge_pt": 248.66,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 390.7,
+        "end_pt": 451.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "bottom": {
+        "side_name": "bottom",
+        "is_present": true,
+        "center_coord_pt": 711.84,
+        "painted_outer_edge_pt": 712.34,
+        "painted_inner_edge_pt": 711.34,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 390.7,
+        "end_pt": 451.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "left": {
+        "side_name": "left",
+        "is_present": true,
+        "center_coord_pt": 391.2,
+        "painted_outer_edge_pt": 390.7,
+        "painted_inner_edge_pt": 391.7,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "right": {
+        "side_name": "right",
+        "is_present": true,
+        "center_coord_pt": 450.72,
+        "painted_outer_edge_pt": 451.22,
+        "painted_inner_edge_pt": 450.22,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      }
+    },
+    "member_primitive_ids": [],
+    "nested_parent_id": "container_raster_0",
+    "confidence": 1.0
+  },
+  {
+    "container_id": "container_raster_4",
+    "container_type": "closed_box",
+    "source": "raster_only",
+    "path_bbox_pt": [
+      336.24,
+      248.16,
+      390.72,
+      711.84
+    ],
+    "painted_outer_bbox_pt": [
+      335.74,
+      247.66,
+      391.22,
+      712.34
+    ],
+    "painted_inner_bbox_pt": [
+      336.74,
+      248.66,
+      390.22,
+      711.34
+    ],
+    "fill_color_rgb": null,
+    "stroke_color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "sides": {
+      "top": {
+        "side_name": "top",
+        "is_present": true,
+        "center_coord_pt": 248.16,
+        "painted_outer_edge_pt": 247.66,
+        "painted_inner_edge_pt": 248.66,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 335.74,
+        "end_pt": 391.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "bottom": {
+        "side_name": "bottom",
+        "is_present": true,
+        "center_coord_pt": 711.84,
+        "painted_outer_edge_pt": 712.34,
+        "painted_inner_edge_pt": 711.34,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 335.74,
+        "end_pt": 391.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "left": {
+        "side_name": "left",
+        "is_present": true,
+        "center_coord_pt": 336.24,
+        "painted_outer_edge_pt": 335.74,
+        "painted_inner_edge_pt": 336.74,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "right": {
+        "side_name": "right",
+        "is_present": true,
+        "center_coord_pt": 390.72,
+        "painted_outer_edge_pt": 391.22,
+        "painted_inner_edge_pt": 390.22,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      }
+    },
+    "member_primitive_ids": [],
+    "nested_parent_id": "container_raster_0",
+    "confidence": 1.0
+  },
+  {
+    "container_id": "container_raster_5",
+    "container_type": "closed_box",
+    "source": "raster_only",
+    "path_bbox_pt": [
+      156.24,
+      248.16,
+      335.76,
+      711.84
+    ],
+    "painted_outer_bbox_pt": [
+      155.74,
+      247.66,
+      336.26,
+      712.34
+    ],
+    "painted_inner_bbox_pt": [
+      156.74,
+      248.66,
+      335.26,
+      711.34
+    ],
+    "fill_color_rgb": null,
+    "stroke_color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "sides": {
+      "top": {
+        "side_name": "top",
+        "is_present": true,
+        "center_coord_pt": 248.16,
+        "painted_outer_edge_pt": 247.66,
+        "painted_inner_edge_pt": 248.66,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 155.74,
+        "end_pt": 336.26,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "bottom": {
+        "side_name": "bottom",
+        "is_present": true,
+        "center_coord_pt": 711.84,
+        "painted_outer_edge_pt": 712.34,
+        "painted_inner_edge_pt": 711.34,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 155.74,
+        "end_pt": 336.26,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "left": {
+        "side_name": "left",
+        "is_present": true,
+        "center_coord_pt": 156.24,
+        "painted_outer_edge_pt": 155.74,
+        "painted_inner_edge_pt": 156.74,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "right": {
+        "side_name": "right",
+        "is_present": true,
+        "center_coord_pt": 335.76,
+        "painted_outer_edge_pt": 336.26,
+        "painted_inner_edge_pt": 335.26,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      }
+    },
+    "member_primitive_ids": [],
+    "nested_parent_id": "container_raster_0",
+    "confidence": 1.0
+  },
+  {
+    "container_id": "container_raster_6",
+    "container_type": "closed_box",
+    "source": "raster_only",
+    "path_bbox_pt": [
+      91.2,
+      248.16,
+      155.76,
+      711.84
+    ],
+    "painted_outer_bbox_pt": [
+      90.7,
+      247.66,
+      156.26,
+      712.34
+    ],
+    "painted_inner_bbox_pt": [
+      91.7,
+      248.66,
+      155.26,
+      711.34
+    ],
+    "fill_color_rgb": null,
+    "stroke_color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "sides": {
+      "top": {
+        "side_name": "top",
+        "is_present": true,
+        "center_coord_pt": 248.16,
+        "painted_outer_edge_pt": 247.66,
+        "painted_inner_edge_pt": 248.66,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 90.7,
+        "end_pt": 156.26,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "bottom": {
+        "side_name": "bottom",
+        "is_present": true,
+        "center_coord_pt": 711.84,
+        "painted_outer_edge_pt": 712.34,
+        "painted_inner_edge_pt": 711.34,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 90.7,
+        "end_pt": 156.26,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "left": {
+        "side_name": "left",
+        "is_present": true,
+        "center_coord_pt": 91.2,
+        "painted_outer_edge_pt": 90.7,
+        "painted_inner_edge_pt": 91.7,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "right": {
+        "side_name": "right",
+        "is_present": true,
+        "center_coord_pt": 155.76,
+        "painted_outer_edge_pt": 156.26,
+        "painted_inner_edge_pt": 155.26,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      }
+    },
+    "member_primitive_ids": [],
+    "nested_parent_id": "container_raster_0",
+    "confidence": 1.0
+  },
+  {
+    "container_id": "container_raster_7",
+    "container_type": "closed_box",
+    "source": "raster_only",
+    "path_bbox_pt": [
+      36.24,
+      248.16,
+      90.72,
+      711.84
+    ],
+    "painted_outer_bbox_pt": [
+      35.74,
+      247.66,
+      91.22,
+      712.34
+    ],
+    "painted_inner_bbox_pt": [
+      36.74,
+      248.66,
+      90.22,
+      711.34
+    ],
+    "fill_color_rgb": null,
+    "stroke_color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "sides": {
+      "top": {
+        "side_name": "top",
+        "is_present": true,
+        "center_coord_pt": 248.16,
+        "painted_outer_edge_pt": 247.66,
+        "painted_inner_edge_pt": 248.66,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 35.74,
+        "end_pt": 91.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "bottom": {
+        "side_name": "bottom",
+        "is_present": true,
+        "center_coord_pt": 711.84,
+        "painted_outer_edge_pt": 712.34,
+        "painted_inner_edge_pt": 711.34,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 35.74,
+        "end_pt": 91.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "left": {
+        "side_name": "left",
+        "is_present": true,
+        "center_coord_pt": 36.24,
+        "painted_outer_edge_pt": 35.74,
+        "painted_inner_edge_pt": 36.74,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "right": {
+        "side_name": "right",
+        "is_present": true,
+        "center_coord_pt": 90.72,
+        "painted_outer_edge_pt": 91.22,
+        "painted_inner_edge_pt": 90.22,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 247.66,
+        "end_pt": 712.34,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      }
+    },
+    "member_primitive_ids": [],
+    "nested_parent_id": "container_raster_0",
+    "confidence": 1.0
+  },
+  {
+    "container_id": "container_raster_8",
+    "container_type": "closed_box",
+    "source": "raster_only",
+    "path_bbox_pt": [
+      35.28,
+      79.44,
+      256.8,
+      175.68
+    ],
+    "painted_outer_bbox_pt": [
+      34.78,
+      78.94,
+      257.3,
+      176.18
+    ],
+    "painted_inner_bbox_pt": [
+      35.78,
+      79.94,
+      256.3,
+      175.18
+    ],
+    "fill_color_rgb": null,
+    "stroke_color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "sides": {
+      "top": {
+        "side_name": "top",
+        "is_present": true,
+        "center_coord_pt": 79.44,
+        "painted_outer_edge_pt": 78.94,
+        "painted_inner_edge_pt": 79.94,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 34.78,
+        "end_pt": 257.3,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "bottom": {
+        "side_name": "bottom",
+        "is_present": true,
+        "center_coord_pt": 175.68,
+        "painted_outer_edge_pt": 176.18,
+        "painted_inner_edge_pt": 175.18,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 34.78,
+        "end_pt": 257.3,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "left": {
+        "side_name": "left",
+        "is_present": true,
+        "center_coord_pt": 35.28,
+        "painted_outer_edge_pt": 34.78,
+        "painted_inner_edge_pt": 35.78,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 78.94,
+        "end_pt": 176.18,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "right": {
+        "side_name": "right",
+        "is_present": true,
+        "center_coord_pt": 256.8,
+        "painted_outer_edge_pt": 257.3,
+        "painted_inner_edge_pt": 256.3,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 78.94,
+        "end_pt": 176.18,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      }
+    },
+    "member_primitive_ids": [],
+    "nested_parent_id": null,
+    "confidence": 1.0
+  },
+  {
+    "container_id": "container_raster_9",
+    "container_type": "closed_box",
+    "source": "raster_only",
+    "path_bbox_pt": [
+      36.24,
+      80.4,
+      255.6,
+      174.72
+    ],
+    "painted_outer_bbox_pt": [
+      35.74,
+      79.9,
+      256.1,
+      175.22
+    ],
+    "painted_inner_bbox_pt": [
+      36.74,
+      80.9,
+      255.1,
+      174.22
+    ],
+    "fill_color_rgb": null,
+    "stroke_color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "sides": {
+      "top": {
+        "side_name": "top",
+        "is_present": true,
+        "center_coord_pt": 80.4,
+        "painted_outer_edge_pt": 79.9,
+        "painted_inner_edge_pt": 80.9,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 35.74,
+        "end_pt": 256.1,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "bottom": {
+        "side_name": "bottom",
+        "is_present": true,
+        "center_coord_pt": 174.72,
+        "painted_outer_edge_pt": 175.22,
+        "painted_inner_edge_pt": 174.22,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 35.74,
+        "end_pt": 256.1,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "left": {
+        "side_name": "left",
+        "is_present": true,
+        "center_coord_pt": 36.24,
+        "painted_outer_edge_pt": 35.74,
+        "painted_inner_edge_pt": 36.74,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 79.9,
+        "end_pt": 175.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "right": {
+        "side_name": "right",
+        "is_present": true,
+        "center_coord_pt": 255.6,
+        "painted_outer_edge_pt": 256.1,
+        "painted_inner_edge_pt": 255.1,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 79.9,
+        "end_pt": 175.22,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      }
+    },
+    "member_primitive_ids": [],
+    "nested_parent_id": "container_raster_8",
+    "confidence": 1.0
+  },
+  {
+    "container_id": "container_raster_10",
+    "container_type": "closed_box",
+    "source": "raster_only",
+    "path_bbox_pt": [
+      36.0,
+      36.0,
+      96.0,
+      70.08
+    ],
+    "painted_outer_bbox_pt": [
+      35.5,
+      35.5,
+      96.5,
+      70.58
+    ],
+    "painted_inner_bbox_pt": [
+      36.5,
+      36.5,
+      95.5,
+      69.58
+    ],
+    "fill_color_rgb": null,
+    "stroke_color_rgb": [
+      0,
+      0,
+      0
+    ],
+    "sides": {
+      "top": {
+        "side_name": "top",
+        "is_present": true,
+        "center_coord_pt": 36.0,
+        "painted_outer_edge_pt": 35.5,
+        "painted_inner_edge_pt": 36.5,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 35.5,
+        "end_pt": 96.5,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "bottom": {
+        "side_name": "bottom",
+        "is_present": true,
+        "center_coord_pt": 70.08,
+        "painted_outer_edge_pt": 70.58,
+        "painted_inner_edge_pt": 69.58,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 35.5,
+        "end_pt": 96.5,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "left": {
+        "side_name": "left",
+        "is_present": true,
+        "center_coord_pt": 36.0,
+        "painted_outer_edge_pt": 35.5,
+        "painted_inner_edge_pt": 36.5,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 35.5,
+        "end_pt": 70.58,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      },
+      "right": {
+        "side_name": "right",
+        "is_present": true,
+        "center_coord_pt": 96.0,
+        "painted_outer_edge_pt": 96.5,
+        "painted_inner_edge_pt": 95.5,
+        "thickness_pt": 1.0,
+        "color_rgb": [
+          0,
+          0,
+          0
+        ],
+        "start_pt": 35.5,
+        "end_pt": 70.58,
+        "coverage_pct": 1.0,
+        "corner_gap_start_pt": 0.0,
+        "corner_gap_end_pt": 0.0,
+        "overshoot_pt": 0.0,
+        "undershoot_pt": 0.0
+      }
+    },
+    "member_primitive_ids": [],
+    "nested_parent_id": null,
+    "confidence": 1.0
+  }
+]

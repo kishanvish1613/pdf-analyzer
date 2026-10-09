@@ -1,0 +1,41 @@
+{
+  "page_number": 1,
+  "classification": "flowing",
+  "bbox_pt": [
+    36.0,
+    739.475,
+    576.0,
+    749.093
+  ],
+  "sub_blocks": [
+    {
+      "sub_block_id": "footer_sub_0",
+      "role": "disclaimer",
+      "bbox_pt": [
+        36.0,
+        739.475,
+        454.152,
+        749.093
+      ],
+      "text": "HDFC BANK LIMITED. REGISTERED OFFICE: HDFC BANK HOUSE, SENAPATI BAPAT MARG, LOWER PAREL, MUMBAI 400013.",
+      "is_page_number": false,
+      "page_number_val": null
+    },
+    {
+      "sub_block_id": "footer_sub_1",
+      "role": "page_number",
+      "bbox_pt": [
+        540.195,
+        739.475,
+        576.0,
+        749.093
+      ],
+      "text": "Page 1 of 2",
+      "is_page_number": true,
+      "page_number_val": "1 of 2"
+    }
+  ],
+  "gap_table_to_footer_ink_pt": 26.975,
+  "gap_table_to_footer_border_pt": 26.975,
+  "gap_footer_to_page_bottom_pt": 42.907
+}

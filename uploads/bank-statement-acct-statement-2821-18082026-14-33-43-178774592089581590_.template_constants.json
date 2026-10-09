@@ -1,0 +1,68 @@
+{
+  "pdf_path": "D:\\pdf-analyzer\\uploads\\bank-statement-acct-statement-2821-18082026-14-33-43-178774592089581590_.pdf",
+  "pages_analyzed": 5,
+  "total_pages": 56,
+  "line_pitch": {
+    "mode_pt": 17.2,
+    "std_pt": 0.0,
+    "count": 29,
+    "top_3_modes": [
+      {
+        "pitch_pt": 17.2,
+        "count": 29
+      }
+    ]
+  },
+  "font_sizes_per_role": {
+    "header": {
+      "dominant_size_pt": 8.0,
+      "distinct_sizes": [
+        8.0
+      ]
+    },
+    "body": {
+      "dominant_size_pt": 8.0,
+      "distinct_sizes": [
+        8.0
+      ]
+    },
+    "info": {
+      "dominant_size_pt": 0.0,
+      "distinct_sizes": []
+    }
+  },
+  "rows_by_anchor": {
+    "lines_per_row_distribution": {
+      "2": 2,
+      "3": 7,
+      "5": 1
+    },
+    "mean_anchor_to_anchor_pitch_pt": 51.6,
+    "anchor_pitch_std_pt": 14.044,
+    "mean_row_height_pt": 51.6
+  },
+  "template_constants": {
+    "vertical_rule_x_positions": [
+      28.063,
+      67.748,
+      254.834,
+      356.881,
+      396.566,
+      474.518,
+      552.47,
+      630.988
+    ],
+    "header_baseline_y_pt": 602.145,
+    "first_body_baseline_y_pt": 584.475,
+    "page_1_last_row_bottom_pt": 81.427
+  },
+  "deviations_flagged": [],
+  "closure": {
+    "sum_inner_widths_pt": 598.963,
+    "sum_rule_widths_pt": 4.528,
+    "sum_total_pt": 603.491,
+    "outer_width_pt": 603.491,
+    "delta_pt": 0.0,
+    "closure_passed": true
+  }
+}

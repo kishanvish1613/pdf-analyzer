@@ -1,0 +1,35 @@
+{
+  "template_id": "union_bank_of_india_filled_header",
+  "bank_name": "Union Bank of India",
+  "description": "Union Bank of India wide landscape format statement",
+  "version": "1.0",
+  "anchor_phrases": [
+    "union bank of india",
+    "ubin",
+    "statement of account",
+    "customer id",
+    "account no",
+    "tran id",
+    "remarks",
+    "utr number",
+    "ckyc number"
+  ],
+  "geometry": {
+    "page_width_pt": 782.0,
+    "page_height_pt": 1100.0,
+    "column_count": 8,
+    "table_bbox_rounded": [
+      40.0,
+      220.0,
+      742.0,
+      1000.0
+    ],
+    "header_y_band_rounded": [
+      220.0,
+      245.0
+    ],
+    "hash_str": "W782.0_H1100.0_C8_TB_40.0_220.0_742.0_1000.0_HB_220.0_245.0"
+  },
+  "prior_baseline_filename": "bank-statement-optransactionhistoryux3-pdf11-06-2026-178160404281321470_.json",
+  "prior_spec": null
+}

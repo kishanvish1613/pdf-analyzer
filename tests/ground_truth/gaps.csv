@@ -1,0 +1,25 @@
+gap_id,from_element,to_element,gap_type,definition_code,value_pt,value_mm,value_px,definition_string
+gap_page_top_first_elem,PAGE_TOP,FIRST_ELEMENT,page_top_to_first_element,ink_to_ink,36.0,12.7,150.0,Distance from page top (y=0) to the highest ink element top
+gap_address_to_kv_h,ADDRESS_BLOCK,KEY_VALUE_GRID,address_to_kv_horizontal,inner_to_inner,154.0,54.33,641.7,Horizontal whitespace between address container and key-value block
+gap_table_top_to_header_text,TABLE_TOP_RULE,HEADER_TEXT,table_top_to_header_text,rule_to_rule,4.94,1.74,20.6,Top padding from table top rule to header text ink top
+gap_header_to_first_body,HEADER_ROW,ROW_1,header_bottom_to_first_body_row,inner_to_inner,0.0,0.0,0.0,Gap/rule between header row bottom and first body row top
+gap_row_0_to_row_1,ROW_0,ROW_1,row_n_to_row_n_plus_1,baseline_to_baseline,0.0,0.0,0.0,Inter-row boundary distance between row 0 and row 1
+gap_row_1_to_row_2,ROW_1,ROW_2,row_n_to_row_n_plus_1,baseline_to_baseline,0.0,0.0,0.0,Inter-row boundary distance between row 1 and row 2
+gap_row_2_to_row_3,ROW_2,ROW_3,row_n_to_row_n_plus_1,baseline_to_baseline,0.0,0.0,0.0,Inter-row boundary distance between row 2 and row 3
+gap_row_3_to_row_4,ROW_3,ROW_4,row_n_to_row_n_plus_1,baseline_to_baseline,0.0,0.0,0.0,Inter-row boundary distance between row 3 and row 4
+gap_row_4_to_row_5,ROW_4,ROW_5,row_n_to_row_n_plus_1,baseline_to_baseline,0.0,0.0,0.0,Inter-row boundary distance between row 4 and row 5
+gap_last_row_to_table_bottom,ROW_5,TABLE_BOTTOM_RULE,last_row_to_table_bottom,rule_to_rule,0.0,0.0,0.0,Distance from last row bottom to table closing rule
+margin_left_to_table,PAGE_LEFT,TABLE_LEFT,margin_left_to_table,rule_to_rule,90.5,31.93,377.1,Left margin from page edge to table left vertical rule
+margin_right_to_table,TABLE_RIGHT,PAGE_RIGHT,margin_right_to_table,rule_to_rule,33.76,11.91,140.7,Right margin from table right vertical rule to page right edge
+pad_left_col_1,RULE_V_1,COL_1_INK,rule_to_first_ink,ink_to_rule,4.25,1.5,17.7,Left padding from column 1 left rule to first text ink
+pad_right_col_1,COL_1_INK,RULE_V_2,last_ink_to_rule,ink_to_rule,12.563,4.43,52.3,Right padding from column 1 last text ink to right rule
+pad_left_col_2,RULE_V_2,COL_2_INK,rule_to_first_ink,ink_to_rule,3.25,1.15,13.5,Left padding from column 2 left rule to first text ink
+pad_right_col_2,COL_2_INK,RULE_V_3,last_ink_to_rule,ink_to_rule,0.0,0.0,0.0,Right padding from column 2 last text ink to right rule
+pad_left_col_3,RULE_V_3,COL_3_INK,rule_to_first_ink,ink_to_rule,5.25,1.85,21.9,Left padding from column 3 left rule to first text ink
+pad_right_col_3,COL_3_INK,RULE_V_4,last_ink_to_rule,ink_to_rule,10.72,3.78,44.7,Right padding from column 3 last text ink to right rule
+pad_left_col_4,RULE_V_4,COL_4_INK,rule_to_first_ink,ink_to_rule,4.25,1.5,17.7,Left padding from column 4 left rule to first text ink
+pad_right_col_4,COL_4_INK,RULE_V_5,last_ink_to_rule,ink_to_rule,11.578,4.08,48.2,Right padding from column 4 last text ink to right rule
+pad_left_col_5,RULE_V_5,COL_5_INK,rule_to_first_ink,ink_to_rule,8.25,2.91,34.4,Left padding from column 5 left rule to first text ink
+pad_right_col_5,COL_5_INK,RULE_V_6,last_ink_to_rule,ink_to_rule,11.89,4.19,49.5,Right padding from column 5 last text ink to right rule
+pad_left_col_6,RULE_V_6,COL_6_INK,rule_to_first_ink,ink_to_rule,4.25,1.5,17.7,Left padding from column 6 left rule to first text ink
+pad_right_col_6,COL_6_INK,RULE_V_7,last_ink_to_rule,ink_to_rule,0.0,0.0,0.0,Right padding from column 6 last text ink to right rule

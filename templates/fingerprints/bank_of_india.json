@@ -1,0 +1,36 @@
+{
+  "template_id": "bank_of_india_full_grid",
+  "bank_name": "Bank of India",
+  "description": "Bank of India Statement with 7-column full grid layout",
+  "version": "1.0",
+  "anchor_phrases": [
+    "bank of india",
+    "bkid",
+    "custid",
+    "opening balance",
+    "statement of account",
+    "tran date",
+    "debits",
+    "credits",
+    "balance",
+    "sno"
+  ],
+  "geometry": {
+    "page_width_pt": 792.0,
+    "page_height_pt": 842.0,
+    "column_count": 7,
+    "table_bbox_rounded": [
+      36.0,
+      140.0,
+      756.0,
+      780.0
+    ],
+    "header_y_band_rounded": [
+      140.0,
+      165.0
+    ],
+    "hash_str": "W792.0_H842.0_C7_TB_36.0_140.0_756.0_780.0_HB_140.0_165.0"
+  },
+  "prior_baseline_filename": "shivay orthocare feb 25 to jan 26.json",
+  "prior_spec": null
+}

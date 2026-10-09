@@ -1,0 +1,92 @@
+[
+  {
+    "file": "uploads/AccountStatement_01-Sep-2026_17-Sep-2026.pdf",
+    "bank": "Kotak Mahindra Bank",
+    "producer": "OpenPDF 2.0.3",
+    "pages": 4,
+    "page_size": [0.0, 0.0, 595.0, 842.0],
+    "expected_table_style": "filled_header",
+    "has_table": true
+  },
+  {
+    "file": "uploads/AccountStatement_01-Sep-2026_27-Sep-2026.pdf",
+    "bank": "Kotak Mahindra Bank",
+    "producer": "OpenPDF 2.0.3",
+    "pages": 3,
+    "page_size": [0.0, 0.0, 595.0, 842.0],
+    "expected_table_style": "filled_header",
+    "has_table": true
+  },
+  {
+    "file": "uploads/AccountStatement_20-Sep-2026_20-Sep-2026.pdf",
+    "bank": "Kotak Mahindra Bank",
+    "producer": "OpenPDF 2.0.3",
+    "pages": 4,
+    "page_size": [0.0, 0.0, 595.0, 842.0],
+    "expected_table_style": "filled_header",
+    "has_table": true
+  },
+  {
+    "file": "uploads/PIPL Company Profile_update.pdf",
+    "bank": "None",
+    "producer": "Microsoft® PowerPoint® 2016",
+    "pages": 10,
+    "page_size": [0.0, 0.0, 960.0, 540.0],
+    "expected_table_style": "none",
+    "has_table": false
+  },
+  {
+    "file": "uploads/RAVIN18081966.pdf",
+    "bank": "State Bank of India",
+    "producer": "iLovePDF",
+    "pages": 65,
+    "page_size": [0.0, 0.0, 595.0, 842.0],
+    "expected_table_style": "full_grid",
+    "has_table": true
+  },
+  {
+    "file": "uploads/Siddhi_Pathak_Resume.pdf",
+    "bank": "None",
+    "producer": "Canva",
+    "pages": 1,
+    "page_size": [0.0, 0.0, 612.0, 792.0],
+    "expected_table_style": "none",
+    "has_table": false
+  },
+  {
+    "file": "uploads/bank-statement-acct-statement-2821-18082026-14-33-43-178774592089581590_.pdf",
+    "bank": "HDFC Bank",
+    "producer": "±\u0011$\u2021; modified using OpenPDF UNKNOWN",
+    "pages": 56,
+    "page_size": [0.0, 0.0, 638.0, 842.0],
+    "expected_table_style": "vertical_only",
+    "has_table": true
+  },
+  {
+    "file": "uploads/bank-statement-optransactionhistoryux3-pdf11-06-2026-178160404281321470_.pdf",
+    "bank": "Union Bank of India",
+    "producer": "iText 2.1.5 (by lowagie.com)",
+    "pages": 76,
+    "page_size": [0.0, 0.0, 782.0, 1100.0],
+    "expected_table_style": "filled_header",
+    "has_table": true
+  },
+  {
+    "file": "uploads/shivay orthocare feb 25 to jan 26.pdf",
+    "bank": "Bank of India",
+    "producer": "iText1.3.1 by lowagie.com (based on itext-paulo-154)",
+    "pages": 61,
+    "page_size": [0.0, 0.0, 792.0, 842.0],
+    "expected_table_style": "full_grid",
+    "has_table": true
+  },
+  {
+    "file": "uploads/upload_test.pdf",
+    "bank": "HDFC Bank",
+    "producer": "ReportLab PDF Library - (opensource)",
+    "pages": 2,
+    "page_size": [0.0, 0.0, 612.0, 792.0],
+    "expected_table_style": "vertical_only",
+    "has_table": true
+  }
+]
